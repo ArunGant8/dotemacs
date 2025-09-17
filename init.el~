@@ -1,0 +1,35 @@
+(setq custom-file "~/.emacs.d/custom.el")
+(load custom-file)
+
+;; init screen
+(setq inhibit-startup-screen t)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)  ;; Remove this line once you switch to emacs-daemon
+(defun my/disable-scroll-bars (frame)
+  (modify-frame-parameters frame
+			   '((vertical-scroll-bars . nil)
+			     (horizontal-scroll-bars . nil))))
+(add-hook 'after-make-frame-functions 'my/disable-scroll-bars)
+(tool-bar-mode -1)
+;;(setq initial-buffer-choice t)
+;;(set-frame-font "Fira Code 10" nil t)
+(setq default-frame-alist '((width . 100) (height . 50)))
+
+(line-number-mode t)
+(column-number-mode t)
+(size-indication-mode t)
+(global-hl-line-mode t)
+
+(save-place-mode 1)
+
+(load-theme 'modus-operandi :no-confirm)
+
+(custom-theme-set-faces
+ 'user
+ '(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
+ '(variable-pitch ((t (:family "ETBembo" :height 140 :weight thin))))
+ '(fixed-pitch ((t (:family "Roboto Mono" :height 120)))))
+
+(use-package spacious-padding
+  :ensure t)
+

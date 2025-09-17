@@ -1,0 +1,17 @@
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   '(auctex cdlatex consult counsel exec-path-from-shell
+	    latex-preview-pane marginalia merlin org-modern org-tempo
+	    pdf-tools spacious-padding swiper tuareg utop vterm)))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
+ '(fixed-pitch ((t (:family "Roboto Mono" :height 120))))
+ '(variable-pitch ((t (:family "ETBembo" :height 140 :weight thin)))))
