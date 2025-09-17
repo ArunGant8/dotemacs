@@ -80,6 +80,7 @@
 
 ;; Utils
 (require 'config-utils)
+(require 'config-calc)
 
 ;; Languages
 (require 'config-latex)

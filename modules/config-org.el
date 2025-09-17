@@ -87,7 +87,9 @@
       (remove-hook 'org-latex-preview-overlay-update-functions
                     #'my/org-latex-preview-center)
       (remove-hook 'org-latex-preview-overlay-open-functions
-                    #'my/org-latex-preview-uncenter))))
+                   #'my/org-latex-preview-uncenter))))
+
+(add-hook 'org-mode-hook 'org-latex-preview-center-mode)
 
 ;; Literate Programming
 

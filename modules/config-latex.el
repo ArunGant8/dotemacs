@@ -25,12 +25,12 @@
 
 (use-package preview
   :after latex
-  :hook ((LaTeX-mode . preview-larger-previews))
-  :config
-  (defun preview-larger-previews ()
-    (setq preview-scale-function
-          (lambda () (* 1.25
-                   (funcall (preview-scale-from-face)))))))
+  :hook ((LaTeX-mode . preview-larger-previews)))
+  ;; :config
+  ;; (defun preview-larger-previews ()
+  ;;   (setq preview-scale-function
+  ;;         (lambda () (* 1.25
+  ;;                  (funcall (preview-scale-from-face)))))))
 
 ;; CDLatex settings
 (use-package cdlatex
