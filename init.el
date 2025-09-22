@@ -93,3 +93,4 @@
 ;; 2. Snippets with Yasnippet
 ;; 3. Scheme and Lisp support
 ;; 4. Python support
+(put 'narrow-to-region 'disabled nil)

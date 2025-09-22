@@ -24,8 +24,8 @@
                                     calc-angle-mode rad))))))))
 
 (use-package preview
-  :after latex
-  :hook ((LaTeX-mode . preview-larger-previews)))
+  :after latex)
+  ;;:hook ((LaTeX-mode . preview-larger-previews)))
   ;; :config
   ;; (defun preview-larger-previews ()
   ;;   (setq preview-scale-function

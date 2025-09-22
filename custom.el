@@ -4,9 +4,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(auctex casual cdlatex consult counsel exec-path-from-shell
-	    latex-preview-pane marginalia merlin org-modern org-tempo
-	    pdf-tools spacious-padding swiper tuareg utop vterm)))
+   '(auctex casual cdlatex consult counsel engrave-faces
+	    exec-path-from-shell latex-preview-pane marginalia merlin
+	    org-mode org-modern pdf-tools spacious-padding utop vterm)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

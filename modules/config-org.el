@@ -102,4 +102,97 @@
    (python . t)
    (perl . t)))
 
+;; LaTeX export
+
+;;(setq org-latex-listings 't) ;; Use listings for code export
+
+(use-package ox-latex
+  :after ox
+  :defer
+  :config
+  (when (executable-find "latexmk")
+    (setq org-latex-pdf-process '("latexmk -f -pdf -%latex -shell-escape -interaction=nonstopmode -output-directory=%o %f")))
+  (dolist (package '((""                          "hyperref" t)
+		     (""                          "proof"    t)
+		     (""                          "amsmath"  t)
+		     (""                          "amssymb"  t)
+		     ;;("a4paper, margin=0.5in"     "geometry" nil)
+		     ("T1"                        "fontenc"  nil)
+		     ("breakable, xparse, skins"  "tcolorbox" t)
+		     ;;(""                          "minted" t)
+		     ("dvipsnames,svgnames,table" "xcolor" t)
+		     (""                          "cmll"   t) ;; improved linear logic symbols
+		     (""                          "framed" t)
+		     (""                          "enumitem" nil)
+		     (""                          "dsfont" t)
+		     (""                          "tikz" t)
+		      ))
+    (cl-pushnew package org-latex-packages-alist
+		 :test (lambda (a b) (equal (cadr a) (cadr b)))))
+  (let* ((article-sections '(("\\section{%s}"       . "\\section*{%s}")
+                             ("\\subsection{%s}"    . "\\subsection*{%s}")
+                             ("\\subsubsection{%s}" . "\\subsubsection*{%s}")
+                             ("\\paragraph{%s}"     . "\\paragraph*{%s}")
+                             ("\\subparagraph{%s}"  . "\\subparagraph*{%s}"))))
+    (pcase-dolist (`(,name ,class-string)
+		   `(("article" "\\documentclass[11pt]{article}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n\\usepackage{palatino}\n\\usepackage[a4paper, margin=0.5in]{geometry}\n[EXTRA]")))
+		     ;;("beamer" "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\\usepackage{fira}\n[EXTRA]")))
+      (setf (alist-get name org-latex-classes nil nil #'equal)
+	    (append (list class-string) article-sections))))
+  (setf (alist-get "beamer" org-latex-classes nil nil #'equal)
+	(append (list "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n[EXTRA]")
+		'(("\\section{%s}" . "\\section*{%s}"))))
+  (setq
+   org-latex-caption-above nil
+   org-latex-prefer-user-labels t
+   org-latex-hyperref-template
+   "\\providecolor{url}{HTML}{0077bb}
+\\providecolor{link}{HTML}{882255}
+\\providecolor{cite}{HTML}{999933}
+\\hypersetup{
+  pdfauthor={%a},
+  pdftitle={%t},
+  pdfkeywords={%k},
+  pdfsubject={%d},
+  pdfcreator={%c},
+  pdflang={%L},
+  breaklinks=true,
+  colorlinks=true,
+  linkcolor=link,
+  urlcolor=url,
+  citecolor=cite}
+\\urlstyle{same}\n"))
+
+;;Presentations with Beamer
+(use-package ox-beamer
+  :defer
+  :after ox
+  ;; :init
+  ;; (defun org-beamer-backend-p (info)
+  ;;   (eq 'beamer (and (plist-get info :back-end)
+  ;;                    (org-export-backend-name (plist-get info :back-end)))))
+
+  ;; (add-to-list 'org-export-conditional-features
+  ;;              '(org-beamer-backend-p . beamer) t)
+  :config
+  (setq org-beamer-theme "metropolis"))
+;;        org-beamer-frame-level 2))
+
+;; Code block export
+(use-package org
+  :defer
+  :config
+
+  ;; Engrave faces
+  (use-package ox
+    :if (version<= "9.5.4" org-version)
+    :after ox
+    :config
+    ;;(setq org-latex-src-block-backend 'minted)
+    (use-package engrave-faces
+      :ensure t
+      :config
+      (setq org-latex-src-block-backend 'engraved))
+      ))
+
 (provide 'config-org)

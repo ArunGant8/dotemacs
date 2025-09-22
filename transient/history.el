@@ -1,0 +1,1 @@
+((casual-calc-tmenu nil))
