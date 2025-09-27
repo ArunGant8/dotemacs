@@ -16,6 +16,37 @@
  org-agenda-tags-column 0
  org-ellipsis "…")
 
+;; (defun my/org-prettify-symbols ()
+;;   (setq prettify-symbols-alist
+;;         (mapcan (lambda (x) (list x (cons (upcase (car x)) (cdr x))))
+;;                 '(;; ("#+begin_src" . ?)
+;;                   (":properties:" . "")
+;;                   ;; ("#+end_src" . ?)
+;;                   ("#+begin_src" . ?)
+;;                   ;; ("#+begin_src" . ?)
+;;                   ;; ("#+end_src" . ?)
+;;                   ;; ("#+begin_src" . "")
+;;                   ("#+end_src" . "―")
+;;                   ("#+begin_example" . ?)
+;;                   ("#+end_example" . ?)
+;;                   ("scheduled:" . ?)
+;;                   ("deadline:" . ?)
+;;                   ;; ("#+header:" . ?)
+;;                   ;; ("#+name:" . ?﮸)
+;;                   ;; ("#+results:" . ?)
+;;                   ;; ("#+call:" . ?)
+;;                   ;; (":properties:" . ?)
+;;                   ;; (":logbook:" . ?)
+;;                   (":end:" . "―")
+;;                   ("#+attr_latex:"    . "🄛")
+;;                   ("#+attr_html:"     . "🄗")
+;;                   ("#+attr_org:"      . "⒪")
+;;                   ("#+begin_quote:"   . "❝")
+;;                   ("#+end_quote:"     . "❞"))))
+;;   (prettify-symbols-mode 1))
+
+;; (add-hook 'org-modern-mode-hook #'my/org-prettify-symbols)
+
 (setq org-modern-star 'replace)
 
 (global-org-modern-mode)

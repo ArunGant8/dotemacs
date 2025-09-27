@@ -1,15 +1,22 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 2406)
- ("/Users/arun/.emacs.d/init.el" . 1616)
+(("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 1162)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 252)
+ ("/Users/arun/.emacs.d/elpa/mixed-pitch-20210304.1900/mixed-pitch.el"
+  . 6011)
+ ("/Users/arun/.emacs.d/init.el" . 1420)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 377)
+ ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
+  . 358)
+ ("/Users/arun/Projects/abella-experiments/tableau2025/_region_.tex"
+  . 65505)
+ ("/Users/arun/Projects/abella-experiments/tableau2025/paper.tex"
+  . 13285)
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 5274)
  ("/Users/arun/.emacs.d-prelude/init.el" . 5095)
  ("/Users/arun/.emacs.d/modules/config-macos.el" . 480)
  ("/Users/arun/.emacs.d/modules/config-completion.el" . 1809)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 134)
- ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
-  . 980)
  ("/Users/arun/Projects/Unify/"
   (dired-filename . "/Users/arun/Projects/Unify/_build"))
- ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 2233)
  ("/Users/arun/Projects/abella-experiments/tableau2025/extract.bib"
   . 7461)
  ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 13660)
@@ -19,7 +26,6 @@
  ("/Users/arun/Projects/latex/setup.org" . 123)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
   . 2111)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 3978)
  ("/Users/arun/.emacs.d/custom.el" . 487)
  ("/Users/arun/Projects/tableaux2025prez/comments-torie.txt" . 1162)
  ("/Users/arun/Projects/abella-experiments/tableau2025/macros.tex"
@@ -44,13 +50,9 @@
  ("/Users/arun/Projects/latex/template.tex" . 1669)
  ("/Users/arun/.emacs.d/modules/config-calc.el" . 59)
  ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
- ("/Users/arun/Projects/abella-experiments/tableau2025/_region_.tex"
-  . 65505)
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/tableaux2025prez"))
  ("/Users/arun/Projects/tableaux2025prez/" . 143)
- ("/Users/arun/Projects/abella-experiments/tableau2025/paper.tex"
-  . 4167)
  ("/Users/arun/.emacs.d/early-init.el" . 17)
  ("/Users/arun/.emacs.d-prelude/personal/config-calc.el" . 182)
  ("/Users/arun/.emacs.d/.gitignore" . 20)
