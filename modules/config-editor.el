@@ -7,9 +7,9 @@
 ;; Mixed-pitch mode
 
 (use-package mixed-pitch
-  :ensure t)
-  ;; :hook
-  ;; (text-mode . mixed-pitch-mode))
+  ;;:ensure t)
+  :hook
+  (text-mode . mixed-pitch-mode))
 
 (setq mixed-pitch-set-height t)
 
