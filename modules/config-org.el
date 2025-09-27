@@ -102,6 +102,16 @@
    (python . t)
    (perl . t)))
 
+;; Typst export
+
+(use-package ox-typst
+  :after ox
+  :defer
+  :config
+  (setq org-typst-from-latex-environment #'org-typst-from-latex-with-pandoc
+      org-typst-from-latex-fragment #'org-typst-from-latex-with-pandoc))
+
+
 ;; LaTeX export
 
 ;;(setq org-latex-listings 't) ;; Use listings for code export

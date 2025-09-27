@@ -6,7 +6,8 @@
  '(package-selected-packages
    '(auctex casual cdlatex consult counsel engrave-faces
 	    exec-path-from-shell latex-preview-pane marginalia merlin
-	    org-mode org-modern pdf-tools spacious-padding utop vterm)))
+	    mixed-pitch org-mode org-modern ox-typst pdf-tools
+	    spacious-padding utop vterm)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

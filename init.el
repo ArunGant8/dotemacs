@@ -27,7 +27,7 @@
 (custom-theme-set-faces
  'user
  '(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
- '(variable-pitch ((t (:family "ETBembo" :height 140 :weight thin))))
+ '(variable-pitch ((t (:family "ETBookOT" :height 150 :weight thin))))
  '(fixed-pitch ((t (:family "Roboto Mono" :height 120)))))
 
 (add-to-list 'package-archives
@@ -94,3 +94,5 @@
 ;; 3. Scheme and Lisp support
 ;; 4. Python support
 (put 'narrow-to-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
+(put 'upcase-region 'disabled nil)
