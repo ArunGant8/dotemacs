@@ -46,11 +46,4 @@
     (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
     (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)))
 
-;; Mixed-pitch mode
-;; Not working properly
-
-;; (use-package mixed-pitch
-;;   :hook
-;;   (text-mode . mixed-pitch-mode))
-
-(provide 'config-editor)
+(provide 'config-completion)

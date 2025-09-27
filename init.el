@@ -26,35 +26,14 @@
 
 (custom-theme-set-faces
  'user
- '(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
- '(variable-pitch ((t (:family "ETBookOT" :height 150 :weight thin))))
- '(fixed-pitch ((t (:family "Roboto Mono" :height 120)))))
+ ;;'(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
+ '(default ((t (:family "Iosevka Nerd Font Mono" :height 130))))
+ '(variable-pitch ((t (:family "ETBookOT" :height 160))))
+ '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
 
-(use-package spacious-padding
-  :ensure t)
-
-(setq spacious-padding-subtle-mode-line t)
-(spacious-padding-mode)
-
-(use-package exec-path-from-shell
-  :ensure t)
-(exec-path-from-shell-initialize)
-
-;; Mac-specific stuff
-(if (eq mac-command-modifier 'super)
-    (progn
-      (setq mac-command-modifier 'meta)
-      (setq mac-option-modifier 'super)))
-
-;; Enable emoji, and stop the UI from freezing when trying to display them
-(when (fboundp 'set-fontset-font)
-  (set-fontset-font t 'unicode "Apple Color Emoji" nil 'prepend))
-
-;; disable the annoying bell ring
-(setq ring-bell-function 'ignore)
 
 ;; y/n everywhere
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -77,6 +56,12 @@
 
 ;; Editor
 (require 'config-editor)
+;; Mac-specific
+(when (eq system-type 'darwin)
+  (require 'config-macos))
+
+;; Completion
+(require 'config-completion)
 
 ;; Utils
 (require 'config-utils)

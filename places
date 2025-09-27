@@ -1,13 +1,24 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/init.el" . 2459)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 623)
+(("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 2406)
+ ("/Users/arun/.emacs.d/init.el" . 1616)
+ ("/Users/arun/.emacs.d-prelude/init.el" . 5095)
+ ("/Users/arun/.emacs.d/modules/config-macos.el" . 480)
+ ("/Users/arun/.emacs.d/modules/config-completion.el" . 1809)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 134)
+ ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
+  . 980)
+ ("/Users/arun/Projects/Unify/"
+  (dired-filename . "/Users/arun/Projects/Unify/_build"))
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 2233)
+ ("/Users/arun/Projects/abella-experiments/tableau2025/extract.bib"
+  . 7461)
+ ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 13660)
+ ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 8394)
+ ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72)
+ ("/Users/arun/Documents/PhD/CSI/first-year/master.bib" . 10414)
  ("/Users/arun/Projects/latex/setup.org" . 123)
- ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 8856)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 3044)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
   . 2111)
- ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 41)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 1854)
  ("/Users/arun/.emacs.d/modules/config-org.el" . 3978)
  ("/Users/arun/.emacs.d/custom.el" . 487)
  ("/Users/arun/Projects/tableaux2025prez/comments-torie.txt" . 1162)
@@ -54,7 +65,6 @@
  ("/Users/arun/.emacs.d-prelude/personal/config-literate-programming.el"
   . 164)
  ("/Users/arun/.emacs.d-prelude/personal/config-org.el" . 2306)
- ("/Users/arun/.emacs.d-prelude/init.el" . 2267)
  ("/Users/arun/.emacs.d-prelude/core/prelude-custom.el" . 3442)
  ("/Users/arun/.emacs.d-prelude/core/prelude-editor.el" . 14777)
  ("/Users/arun/.emacs.d-prelude/core/prelude-ui.el" . 3530)
