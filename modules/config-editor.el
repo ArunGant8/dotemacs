@@ -12,5 +12,6 @@
   (text-mode . mixed-pitch-mode))
 
 (setq mixed-pitch-set-height t)
+(add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo)
 
 (provide 'config-editor)
