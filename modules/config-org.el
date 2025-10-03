@@ -176,14 +176,14 @@
                              ("\\paragraph{%s}"     . "\\paragraph*{%s}")
                              ("\\subparagraph{%s}"  . "\\subparagraph*{%s}"))))
     (pcase-dolist (`(,name ,class-string)
-		   `(("article" "\\documentclass[11pt]{article}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n\\usepackage{palatino}\n\\usepackage[a4paper, margin=0.5in]{geometry}\n[EXTRA]")))
+		   `(("article" "\\documentclass[11pt]{article}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n\\usepackage{palatino}\n\\usepackage[a4paper, margin=0.5in]{geometry}\n[EXTRA]")
+		     ("notes" "\\documentclass{tufte-handout}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n[EXTRA]")))
 		     ;;("beamer" "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\\usepackage{fira}\n[EXTRA]")))
       (setf (alist-get name org-latex-classes nil nil #'equal)
 	    (append (list class-string) article-sections))))
   (setf (alist-get "beamer" org-latex-classes nil nil #'equal)
 	(append (list "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n[EXTRA]")
-		'(("\\section{%s}" . "\\section*{%s}"))))
-  ;; (setf (alist-get "notes"
+		'(("\\section{%s}" . "\\section*{%s}"))))		
   (setq
    org-latex-caption-above nil
    org-latex-prefer-user-labels t
