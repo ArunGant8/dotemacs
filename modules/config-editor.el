@@ -7,11 +7,13 @@
 ;; Mixed-pitch mode
 
 (use-package mixed-pitch
-  ;;:ensure t)
+  :ensure t
   :hook
-  (text-mode . mixed-pitch-mode))
+  (text-mode . mixed-pitch-mode)
+  :config
+  (setq mixed-pitch-set-height t)
+  (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo))
 
-(setq mixed-pitch-set-height t)
-(add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo)
+
 
 (provide 'config-editor)
