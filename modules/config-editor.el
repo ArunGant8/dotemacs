@@ -12,7 +12,8 @@
   (text-mode . mixed-pitch-mode)
   :config
   (setq mixed-pitch-set-height t)
-  (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo))
+  (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo)
+  (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-done))
 
 
 

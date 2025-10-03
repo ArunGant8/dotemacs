@@ -183,6 +183,7 @@
   (setf (alist-get "beamer" org-latex-classes nil nil #'equal)
 	(append (list "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n[EXTRA]")
 		'(("\\section{%s}" . "\\section*{%s}"))))
+  ;; (setf (alist-get "notes"
   (setq
    org-latex-caption-above nil
    org-latex-prefer-user-labels t
