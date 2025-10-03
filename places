@@ -1,20 +1,23 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 1162)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 252)
+(("/Users/arun/.emacs.d/modules/config-editor.el" . 316)
+ ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 348)
+ ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 6083)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 1952)
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 23505)
+ ("/Users/arun/Projects/latex/setup.org" . 2404)
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 10249)
+ ("/Users/arun/.emacs.d/modules/config-completion.el" . 1418)
+ ("/Users/arun/.emacs.d/init.el" . 1018)
  ("/Users/arun/.emacs.d/elpa/mixed-pitch-20210304.1900/mixed-pitch.el"
   . 6011)
- ("/Users/arun/.emacs.d/init.el" . 1420)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 377)
  ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
   . 358)
  ("/Users/arun/Projects/abella-experiments/tableau2025/_region_.tex"
   . 65505)
  ("/Users/arun/Projects/abella-experiments/tableau2025/paper.tex"
   . 13285)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 5274)
  ("/Users/arun/.emacs.d-prelude/init.el" . 5095)
  ("/Users/arun/.emacs.d/modules/config-macos.el" . 480)
- ("/Users/arun/.emacs.d/modules/config-completion.el" . 1809)
  ("/Users/arun/Projects/Unify/"
   (dired-filename . "/Users/arun/Projects/Unify/_build"))
  ("/Users/arun/Projects/abella-experiments/tableau2025/extract.bib"
@@ -23,7 +26,6 @@
  ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 8394)
  ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72)
  ("/Users/arun/Documents/PhD/CSI/first-year/master.bib" . 10414)
- ("/Users/arun/Projects/latex/setup.org" . 123)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
   . 2111)
  ("/Users/arun/.emacs.d/custom.el" . 487)
