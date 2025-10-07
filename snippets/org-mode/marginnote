@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: tufte-latex note
+# key: <n
+# --
+#+begin_export latex
+\marginnote{$0}
+#+end_export
