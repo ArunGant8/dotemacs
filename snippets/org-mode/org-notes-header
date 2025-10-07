@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: org-notes-header
+# key: <notes
+# --
+#+TITLE: $1
+#+AUTHOR: Arunava Gantait
+#+STARTUP: latexpreview inlineimages
+#+OPTIONS: toc:2
+#+PROPERTY: header-args:ocaml  :results output code replace
+#+PROPERTY: header-args:ocaml  :comments both
+#+PROPERTY: header-args:ocaml  :session $2
+#+PROPERTY: header-args:ocaml  :tangle yes
+#+LATEX_CLASS: notes
+$0
