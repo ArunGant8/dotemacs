@@ -1,7 +1,7 @@
 (use-package vterm
   :ensure t)
 
-;; Snippet
+;; Snippets
 
 (use-package yasnippet
   :ensure t
@@ -9,7 +9,42 @@
   (yas-global-mode 1)
   :config
   (setq yas-snippet-dirs
-	'("~/.emacs.d/snippets"
-	  )))
+	'("~/.emacs.d/snippets"))
+  )
+
+;; Sessions
+
+(use-package easysession
+  :ensure t
+
+  :init
+  (add-hook 'emacs-startup-hook #'easysession-load-including-geometry 102)
+  (add-hook 'emacs-startup-hook #'easysession-save-mode 103)
+
+  :custom
+  (easysession-save-interval (* 10 60))
+  (easysession-save-mode-lighter-show-session-name t)
+
+  :config
+  ;; Main keybindings
+  (global-set-key (kbd "C-c sl") 'easysession-switch-to)  ; Load
+  (global-set-key (kbd "C-c ss") 'easysession-save-as)  ; Save
+
+  ;; Other keybindings
+  (global-set-key (kbd "C-c sL") 'easysession-switch-to-and-restore-geometry)
+  (global-set-key (kbd "C-c sd") 'easysession-delete)
+  (global-set-key (kbd "C-c sr") 'easysession-rename)
+  (global-set-key (kbd "C-c sR") 'easysession-reset)
+
+  (defun my/empty-easysession ()
+    "Set up a minimal environment when easysession creates a new session."
+    (when (and (boundp 'tab-bar-mode) tab-bar-mode)
+      (tab-bar-close-other-tabs))
+    (delete-other-windows)
+    (scratch-buffer))
+
+  (add-hook 'easysession-new-session-hook #'my/empty-easysession))
+
+
 
 (provide 'config-utils)
