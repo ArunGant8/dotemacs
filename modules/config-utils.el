@@ -43,7 +43,9 @@
     (delete-other-windows)
     (scratch-buffer))
 
-  (add-hook 'easysession-new-session-hook #'my/empty-easysession))
+  (add-hook 'easysession-new-session-hook #'my/empty-easysession)
+  (add-hook 'easysession-before-load-hook #'easysession-reset)
+  (add-hook 'easysession-new-session-hook #'easysession-reset))
 
 
 
