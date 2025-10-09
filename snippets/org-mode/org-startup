@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: org-startup
+# key: <start
+# --
+#+TITLE: $1
+#+AUTHOR: Arunava Gantait $2
+#+STARTUP: latexpreview inlineimages
+#+OPTIONS: toc: $3
+#+LATEX_CLASS: $4
+$0

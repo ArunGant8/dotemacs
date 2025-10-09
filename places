@@ -1,13 +1,31 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/modules/config-editor.el" . 316)
- ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 348)
- ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 6083)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 1952)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 23505)
- ("/Users/arun/Projects/latex/setup.org" . 2404)
+(("/Users/arun/Projects/my-CV/cv.org" . 293)
+ ("/Users/arun/.emacs.d/bookmarks" . 251)
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
+ ("/Users/arun/Projects/"
+  (dired-filename . "/Users/arun/Projects/my-CV"))
+ ("/Users/arun/Projects/my-CV/" . 126)
+ ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 2300)
+ ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
+  . 3279)
+ ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32477)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1340)
+ ("/Users/arun/.emacs.d/init.el" . 1019)
+ ("/Users/arun/.emacs.d/custom.el" . 509)
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
+ ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
+ ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
+ ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 8641)
+ ("/Users/arun/Projects/latex/setup.org" . 2572)
+ ("/Users/arun/Projects/rough-work/ocaml/temp/common-subexpression-problem.tex"
+  . 6459)
+ ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.tex"
+  . 3289)
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 1026)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 373)
  ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 10249)
  ("/Users/arun/.emacs.d/modules/config-completion.el" . 1418)
- ("/Users/arun/.emacs.d/init.el" . 1018)
  ("/Users/arun/.emacs.d/elpa/mixed-pitch-20210304.1900/mixed-pitch.el"
   . 6011)
  ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
@@ -28,7 +46,6 @@
  ("/Users/arun/Documents/PhD/CSI/first-year/master.bib" . 10414)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
   . 2111)
- ("/Users/arun/.emacs.d/custom.el" . 487)
  ("/Users/arun/Projects/tableaux2025prez/comments-torie.txt" . 1162)
  ("/Users/arun/Projects/abella-experiments/tableau2025/macros.tex"
   . 4193)
@@ -52,13 +69,10 @@
  ("/Users/arun/Projects/latex/template.tex" . 1669)
  ("/Users/arun/.emacs.d/modules/config-calc.el" . 59)
  ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
- ("/Users/arun/Projects/"
-  (dired-filename . "/Users/arun/Projects/tableaux2025prez"))
  ("/Users/arun/Projects/tableaux2025prez/" . 143)
  ("/Users/arun/.emacs.d/early-init.el" . 17)
  ("/Users/arun/.emacs.d-prelude/personal/config-calc.el" . 182)
  ("/Users/arun/.emacs.d/.gitignore" . 20)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 32)
  ("/Users/arun/.emacs.d-kickstart/configuration.org" . 17221)
  ("/Users/arun/.emacs.d/modules/config-abella.el" . 978)
  ("/Users/arun/.emacs.d-prelude/modules/prelude-latex.el" . 2736)
