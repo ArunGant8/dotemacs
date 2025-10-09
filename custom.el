@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(auctex casual cdlatex consult counsel easysession engrave-faces
+   '(auctex casual cdlatex consult counsel dune easysession engrave-faces
 	    exec-path-from-shell latex-preview-pane marginalia merlin
 	    mixed-pitch org-mode org-modern ox-typst pdf-tools
 	    spacious-padding utop vterm yasnippet)))

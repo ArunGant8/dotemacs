@@ -27,4 +27,16 @@
 (setq utop-command "opam config exec utop -- -emacs"
       merlin-error-after-save nil)
 
+;; Dune setup
+
+(use-package dune
+  :ensure t)
+
+(setq auto-mode-alist
+      (append '(("^dune$" . dune-mode)
+		("^dune-project$" . dune-mode))
+	      auto-mode-alist))
+
+;; Don't know any settings for this yet.
+
 (provide 'config-ocaml)
