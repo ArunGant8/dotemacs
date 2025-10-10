@@ -5,8 +5,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex casual cdlatex consult counsel dune easysession engrave-faces
-	    exec-path-from-shell latex-preview-pane marginalia merlin
-	    mixed-pitch org-mode org-modern ox-typst pdf-tools
+	    exec-path-from-shell latex-preview-pane magit marginalia
+	    merlin mixed-pitch org-mode org-modern ox-typst pdf-tools
 	    spacious-padding utop vterm yasnippet)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
