@@ -67,15 +67,16 @@
 (require 'config-utils)
 (require 'config-calc)
 
+;; Version Control
+(require 'config-vc)
+
 ;; Languages
 (require 'config-latex)
 (require 'config-org)
 (require 'config-ocaml)
 (require 'config-abella)
-
 ;; TODO:
 ;; 1. Undo-tree
-;; 2. Snippets with Yasnippet
 ;; 3. Scheme and Lisp support
 ;; 4. Python support
 (put 'narrow-to-region 'disabled nil)
