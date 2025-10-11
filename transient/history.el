@@ -1,1 +1,3 @@
-((casual-calc-tmenu nil))
+((casual-calc-tmenu nil)
+ (magit-commit nil)
+ (magit-push nil))

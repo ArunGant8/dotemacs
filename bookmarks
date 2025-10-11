@@ -4,8 +4,8 @@
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
  (filename . "~/.notes")
- (front-context-string . "** TODO Figure o")
- (rear-context-string . "The Algorithm]]\n")
- (position . 476)
- (last-modified 26847 62296 779300 0))
+ (front-context-string . "** TODO Read abo")
+ (rear-context-string . "uence Closure]]\n")
+ (position . 661)
+ (last-modified 26856 58109 738592 0))
 )

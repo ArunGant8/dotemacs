@@ -1,23 +1,34 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/my-CV/cv.org" . 293)
+(("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32531)
+ ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
+  . 9305)
+ ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 6052)
  ("/Users/arun/.emacs.d/bookmarks" . 251)
+ ("/Users/arun/Projects/my-CV/cv.org" . 1420)
+ ("/Users/arun/Projects/my-CV/classicthesis-cv.tex" . 9133)
+ ("/Users/arun/Projects/my-CV/LaTeXTemplates_compact-academic-cv_v2.0/main.tex"
+  . 2668)
+ ("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/.git"))
+ ("/Users/arun/.notes" . 776)
+ ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
+ ("/Users/arun/.emacs.d/init.el" . 1765)
+ ("/Users/arun/.emacs.d/custom.el" . 520)
+ ("/Users/arun/Projects/latex/setup.org" . 520)
+ ("/Users/arun/Projects/my-CV/LaTeXTemplates_compact-academic-cv_v2.0/structure.tex"
+  . 3338)
+ ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
+ ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/my-CV"))
  ("/Users/arun/Projects/my-CV/" . 126)
- ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 2300)
- ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
-  . 3279)
- ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32477)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 1340)
- ("/Users/arun/.emacs.d/init.el" . 1019)
- ("/Users/arun/.emacs.d/custom.el" . 509)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
  ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)
  ("/Users/arun/.emacs.d/modules/config-org.el" . 8641)
- ("/Users/arun/Projects/latex/setup.org" . 2572)
  ("/Users/arun/Projects/rough-work/ocaml/temp/common-subexpression-problem.tex"
   . 6459)
  ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.tex"
@@ -78,7 +89,6 @@
  ("/Users/arun/.emacs.d-prelude/modules/prelude-latex.el" . 2736)
  ("/Users/arun/.emacs.d-prelude/personal/config-latex.el" . 871)
  ("/Users/arun/.emacs.d-prelude/modules/prelude-programming.el" . 1561)
- ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 790)
  ("/Users/arun/.emacs.d-prelude/modules/prelude-ocaml.el" . 3029)
  ("/Users/arun/.emacs.d-prelude/personal/config-literate-programming.el"
   . 164)
