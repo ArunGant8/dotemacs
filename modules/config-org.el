@@ -235,6 +235,11 @@
       :ensure t
       :config
       (setq org-latex-src-block-backend 'engraved))
-      ))
+    ))
+
+;; Taking notes from PDFs
+
+(use-package org-noter
+  :ensure t)
 
 (provide 'config-org)
