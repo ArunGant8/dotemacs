@@ -58,7 +58,7 @@
   :config
   ;; Increase preview width
   (plist-put org-latex-preview-appearance-options
-             :page-width 0.8)
+             :page-width 0.6)
 
   ;; ;; Use dvisvgm to generate previews
   ;; ;; You don't need this, it's the default:
@@ -79,7 +79,9 @@
   ;; Bonus: Turn on live previews.  This shows you a live preview of a LaTeX
   ;; fragment and updates the preview in real-time as you edit it.
   ;; To preview only environments, set it to '(block edit-special) instead
-  (setq org-latex-preview-mode-display-live t)
+  
+  ;; This is buggy and is slowing me down at the moment
+  ;; (setq org-latex-preview-mode-display-live t)
 
   ;; More immediate live-previews -- the default delay is 1 second
   (setq org-latex-preview-mode-update-delay 0.25))
@@ -240,6 +242,8 @@
 ;; Taking notes from PDFs
 
 (use-package org-noter
-  :ensure t)
+  :ensure t
+  :custom
+  (org-noter-notes-search-path '("~/Documents/PhD/Notes/")))
 
 (provide 'config-org)
