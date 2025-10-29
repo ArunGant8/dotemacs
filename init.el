@@ -28,7 +28,7 @@
  'user
  ;;'(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
  '(default ((t (:family "Iosevka Nerd Font Mono" :height 130))))
- '(variable-pitch ((t (:family "Palatino" :height 150))))
+ '(variable-pitch ((t (:family "ETBookOT" :height 165))))
  '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
 (add-to-list 'package-archives
