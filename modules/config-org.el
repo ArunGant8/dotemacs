@@ -260,13 +260,28 @@
           "%<%Y%m%d%H%M%S>-${slug}.org"
           "#+title: ${note-title}\n")
          :unnarrowed t)
-        ("n" "literature note" plain
-         "%?"
-         :target
-         (file+head
-          "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
-          "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
-         :unnarrowed t)))
+        ;; ("n" "literature note" plain
+        ;;  "%?"
+        ;;  :target
+        ;;  (file+head
+        ;;   "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
+        ;;   "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
+     ;;  :unnarrowed t)
+     ("r" "ref" plain
+      "%?"
+      :target (file+head "refs/${citekey}.org"
+                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n")
+      :unnarrowed t)
+     ("n" "ref + noter" plain
+      "%?"
+      :target (file+head "refs/${citekey}.org"
+                         ,(s-join "\n" (list "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n"
+                                             "* Notes :noter:"
+                                             ":PROPERTIES:"
+                                             ":NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")"
+                                             ":NOTER_PAGE:"
+                                             ":END:")))
+      :unnarrowed t)))
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n g" . org-roam-graph)
@@ -306,11 +321,41 @@
 
 (use-package citar-org-roam
   :after (citar org-roam)
-  :custom
-  (citar-org-roam-note-title-template "${author} - ${title}")
   :config
   (citar-org-roam-mode)
-  (setq citar-org-roam-capture-template-key "n"))
+  (citar-register-notes-source
+   'orb-citar-source (list :name "Org-Roam Notes"
+        :category 'org-roam-node
+        :items #'citar-org-roam--get-candidates
+        :hasitems #'citar-org-roam-has-notes
+        :open #'citar-org-roam-open-note
+        :create #'orb-citar-edit-note
+        :annotate #'citar-org-roam--annotate))
+  (setq citar-notes-source 'orb-citar-source))
+
+;; Another alternative is to use org-roam-bibtex
+;; which also uses citar.
+;; For this we also need the following:
+
+;; helm-bibtex
+(use-package helm-bibtex
+  :ensure t
+  :custom
+  (bibtex-completion-bibliography
+   '("~/Documents/PhD/bibfiles/masterlib.bib"))
+  (bibtex-completion-pdf-field "file"))
+
+;; Org Ref
+(use-package org-ref
+  :ensure t)
+
+;; And finally, org-roam-bibtex itself
+(use-package org-roam-bibtex
+  :after org-roam
+  :hook
+  (org-mode . org-roam-bibtex-mode)
+  :config
+  (require 'org-ref))
 
 
 (provide 'config-org)

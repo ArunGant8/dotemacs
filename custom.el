@@ -5,9 +5,10 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex casual cdlatex citar citar-org-roam consult counsel dune
-	    easysession engrave-faces exec-path-from-shell
-	    latex-preview-pane magit marginalia merlin mixed-pitch
-	    org-mode org-modern org-noter org-roam ox-typst pdf-tools
+	    easysession engrave-faces exec-path-from-shell helm
+	    helm-bibtex ivy-bibtex latex-preview-pane magit marginalia
+	    merlin mixed-pitch org-mode org-modern org-noter org-ref
+	    org-roam org-roam-bibtex ox-typst pdf-tools
 	    spacious-padding utop vterm yasnippet)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
