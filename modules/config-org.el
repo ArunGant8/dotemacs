@@ -246,4 +246,47 @@
   :custom
   (org-noter-notes-search-path '("~/Documents/PhD/Notes/")))
 
+;; Org Roam
+;; Testing out this workflow. Not sure if I will keep using this or not.
+(use-package org-roam
+  :ensure t
+  :custom
+  (org-roam-directory (file-truename "~/Documents/PhD/Notes/"))
+  :bind (("C-c n l" . org-roam-buffer-toggle)
+         ("C-c n f" . org-roam-node-find)
+         ("C-c n g" . org-roam-graph)
+         ("C-c n i" . org-roam-node-insert)
+         ("C-c n c" . org-roam-capture)
+         ;; Dailies
+         ("C-c n j" . org-roam-dailies-capture-today))
+  :config
+  ;; If you're using a vertical completion framework, you might want a more informative completion interface
+  (setq org-roam-node-display-template (concat "${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
+  (org-roam-db-autosync-mode))
+  ;; If using org-roam-protocol
+  ;;(require 'org-roam-protocol))
+
+;; To be clear, I am not interested in Org Roam by itself.
+;; I want to integrate it with some type of bibliography
+;; package and also with org-noter to ensure my notes on
+;; various papers are accessible and interlinked.
+
+;; Citar
+;; For citations
+(use-package citar
+  :custom
+  (citar-bibliography '("~/Documents/PhD/bibfiles/master.bib"))
+  (org-cite-insert-processor 'citar)
+  (org-cite-follow-processor 'citar)
+  (org-cite-activate-processor 'citar)
+  :hook
+  (LaTeX-mode . citar-capf-setup)
+  (org-mode . citar-capf-setup)
+  :bind
+  (:map org-mode-map :package org ("C-c b" . #'org-cite-insert)))
+  
+
+;; Ok, so this seems to work.
+
+
 (provide 'config-org)
