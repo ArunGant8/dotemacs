@@ -353,7 +353,11 @@
 
 ;; Org Ref
 (use-package org-ref
-  :ensure t)
+  :ensure t
+  :bind
+  (:map org-mode-map (("C-c ]" . org-ref-insert-link)))
+  :config
+  (require 'org-ref-helm))
 
 ;; And finally, org-roam-bibtex itself
 (use-package org-roam-bibtex
