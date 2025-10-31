@@ -260,12 +260,12 @@
           "%<%Y%m%d%H%M%S>-${slug}.org"
           "#+title: ${note-title}\n")
          :unnarrowed t)
-     ("n" "literature note" plain
-      "%?"
-      :target
-      (file+head
-       "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
-       "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
+     ;; ("n" "literature note" plain
+     ;;  "%?"
+     ;;  :target
+     ;;  (file+head
+     ;;   "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
+     ;;   "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
       :unnarrowed t)
      ("r" "ref" plain
       "%?"
@@ -281,7 +281,7 @@
                                              ":NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")"
                                              ":NOTER_PAGE:"
                                              ":END:")))
-      :unnarrowed t)))
+      :unnarrowed t))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
      ;;  :target (file+head "%(expand-file-name citar-org-roam-subdir org-roam-directory)/${citar-citekey}.org"
@@ -310,7 +310,7 @@
 ;; For citations
 (use-package citar
   :custom
-  (citar-bibliography '("~/Documents/PhD/bibfiles/master.bib"))
+  (citar-bibliography '("~/Documents/PhD/bibfiles/masterlib.bib"))
   (org-cite-insert-processor 'citar)
   (org-cite-follow-processor 'citar)
   (org-cite-activate-processor 'citar)
