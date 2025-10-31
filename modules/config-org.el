@@ -260,13 +260,13 @@
           "%<%Y%m%d%H%M%S>-${slug}.org"
           "#+title: ${note-title}\n")
          :unnarrowed t)
-        ;; ("n" "literature note" plain
-        ;;  "%?"
-        ;;  :target
-        ;;  (file+head
-        ;;   "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
-        ;;   "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
-     ;;  :unnarrowed t)
+     ("n" "literature note" plain
+      "%?"
+      :target
+      (file+head
+       "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
+       "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
+      :unnarrowed t)
      ("r" "ref" plain
       "%?"
       :target (file+head "refs/${citekey}.org"
@@ -282,6 +282,11 @@
                                              ":NOTER_PAGE:"
                                              ":END:")))
       :unnarrowed t)))
+     ;; Easier way (possibly):
+     ;; ("c" "citar literature note" plain "%?"
+     ;;  :target (file+head "%(expand-file-name citar-org-roam-subdir org-roam-directory)/${citar-citekey}.org"
+     ;; 			 "#+title: Notes on: ${citar-title}\n#+subtitle: ${citar-author}, ${citar-date}")
+     ;;  :unnarrowed t)
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n g" . org-roam-graph)
@@ -325,12 +330,13 @@
   (citar-org-roam-mode)
   (citar-register-notes-source
    'orb-citar-source (list :name "Org-Roam Notes"
-        :category 'org-roam-node
-        :items #'citar-org-roam--get-candidates
-        :hasitems #'citar-org-roam-has-notes
-        :open #'citar-org-roam-open-note
-        :create #'orb-citar-edit-note
-        :annotate #'citar-org-roam--annotate))
+			   :category 'org-roam-node
+			   :items #'citar-org-roam--get-candidates
+			   :hasitems #'citar-org-roam-has-notes
+			   :open #'citar-org-roam-open-note
+			   :create #'orb-citar-edit-note
+			   :annotate #'citar-org-roam--annotate))
+
   (setq citar-notes-source 'orb-citar-source))
 
 ;; Another alternative is to use org-roam-bibtex

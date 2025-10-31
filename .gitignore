@@ -5,3 +5,4 @@ places
 tramp
 elpa/*
 org-roam.db
+transient/*
