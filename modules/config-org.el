@@ -252,6 +252,21 @@
   :ensure t
   :custom
   (org-roam-directory (file-truename "~/Documents/PhD/Notes/"))
+  (org-roam-capture-templates
+   '(("d" "default" plain
+         "%?"
+         :target
+         (file+head
+          "%<%Y%m%d%H%M%S>-${slug}.org"
+          "#+title: ${note-title}\n")
+         :unnarrowed t)
+        ("n" "literature note" plain
+         "%?"
+         :target
+         (file+head
+          "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
+          "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
+         :unnarrowed t)))
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
          ("C-c n g" . org-roam-graph)
@@ -287,6 +302,15 @@
   
 
 ;; Ok, so this seems to work.
+;; Let's try integrating this with org-roam
+
+(use-package citar-org-roam
+  :after (citar org-roam)
+  :custom
+  (citar-org-roam-note-title-template "${author} - ${title}")
+  :config
+  (citar-org-roam-mode)
+  (setq citar-org-roam-capture-template-key "n"))
 
 
 (provide 'config-org)
