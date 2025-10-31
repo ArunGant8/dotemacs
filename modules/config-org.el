@@ -266,7 +266,7 @@
      ;;  (file+head
      ;;   "%(expand-file-name (or citar-org-roam-subdir \"\") org-roam-directory)/${citar-citekey}.org"
      ;;   "#+title: ${citar-citekey} (${citar-date}). ${note-title}.\n#+created: %U\n#+last_modified: %U\n\n")
-      :unnarrowed t)
+     ;; :unnarrowed t)
      ("r" "ref" plain
       "%?"
       :target (file+head "refs/${citekey}.org"
@@ -275,13 +275,8 @@
      ("n" "ref + noter" plain
       "%?"
       :target (file+head "refs/${citekey}.org"
-                         ,(s-join "\n" (list "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n"
-                                             "* Notes :noter:"
-                                             ":PROPERTIES:"
-                                             ":NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")"
-                                             ":NOTER_PAGE:"
-                                             ":END:")))
-      :unnarrowed t))
+                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n* Notes :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
+      :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
      ;;  :target (file+head "%(expand-file-name citar-org-roam-subdir org-roam-directory)/${citar-citekey}.org"
