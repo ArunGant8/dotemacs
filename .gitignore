@@ -6,3 +6,4 @@ tramp
 elpa/*
 org-roam.db
 transient/*
+projects
