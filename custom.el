@@ -9,7 +9,10 @@
 	    helm-bibtex ivy-bibtex latex-preview-pane magit marginalia
 	    merlin mixed-pitch org-mode org-modern org-noter org-ref
 	    org-roam org-roam-bibtex ox-typst pdf-tools
-	    spacious-padding utop vterm yasnippet)))
+	    spacious-padding utop vterm yasnippet))
+ '(package-vc-selected-packages
+   '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
+	       "dev"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
