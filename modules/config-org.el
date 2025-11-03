@@ -274,8 +274,10 @@
       :unnarrowed t)
      ("n" "ref + noter" plain
       "%?"
+      ;; :target (file+head "refs/${citekey}.org"
+      ;;                    "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n* Notes :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
       :target (file+head "refs/${citekey}.org"
-                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n* Notes :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
+                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
       :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
