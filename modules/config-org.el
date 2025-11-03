@@ -258,7 +258,7 @@
          :target
          (file+head
           "%<%Y%m%d%H%M%S>-${slug}.org"
-          "#+title: ${note-title}\n")
+          "#+title: ${note-title}\n#+startup: latexpreview inlineimages\n")
          :unnarrowed t)
      ;; ("n" "literature note" plain
      ;;  "%?"
@@ -270,14 +270,12 @@
      ("r" "ref" plain
       "%?"
       :target (file+head "refs/${citekey}.org"
-                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n")
+                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n#+startup: latexpreview inlineimages overview\n\n")
       :unnarrowed t)
      ("n" "ref + noter" plain
       "%?"
-      ;; :target (file+head "refs/${citekey}.org"
-      ;;                    "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n* Notes :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
       :target (file+head "refs/${citekey}.org"
-                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
+                         "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n#+startup: latexpreview inlineimages overview\n\n* Notes on ${citekey} :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
       :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
