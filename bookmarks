@@ -3,9 +3,9 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/.notes")
- (front-context-string . "** TODO Read abo")
- (rear-context-string . "uence Closure]]\n")
- (position . 661)
- (last-modified 26856 58109 738592 0))
+ (filename . "~/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org")
+ (front-context-string)
+ (rear-context-string . "ction1993\n:END:\n")
+ (position . 485)
+ (last-modified 26888 54182 138226 0))
 )

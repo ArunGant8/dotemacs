@@ -7,3 +7,4 @@ elpa/*
 org-roam.db
 transient/*
 projects
+.org-id-locations

@@ -1,40 +1,71 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32531)
+(("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
+ ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
+  . 164)
+ ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 17409)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 701331)
+ ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
+  . 489)
+ ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32531)
  ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
   . 9305)
- ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 6052)
+ ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 11456)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename
+   . "/Users/arun/Projects/phd-thesis/thesis-project.org"))
+ ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
+ ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 6658)
  ("/Users/arun/.emacs.d/bookmarks" . 251)
- ("/Users/arun/Projects/my-CV/cv.org" . 1420)
- ("/Users/arun/Projects/my-CV/classicthesis-cv.tex" . 9133)
- ("/Users/arun/Projects/my-CV/LaTeXTemplates_compact-academic-cv_v2.0/main.tex"
-  . 2668)
+ ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 12688)
+ ("/Users/arun/.emacs.d/early-init.el" . 278)
+ ("/Users/arun/.emacs.d/custom.el" . 740)
+ ("/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
+  . 291)
+ ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
+ ("/Users/arun/Documents/PhD/notes/refs/" . 134)
+ ("/Users/arun/.emacs.d/elpa/org-roam-20251103.703/org-roam-capture.elc"
+  . 15410)
+ ("/Users/arun/.emacs.d/.gitignore" . 72)
+ ("/Users/arun/.emacs.d/init.el" . 938)
+ ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter.el"
+  . 13850)
+ ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter-core.el"
+  . 29469)
+ ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
+ ("/Users/arun/Documents/PhD/Notes/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/CSL_2017_paper_66.org"))
+ ("/Users/arun/Documents/PhD/equality-proof-theoretically/Rules_of_definitional_reflection.pdf"
+  . 873042)
+ ("/Users/arun/Projects/abella-experiments/trash/ints-old.thm" . 1669)
+ ("/Users/arun/Projects/abella-experiments/rationals.thm" . 2826)
+ ("/Users/arun/Projects/abella-experiments/"
+  (dired-filename . "/Users/arun/Projects/abella-experiments/numbers"))
+ ("/Users/arun/Projects/abella-experiments/numbers/"
+  (dired-filename
+   . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
+ ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.git"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename . "/Users/arun/Projects/rough-work/ocaml/anf.o"))
+ ("/Users/arun/Projects/"
+  (dired-filename . "/Users/arun/Projects/hugo-themes"))
  ("/Users/arun/.notes" . 776)
- ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
- ("/Users/arun/.emacs.d/init.el" . 1765)
- ("/Users/arun/.emacs.d/custom.el" . 520)
  ("/Users/arun/Projects/latex/setup.org" . 520)
- ("/Users/arun/Projects/my-CV/LaTeXTemplates_compact-academic-cv_v2.0/structure.tex"
-  . 3338)
  ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
- ("/Users/arun/Projects/"
-  (dired-filename . "/Users/arun/Projects/my-CV"))
- ("/Users/arun/Projects/my-CV/" . 126)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1340)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
  ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 8641)
  ("/Users/arun/Projects/rough-work/ocaml/temp/common-subexpression-problem.tex"
   . 6459)
  ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.tex"
   . 3289)
  ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 1026)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 373)
  ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 10249)
  ("/Users/arun/.emacs.d/modules/config-completion.el" . 1418)
  ("/Users/arun/.emacs.d/elpa/mixed-pitch-20210304.1900/mixed-pitch.el"
@@ -46,7 +77,6 @@
  ("/Users/arun/Projects/abella-experiments/tableau2025/paper.tex"
   . 13285)
  ("/Users/arun/.emacs.d-prelude/init.el" . 5095)
- ("/Users/arun/.emacs.d/modules/config-macos.el" . 480)
  ("/Users/arun/Projects/Unify/"
   (dired-filename . "/Users/arun/Projects/Unify/_build"))
  ("/Users/arun/Projects/abella-experiments/tableau2025/extract.bib"
@@ -67,7 +97,6 @@
  ("/Users/arun/Projects/abella/src/abella_types.ml" . 10674)
  ("/Users/arun/Projects/abella/src/tactics.ml" . 159)
  ("/Users/arun/Projects/abella/src/parser.mly" . 14628)
- ("/Users/arun/Documents/PhD/Notes/org-latex-export.org" . 3158)
  ("/Users/arun/Projects/latex/beamer-example.org" . 108)
  ("/Users/arun/Projects/latex/karthinks-org-latex-setup.el" . 7697)
  ("/Users/arun/Projects/latex/beamer-example.tex" . 30)
@@ -79,11 +108,8 @@
  ("/Users/arun/Projects/latex/test.tex" . 250)
  ("/Users/arun/Projects/latex/template.tex" . 1669)
  ("/Users/arun/.emacs.d/modules/config-calc.el" . 59)
- ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
  ("/Users/arun/Projects/tableaux2025prez/" . 143)
- ("/Users/arun/.emacs.d/early-init.el" . 17)
  ("/Users/arun/.emacs.d-prelude/personal/config-calc.el" . 182)
- ("/Users/arun/.emacs.d/.gitignore" . 20)
  ("/Users/arun/.emacs.d-kickstart/configuration.org" . 17221)
  ("/Users/arun/.emacs.d/modules/config-abella.el" . 978)
  ("/Users/arun/.emacs.d-prelude/modules/prelude-latex.el" . 2736)
