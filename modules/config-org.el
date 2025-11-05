@@ -155,7 +155,7 @@
   :config
   (when (executable-find "latexmk")
     (setq org-latex-pdf-process '("latexmk -f -pdf -%latex -shell-escape -interaction=nonstopmode -output-directory=%o %f")))
-  (dolist (package '((""                          "hyperref" t)
+  (dolist (package '(;; (""                          "hyperref" t)
 		     (""                          "proof"    t)
 		     (""                          "amsmath"  t)
 		     (""                          "amssymb"  t)
