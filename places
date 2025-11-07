@@ -1,11 +1,21 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
- ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
-  . 164)
- ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 17409)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 701331)
+(("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
+  . 5820)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 4371)
  ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 489)
+  . 379)
+ ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 20192)
+ ("/Users/arun/.emacs.d/bookmarks" . 251)
+ ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 8626)
+ ("/Users/arun/Documents/PhD/Notes/refs/mcdowell00tcs.org" . 6700)
+ ("/Users/arun/Documents/PhD/Notes/refs/comon1991disunification.org"
+  . 985)
+ ("/Users/arun/.emacs.d/.gitignore" . 108)
+ ("/Users/arun/.emacs.d/init.el" . 938)
+ ("/Users/arun/.emacs.d/custom.el" . 740)
+ ("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32531)
  ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
   . 9305)
@@ -14,20 +24,13 @@
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/thesis-project.org"))
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
- ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 6658)
- ("/Users/arun/.emacs.d/bookmarks" . 251)
- ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 12688)
  ("/Users/arun/.emacs.d/early-init.el" . 278)
- ("/Users/arun/.emacs.d/custom.el" . 740)
  ("/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
   . 291)
  ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
  ("/Users/arun/Documents/PhD/notes/refs/" . 134)
  ("/Users/arun/.emacs.d/elpa/org-roam-20251103.703/org-roam-capture.elc"
   . 15410)
- ("/Users/arun/.emacs.d/.gitignore" . 72)
- ("/Users/arun/.emacs.d/init.el" . 938)
  ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter.el"
   . 13850)
  ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter-core.el"

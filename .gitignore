@@ -9,3 +9,4 @@ transient/*
 projects
 .org-id-locations
 request/
+transient/history.el
