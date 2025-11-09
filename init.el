@@ -75,10 +75,10 @@
 (require 'config-org)
 (require 'config-ocaml)
 (require 'config-abella)
+(require 'config-scheme)
+(require 'config-lisp)
 ;; TODO:
 ;; 1. Undo-tree
-;; 3. Scheme and Lisp support
-(require 'config-scheme)
 ;; 4. Python support
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
