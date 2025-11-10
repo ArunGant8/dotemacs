@@ -9,7 +9,7 @@
 	    geiser-racket helm helm-bibtex ivy-bibtex
 	    latex-preview-pane macrostep-geiser magit marginalia
 	    merlin mixed-pitch org-mode org-modern org-noter org-ref
-	    org-roam org-roam-bibtex ox-typst pdf-tools sly
+	    org-roam org-roam-bibtex ox-typst pdf-tools popper sly
 	    spacious-padding utop vterm yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
