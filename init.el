@@ -77,9 +77,9 @@
 (require 'config-abella)
 (require 'config-scheme)
 (require 'config-lisp)
+(require 'config-python)
 ;; TODO:
 ;; 1. Undo-tree
-;; 4. Python support
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
