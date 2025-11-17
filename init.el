@@ -78,6 +78,7 @@
 (require 'config-scheme)
 (require 'config-lisp)
 (require 'config-python)
+(require 'config-lprolog)
 ;; TODO:
 ;; 1. Undo-tree
 (put 'narrow-to-region 'disabled nil)
