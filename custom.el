@@ -5,7 +5,8 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    '(auctex casual cdlatex citar citar-org-roam consult counsel dune
-	    easysession elpy engrave-faces exec-path-from-shell
+	    easysession elfeed elfeed-dashboard elfeed-goodies
+	    elfeed-org elpy engrave-faces exec-path-from-shell
 	    geiser-chez geiser-racket helm helm-bibtex ivy-bibtex
 	    latex-preview-pane macrostep-geiser magit marginalia
 	    markdown-mode merlin mixed-pitch org-mode org-modern

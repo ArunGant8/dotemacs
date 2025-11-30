@@ -66,6 +66,7 @@
 ;; Utils
 (require 'config-utils)
 (require 'config-calc)
+(require 'config-elfeed)
 
 ;; Version Control
 (require 'config-vc)

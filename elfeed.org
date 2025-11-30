@@ -1,0 +1,6 @@
+* Ar\(\chi\)iv
+# ** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22Proof+Theory%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10
+** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10
+
+* Blogs  :blog:
+** http://geohot.github.io//blog/feed.xml :toread:
