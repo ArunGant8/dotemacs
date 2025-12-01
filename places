@@ -1,36 +1,96 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
-  . 5820)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 4371)
+(("/Users/arun/.emacs.d/modules/config-org.el" . 5553)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1775)
+ ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
+ ("/Users/arun/.emacs.d/init.el" . 1756)
+ ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 430)
+ ("/Users/arun/.elfeed/index" . 384)
+ ("/Users/arun/.emacs.d/custom.el" . 873)
+ ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
+  . 143)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/unif"))
+ ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 674)
+ ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
+  . 1257)
+ ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
+ ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
+ ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
+  . 6113)
+ ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
  ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 379)
- ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 20192)
- ("/Users/arun/.emacs.d/bookmarks" . 251)
+  . 828)
+ ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
+  . 2975)
+ ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
+ ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
+ ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
+ ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
+ ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 523928)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 7769)
+ ("/Users/arun/Projects/rewriteKanren/src/term-rewriting.scm" . 681)
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
+ ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
+  . 4872)
+ ("/Users/arun/miniKanren-prez/pandoc/templates/"
+  (dired-filename
+   . "/Users/arun/miniKanren-prez/pandoc/templates/default_mod.latex"))
+ ("/Users/arun/Projects/latex/setup.org" . 520)
+ ("/Users/arun/miniKanren-prez/pandoc/"
+  (dired-filename . "/Users/arun/miniKanren-prez/pandoc/templates"))
+ ("/Users/arun/miniKanren-prez/"
+  (dired-filename . "/Users/arun/miniKanren-prez/pandoc"))
+ ("/Users/arun/miniKanren-prez/pandoc/templates/default_mod.latex"
+  . 2928)
+ ("/Users/arun/miniKanren-prez/presentation.md" . 293)
+ ("/Users/arun/miniKanren-prez/pres-gen.sh" . 590)
+ ("/Users/arun/miniKanren-prez/presentation.tex" . 1169)
+ ("/Users/arun/miniKanren-prez/trial-prez.org" . 404)
+ ("/Users/arun/miniKanren-prez/trial-prez.tex" . 446)
+ ("/Users/arun/org-temp/tikz-tutorial.org" . 534)
+ ("/Users/arun/org-temp/source-code-test.org" . 6034)
+ ("/Users/arun/org-temp/equation-test.org" . 32)
+ ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 155)
+ ("/Users/arun/.emacs.d/modules/config-python.el" . 37)
+ ("/Users/arun/Documents/PhD/Notes/refs/miller91jlc.org" . 7023)
+ ("/Users/arun/Documents/PhD/Notes/refs/wu24phd.org" . 442)
+ ("/Users/arun/Documents/PhD/positive-syntax/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/positive-syntax/ppdp15computation.pdf"))
+ ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 7834)
+ ("/Users/arun/Documents/PhD/Notes/20251110172553-common_subexpression_problem.org"
+  . 708)
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename . "/Users/arun/Projects/rough-work/ocaml/anf.org"))
+ ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 140)
+ ("/Users/arun/Documents/PhD/Notes/20251110174310-administrative_normal_form.org"
+  . 13903)
+ ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 33054)
+ ("/Users/arun/Documents/PhD/Notes/20251110174132-union_find.org"
+  . 144)
+ ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
+  . 301)
+ ("/Users/arun/Documents/PhD/Notes/unification.typ" . 74)
+ ("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
+ ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
+  . 216)
  ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 8626)
+ ("/Users/arun/.emacs.d/modules/config-scheme.el" . 705)
+ ("/Users/arun/.emacs.d/modules/config-lisp.el" . 134)
+ ("/Users/arun/Projects/phd-thesis/interp/bagof.mod" . 323)
  ("/Users/arun/Documents/PhD/Notes/refs/mcdowell00tcs.org" . 6700)
  ("/Users/arun/Documents/PhD/Notes/refs/comon1991disunification.org"
   . 985)
  ("/Users/arun/.emacs.d/.gitignore" . 108)
- ("/Users/arun/.emacs.d/init.el" . 938)
- ("/Users/arun/.emacs.d/custom.el" . 740)
- ("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
- ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 32531)
- ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
-  . 9305)
- ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 11456)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename
-   . "/Users/arun/Projects/phd-thesis/thesis-project.org"))
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
  ("/Users/arun/.emacs.d/early-init.el" . 278)
  ("/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
   . 291)
  ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
  ("/Users/arun/Documents/PhD/notes/refs/" . 134)
- ("/Users/arun/.emacs.d/elpa/org-roam-20251103.703/org-roam-capture.elc"
-  . 15410)
  ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter.el"
   . 13850)
  ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter-core.el"
@@ -51,16 +111,11 @@
  ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.git"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename . "/Users/arun/Projects/rough-work/ocaml/anf.o"))
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/hugo-themes"))
  ("/Users/arun/.notes" . 776)
- ("/Users/arun/Projects/latex/setup.org" . 520)
  ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)
- ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
- ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
  ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)

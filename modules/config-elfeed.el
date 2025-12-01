@@ -5,7 +5,7 @@
 
 (use-package elfeed-goodies
   :after elfeed
-  :config
+  :init
   (elfeed-goodies/setup))
 
 (use-package elfeed-dashboard
@@ -17,7 +17,7 @@
 
 (use-package elfeed-org
   :ensure t
-  :config
+  :init
   (elfeed-org))
 
 

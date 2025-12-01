@@ -1,6 +1,25 @@
-* Ar\(\chi\)iv
-# ** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22Proof+Theory%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10
-** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10
+#+title: List of feeds
+#+author: Arunava Gantait
 
-* Blogs  :blog:
-** http://geohot.github.io//blog/feed.xml :toread:
+* Feeds :elfeed:
+** Ar\(\chi\)iv :papers:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22Proof+Theory%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :proofth:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22Logic+Programming%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :logprog:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3ARewriting&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :rewriting:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3Aunification&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :unification:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22theorem+proving%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :thmprv:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3Ae-graph&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :egraphs:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3Aminikanren&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :minikanren:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+ti%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :progsynth:
+
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+ti%3Aminikanren&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :minikanren:PL:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+ti%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10  :progsynth:PL:
+
+
+** Blogs  :blog:
+*** https://geohot.github.io/blog/feed.xml :toread:
+*** https://www.philipzucker.com/feed.xml :toread:
+*** https://okmij.org/ftp/rss.xml :toread:
+
+** Comics :comics:
+*** https://xkcd.com/rss.xml 
