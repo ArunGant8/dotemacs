@@ -10,16 +10,18 @@
 *** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22theorem+proving%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :thmprv:
 *** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3Ae-graph&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :egraphs:
 *** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3Aminikanren&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :minikanren:
-*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+ti%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :progsynth:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :progsynth:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.LO+AND+all%3ACLP&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :CLP:
 
-*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+ti%3Aminikanren&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :minikanren:PL:
-*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+ti%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10  :progsynth:PL:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+all%3Aminikanren&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :minikanren:PL:
+*** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+all%3A%22program+synthesis%22&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :progsynth:PL:
 
 
 ** Blogs  :blog:
 *** https://geohot.github.io/blog/feed.xml :toread:
 *** https://www.philipzucker.com/feed.xml :toread:
 *** https://okmij.org/ftp/rss.xml :toread:
+*** https://www.unwoundstack.com/rss.xml
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
