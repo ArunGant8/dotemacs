@@ -60,10 +60,16 @@
           "\\*Async Shell Command\\*"
 	  "\\*scratch\\*"
 	  "\\*vterm\\*"
+	  "\\*response\\*"
           help-mode
           compilation-mode))
   (popper-mode +1)
-  (popper-echo-mode +1))                ; For echo area hints
+  (popper-echo-mode +1)
+  :custom
+  (popper-window-height (lambda (win)
+			  (fit-window-to-buffer
+			   win
+			   (floor (frame-height) 2)))))                ; For echo area hints
 
 
 (provide 'config-utils)
