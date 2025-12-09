@@ -63,13 +63,13 @@
 	  "\\*response\\*"
           help-mode
           compilation-mode))
-  (popper-mode +1)
-  (popper-echo-mode +1)
-  :custom
-  (popper-window-height (lambda (win)
+  (setq popper-window-height (lambda (win)
 			  (fit-window-to-buffer
 			   win
-			   (floor (frame-height) 2)))))                ; For echo area hints
+			   :max-height (floor (frame-height) 2)
+			   :min-height (floor (frame-height) 2))))
+  (popper-mode +1)
+  (popper-echo-mode +1))                ; For echo area hints
 
 
 (provide 'config-utils)

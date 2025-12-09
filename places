@@ -1,46 +1,61 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.elfeed/index" . 249037)
+(("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/src.ml"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif"))
+ ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/src.ml" . 214)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1913)
+ ("/Users/arun/.elfeed/index" . 270012)
+ ("/Users/arun/Projects/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis"))
+ ("/Users/arun/Projects/ljeq_search/"
+  (dired-filename . "/Users/arun/Projects/ljeq_search/lib"))
+ ("/Users/arun/Projects/ljeq_search/lib/"
+  (dired-filename . "/Users/arun/Projects/ljeq_search/lib/util.ml"))
+ ("/Users/arun/Projects/ljeq_search/lib/syntax.ml" . 2678)
+ ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
+ ("/Users/arun/Projects/phd-thesis/equiv/mll.thm" . 3321)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/ijcar2026.org" . 6858)
+ ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
+ ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
+  . 143)
+ ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 674)
+ ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
+  . 1257)
+ ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
+ ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
+ ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
+  . 6113)
+ ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
+ ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
+  . 828)
+ ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
+  . 2975)
+ ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
+ ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
+ ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 822369)
+ ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 4463)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 8818)
  ("/Users/arun/.emacs.d/init.el" . 1756)
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 5553)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
  ("/Users/arun/.emacs.d/elfeed.org" . 2136)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1683)
- ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 246)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 13579)
  ("/Users/arun/Projects/phd-thesis/ijcar2026/lp-interp.thm" . 3099)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.git"))
  ("/Users/arun/.emacs.d/custom.el" . 873)
  ("/Users/arun/.emacs.d/elpa/popper-20250323.2147/popper.el" . 9672)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 7769)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 530505)
- ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
- ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
- ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
- ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
-  . 2975)
- ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 828)
- ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
- ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
-  . 6113)
- ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
- ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
- ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
-  . 1257)
- ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 674)
- ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
-  . 143)
- ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/ijcar2026.org" . 6858)
- ("/Users/arun/Projects/phd-thesis/equiv/mll.thm" . 3321)
- ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
  ("/Users/arun/Projects/phd-thesis/.gitignore" . 78)
  ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/ag-interp"))
  ("/Users/arun/Projects/phd-thesis/interp/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/interp/theorems.mod"))
@@ -80,8 +95,6 @@
  ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 7834)
  ("/Users/arun/Documents/PhD/Notes/20251110172553-common_subexpression_problem.org"
   . 708)
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename . "/Users/arun/Projects/rough-work/ocaml/anf.org"))
  ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 140)
  ("/Users/arun/Documents/PhD/Notes/20251110174310-administrative_normal_form.org"
   . 13903)
@@ -126,8 +139,6 @@
   (dired-filename
    . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
  ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
- ("/Users/arun/Projects/"
-  (dired-filename . "/Users/arun/Projects/hugo-themes"))
  ("/Users/arun/.notes" . 776)
  ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)

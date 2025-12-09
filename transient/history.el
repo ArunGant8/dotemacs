@@ -3,9 +3,8 @@
  (magit-log
   ("-n256" "--graph" "--decorate"))
  (magit-pull nil)
- (magit-push
-  ("--force-with-lease")
-  nil)
+ (magit-push nil
+	     ("--force-with-lease"))
  (magit-reset nil)
  (magit-revert
   ("--edit"))
