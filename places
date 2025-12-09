@@ -1,36 +1,53 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/modules/config-org.el" . 5553)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1775)
- ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
+(("/Users/arun/.elfeed/index" . 249037)
  ("/Users/arun/.emacs.d/init.el" . 1756)
- ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 430)
- ("/Users/arun/.elfeed/index" . 384)
+ ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 5553)
+ ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
+ ("/Users/arun/.emacs.d/elfeed.org" . 2136)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1683)
+ ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 246)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/lp-interp.thm" . 3099)
+ ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
+ ("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/.git"))
  ("/Users/arun/.emacs.d/custom.el" . 873)
- ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
-  . 143)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/unif"))
- ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 674)
- ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
-  . 1257)
- ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
- ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
- ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
-  . 6113)
- ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
- ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 828)
- ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
-  . 2975)
- ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
- ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
- ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
- ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
- ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 523928)
+ ("/Users/arun/.emacs.d/elpa/popper-20250323.2147/popper.el" . 9672)
  ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
   . 7769)
- ("/Users/arun/Projects/rewriteKanren/src/term-rewriting.scm" . 681)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 530505)
+ ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
+ ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
+ ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
+ ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
+  . 2975)
+ ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
+  . 828)
+ ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
+ ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
+  . 6113)
+ ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
+ ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
+ ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
+  . 1257)
+ ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 674)
+ ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
+  . 143)
+ ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/ijcar2026.org" . 6858)
+ ("/Users/arun/Projects/phd-thesis/equiv/mll.thm" . 3321)
+ ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
+ ("/Users/arun/Projects/phd-thesis/.gitignore" . 78)
+ ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/ag-interp"))
+ ("/Users/arun/Projects/phd-thesis/interp/"
+  (dired-filename
+   . "/Users/arun/Projects/phd-thesis/interp/theorems.mod"))
+ ("/Users/arun/Projects/phd-thesis/unif/"
+  (dired-filename
+   . "/Users/arun/Projects/phd-thesis/unif/unification.html"))
+ ("/Users/arun/Projects/rewriteKanren/src/term-rewriting.scm" . 767)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
@@ -109,8 +126,6 @@
   (dired-filename
    . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
  ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
- ("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/.git"))
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/hugo-themes"))
  ("/Users/arun/.notes" . 776)
@@ -158,7 +173,6 @@
  ("/Users/arun/Projects/latex/beamer-example.org" . 108)
  ("/Users/arun/Projects/latex/karthinks-org-latex-setup.el" . 7697)
  ("/Users/arun/Projects/latex/beamer-example.tex" . 30)
- ("/Users/arun/.emacs.d/elpa/org-mode/lisp/ox.el" . 88120)
  ("/Users/arun/Projects/latex/_region_.tex" . 276)
  ("/Users/arun/Projects/abella-experiments/notes/_region_.tex" . 481)
  ("/Users/arun/setup-latex.el" . 19787)
