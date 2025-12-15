@@ -81,6 +81,7 @@
 (require 'config-python)
 (require 'config-lprolog)
 (require 'config-markdown)
+(require 'config-assembly)
 ;; TODO:
 ;; 1. Undo-tree
 (put 'narrow-to-region 'disabled nil)
