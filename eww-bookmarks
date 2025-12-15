@@ -1,0 +1,13 @@
+;; Auto-generated file; don't edit -*- mode: lisp-data -*-
+((:url
+  "https://dune.readthedocs.io/en/stable/getting-started/index.html"
+  :title "Getting Started and Core Concepts - Dune documentation"
+  :time "Sun Dec 14 19:53:06 2025")
+ (:url
+  "https://cs3110.github.io/textbook/chapters/modules/modules.html"
+  :title
+  "5.2. Modules — OCaml Programming: Correct + Efficient + Beautiful"
+  :time "Sun Dec 14 15:37:41 2025")
+ (:url "https://ocaml.org/docs/modules" :title
+       "Modules · OCaml Documentation" :time
+       "Sun Dec 14 14:30:17 2025"))
