@@ -1,5 +1,15 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url
+((:url "https://ocaml.org/manual/5.4/api/index.html" :title
+       "OCaml library" :time "Tue Dec 16 12:09:16 2025")
+ (:url
+  "https://cs3110.github.io/textbook/chapters/interp/parsing.html"
+  :title
+  "10.2. Parsing — OCaml Programming: Correct + Efficient + Beautiful"
+  :time "Mon Dec 15 17:35:01 2025")
+ (:url
+  "https://dune.readthedocs.io/en/stable/reference/dune/index.html"
+  :title "dune - Dune documentation" :time "Mon Dec 15 16:39:19 2025")
+ (:url
   "https://dune.readthedocs.io/en/stable/getting-started/index.html"
   :title "Getting Started and Core Concepts - Dune documentation"
   :time "Sun Dec 14 19:53:06 2025")

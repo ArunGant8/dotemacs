@@ -22,6 +22,7 @@
 *** https://www.philipzucker.com/feed.xml :toread:
 *** https://okmij.org/ftp/rss.xml :toread:
 *** https://www.unwoundstack.com/rss.xml
+*** http://www.synthcode.com/feed.scm :toread:
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
