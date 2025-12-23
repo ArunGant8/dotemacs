@@ -1,18 +1,116 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/src.ml"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif"))
+(("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 639627)
+ ("/Users/arun/Documents/PhD/Notes/refs/paulsonHigherorderImplementationRewriting1983.org"
+  . 489)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/notes.org" . 1668)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/lexer.mll"
+  . 565)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/ast.ml" . 1583)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/parser.mly"
+  . 392)
+ ("/Users/arun/.emacs.d/bookmarks" . 251)
+ ("/Users/arun/Projects/abella/src/lexer.mll" . 4912)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/main.ml" . 1664)
+ ("/Users/arun/Projects/abella/src/parser.mly" . 5502)
+ ("/Users/arun/Projects/abella/src/abella_types.ml" . 1582)
+ ("/Users/arun/Projects/abella/src/term.ml" . 1992)
+ ("/Users/arun/Projects/rough-work/scheme/"
+  (dired-filename . "/Users/arun/Projects/rough-work/scheme/ljfeq"))
+ ("/Users/arun/Projects/rough-work/scheme/ljfeq/" . 140)
+ ("/Users/arun/Projects/rough-work/scheme/ljfeq/terms.scm" . 69)
+ ("/Users/arun/.emacs.d/elfeed.org" . 2183)
+ ("/Users/arun/.emacs.d/snippets/tuareg-mode/menhir-token1" . 56)
  ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
- ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/src.ml" . 214)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1913)
- ("/Users/arun/.elfeed/index" . 270012)
+ ("/Users/arun/.emacs.d/snippets/tuareg-mode/menhir-token" . 56)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/"
+  (dired-filename . "/Users/arun/Projects/rough-work/ocaml/ho-lp/code"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/dune-project" . 37)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/" . 148)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/7-hoterms/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/7-hoterms/term.sml"))
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/dune" . 34)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/dune" . 53)
+ ("/Users/arun/.emacs.d/custom.el" . 899)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/main.ml"
+  . 127)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/dune"))
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/lexer.mll"
+  . 351)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/parser.mly"
+  . 760)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/7-hoterms"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/8-holog/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/8-holog/README"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/8-holog/top.sml"
+  . 1591)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/8-holog/propositions.sml"
+  . 1922)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/8-holog/terms_to_props.sml"
+  . 3432)
+ ("/Users/arun/Projects/ocaml-tutorial/real-world-ocaml/parsing/"
+  (dired-filename
+   . "/Users/arun/Projects/ocaml-tutorial/real-world-ocaml/parsing/test.ml"))
+ ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/ast.ml" . 248)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src"))
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/dune-project"
+  . 37)
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Exercism/"
+  (dired-filename . "/Users/arun/Exercism/x86-64-assembly"))
+ ("/Users/arun/Exercism/x86-64-assembly/"
+  (dired-filename . "/Users/arun/Exercism/x86-64-assembly/lasagna"))
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/"
+  (dired-filename
+   . "/Users/arun/Exercism/x86-64-assembly/lasagna/README.md"))
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/README.md" . 7278)
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna_test.c" . 528)
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna.asm" . 647)
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/phd-thesis"))
+ ("/Users/arun/.emacs.d/init.el" . 2059)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 13742)
+ ("/Users/arun/.emacs.d/modules/config-assembly.el" . 139)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/folparser/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/folparser/parse.sml"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/base.sml"
+  . 22748)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/cut/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/cut/cut.tex"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/intro.tex"
+  . 2355)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/fo-horn-lp.ml" . 4728)
+ ("/Users/arun/Downloads/"
+  (dired-filename . "/Users/arun/Downloads/elpsml-paper.tar.gz"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/prop-horn-lp.ml" . 933)
+ ("/Users/arun/Projects/higher-order-lp/"
+  (dired-filename
+   . "/Users/arun/Projects/higher-order-lp/prop-horn-lp.ml"))
+ ("/Users/arun/Projects/higher-order-unif/ho-unif.ml" . 3336)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml" . 17)
+ ("/Users/arun/.elfeed/index" . 270012)
  ("/Users/arun/Projects/ljeq_search/"
   (dired-filename . "/Users/arun/Projects/ljeq_search/lib"))
  ("/Users/arun/Projects/ljeq_search/lib/"
@@ -39,20 +137,13 @@
  ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
  ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
  ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 822369)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 4463)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 8818)
- ("/Users/arun/.emacs.d/init.el" . 1756)
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
- ("/Users/arun/.emacs.d/elfeed.org" . 2136)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 13579)
  ("/Users/arun/Projects/phd-thesis/ijcar2026/lp-interp.thm" . 3099)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.git"))
- ("/Users/arun/.emacs.d/custom.el" . 873)
  ("/Users/arun/.emacs.d/elpa/popper-20250323.2147/popper.el" . 9672)
  ("/Users/arun/Projects/phd-thesis/.gitignore" . 78)
  ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
@@ -140,7 +231,6 @@
    . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
  ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
  ("/Users/arun/.notes" . 776)
- ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)
  ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
@@ -178,9 +268,7 @@
  ("/Users/arun/Projects/abella-experiments/notes/macros.tex" . 883)
  ("/Users/arun/Projects/abella-experiments/notes/ag-notes.tex" . 7112)
  ("/Users/arun/Projects/abella/src/abella.ml" . 23791)
- ("/Users/arun/Projects/abella/src/abella_types.ml" . 10674)
  ("/Users/arun/Projects/abella/src/tactics.ml" . 159)
- ("/Users/arun/Projects/abella/src/parser.mly" . 14628)
  ("/Users/arun/Projects/latex/beamer-example.org" . 108)
  ("/Users/arun/Projects/latex/karthinks-org-latex-setup.el" . 7697)
  ("/Users/arun/Projects/latex/beamer-example.tex" . 30)

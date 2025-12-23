@@ -1,5 +1,11 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://ocaml.org/manual/5.4/api/index.html" :title
+((:url "https://www.scheme.com/tspl4/" :title
+       "The Scheme Programming Language, 4th Edition" :time
+       "Thu Dec 18 13:03:33 2025")
+ (:url "https://cisco.github.io/ChezScheme/csug9.5/" :title
+       "Chez Scheme Version 9 User's Guide" :time
+       "Thu Dec 18 13:02:35 2025")
+ (:url "https://ocaml.org/manual/5.4/api/index.html" :title
        "OCaml library" :time "Tue Dec 16 12:09:16 2025")
  (:url
   "https://cs3110.github.io/textbook/chapters/interp/parsing.html"
