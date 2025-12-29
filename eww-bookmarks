@@ -1,5 +1,13 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://www.scheme.com/tspl4/" :title
+((:url "https://matt.might.net/articles/parsing-with-derivatives/"
+       :title "Yacc is dead: An update" :time
+       "Mon Dec 29 06:24:33 2025")
+ (:url
+  "https://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/"
+  :title
+  "Pattern-matching regular expressions in Scheme using derivatives"
+  :time "Mon Dec 29 06:24:29 2025")
+ (:url "https://www.scheme.com/tspl4/" :title
        "The Scheme Programming Language, 4th Edition" :time
        "Thu Dec 18 13:03:33 2025")
  (:url "https://cisco.github.io/ChezScheme/csug9.5/" :title
