@@ -1,5 +1,19 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 639627)
+(("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 831640)
+ ("/Users/arun/.elfeed/index" . 300944)
+ ("/Users/arun/.emacs.d/custom.el" . 899)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
+ ("/Users/arun/.emacs.d/init.el" . 2059)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 13742)
  ("/Users/arun/Documents/PhD/Notes/refs/paulsonHigherorderImplementationRewriting1983.org"
   . 489)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/notes.org" . 1668)
@@ -8,8 +22,25 @@
   . 565)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/ast.ml" . 1583)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/parser.mly"
-  . 392)
- ("/Users/arun/.emacs.d/bookmarks" . 251)
+  . 1070)
+ ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
+  . 457)
+ ("/Users/arun/Downloads/dparse.rkt" . 3204)
+ ("/Users/arun/Exercism/x86-64-assembly/inventory-management/"
+  (dired-filename
+   . "/Users/arun/Exercism/x86-64-assembly/inventory-management/README.md"))
+ ("/Users/arun/Exercism/x86-64-assembly/inventory-management/inventory_management.asm"
+  . 2624)
+ ("/Users/arun/Exercism/x86-64-assembly/inventory-management/README.md"
+  . 9481)
+ ("/Users/arun/Exercism/x86-64-assembly/color-palette/color_palette.asm"
+  . 1809)
+ ("/Users/arun/Exercism/x86-64-assembly/color-palette/README.md"
+  . 10750)
+ ("/Users/arun/Exercism/x86-64-assembly/color-palette/color_palette_test.c"
+  . 4992)
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna.asm" . 647)
+ ("/Users/arun/Exercism/x86-64-assembly/lasagna/README.md" . 1346)
  ("/Users/arun/Projects/abella/src/lexer.mll" . 4912)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/main.ml" . 1664)
  ("/Users/arun/Projects/abella/src/parser.mly" . 5502)
@@ -21,9 +52,6 @@
  ("/Users/arun/Projects/rough-work/scheme/ljfeq/terms.scm" . 69)
  ("/Users/arun/.emacs.d/elfeed.org" . 2183)
  ("/Users/arun/.emacs.d/snippets/tuareg-mode/menhir-token1" . 56)
- ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
  ("/Users/arun/.emacs.d/snippets/tuareg-mode/menhir-token" . 56)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/"
   (dired-filename . "/Users/arun/Projects/rough-work/ocaml/ho-lp/code"))
@@ -37,7 +65,6 @@
    . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/7-hoterms/term.sml"))
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/dune" . 34)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/dune" . 53)
- ("/Users/arun/.emacs.d/custom.el" . 899)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/main.ml"
   . 127)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/"
@@ -69,9 +96,6 @@
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src"))
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/dune-project"
   . 37)
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
  ("/Users/arun/Exercism/"
   (dired-filename . "/Users/arun/Exercism/x86-64-assembly"))
  ("/Users/arun/Exercism/x86-64-assembly/"
@@ -79,17 +103,9 @@
  ("/Users/arun/Exercism/x86-64-assembly/lasagna/"
   (dired-filename
    . "/Users/arun/Exercism/x86-64-assembly/lasagna/README.md"))
- ("/Users/arun/Exercism/x86-64-assembly/lasagna/README.md" . 7278)
  ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna_test.c" . 528)
- ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna.asm" . 647)
  ("/Users/arun/Projects/"
   (dired-filename . "/Users/arun/Projects/phd-thesis"))
- ("/Users/arun/.emacs.d/init.el" . 2059)
- ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 13742)
  ("/Users/arun/.emacs.d/modules/config-assembly.el" . 139)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/folparser/"
   (dired-filename
@@ -110,7 +126,6 @@
    . "/Users/arun/Projects/higher-order-lp/prop-horn-lp.ml"))
  ("/Users/arun/Projects/higher-order-unif/ho-unif.ml" . 3336)
  ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml" . 17)
- ("/Users/arun/.elfeed/index" . 270012)
  ("/Users/arun/Projects/ljeq_search/"
   (dired-filename . "/Users/arun/Projects/ljeq_search/lib"))
  ("/Users/arun/Projects/ljeq_search/lib/"
@@ -118,7 +133,6 @@
  ("/Users/arun/Projects/ljeq_search/lib/syntax.ml" . 2678)
  ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
  ("/Users/arun/Projects/phd-thesis/equiv/mll.thm" . 3321)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/ijcar2026.org" . 6858)
  ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
  ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
   . 143)
@@ -140,7 +154,6 @@
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 4463)
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/lp-interp.thm" . 3099)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.git"))
@@ -156,8 +169,6 @@
  ("/Users/arun/Projects/rewriteKanren/src/term-rewriting.scm" . 767)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
- ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
-  . 4872)
  ("/Users/arun/miniKanren-prez/pandoc/templates/"
   (dired-filename
    . "/Users/arun/miniKanren-prez/pandoc/templates/default_mod.latex"))
