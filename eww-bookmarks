@@ -1,5 +1,7 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://matt.might.net/articles/parsing-with-derivatives/"
+((:url "https://docs.racket-lang.org/ts-guide/" :title
+       "The Typed Racket Guide" :time "Wed Jan  7 16:03:13 2026")
+ (:url "https://matt.might.net/articles/parsing-with-derivatives/"
        :title "Yacc is dead: An update" :time
        "Mon Dec 29 06:24:33 2025")
  (:url

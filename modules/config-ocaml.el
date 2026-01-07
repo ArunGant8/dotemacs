@@ -22,6 +22,9 @@
                                 (setq compile-command
                                       "opam config exec corebuild "))))
 
+;; MetaOCaml setting
+(setq tuareg-support-metaocaml t)
+
 (setq merlin-use-auto-complete-mode t)
 
 (setq utop-command "opam config exec utop -- -emacs"
