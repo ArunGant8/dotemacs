@@ -39,4 +39,10 @@
 
 ;; Don't know any settings for this yet.
 
+;; Putting SML settings here as well since I don't want to
+;; create a separate file for just 2 lines
+
+(use-package sml-mode
+  :ensure t)
+
 (provide 'config-ocaml)
