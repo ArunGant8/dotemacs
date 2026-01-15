@@ -1,28 +1,47 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 831640)
- ("/Users/arun/.elfeed/index" . 300944)
- ("/Users/arun/.emacs.d/custom.el" . 899)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
- ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
- ("/Users/arun/.emacs.d/init.el" . 2059)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 13742)
+(("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/terms.ml"
+  . 777)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/top.sml"
+  . 503)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/propositions.sml"
+  . 2002)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 641546)
  ("/Users/arun/Documents/PhD/Notes/refs/paulsonHigherorderImplementationRewriting1983.org"
   . 489)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/notes.org" . 1668)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/lexer.mll"
   . 565)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/ast.ml" . 1583)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/parser.mly"
-  . 1070)
+  . 471)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/interpreter.sml"
+  . 507)
+ ("/Users/arun/.emacs.d/early-init.el" . 152)
+ ("/Users/arun/.emacs.d/custom.el" . 908)
+ ("/Users/arun/.emacs.d/init.el" . 2059)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
+ ("/Users/arun/Projects/phd-thesis/ljfeq_interp/" . 142)
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 13742)
+ ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 717)
+ ("/Users/arun/Projects/lambdakanren/racket/lmk.rkt" . 7309)
+ ("/Users/arun/Projects/lambdakanren/racket/unify.rkt" . 18916)
+ ("/Users/arun/Projects/lambdakanren/racket/data.rkt" . 305)
+ ("/Users/arun/Projects/lambdakanren/racket/test.rkt" . 1136)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/destructive.tex"
+  . 1698)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-lp/main.ml" . 1664)
+ ("/Users/arun/.elfeed/index" . 300944)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 8820)
  ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
   . 457)
  ("/Users/arun/Downloads/dparse.rkt" . 3204)
@@ -42,7 +61,6 @@
  ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna.asm" . 647)
  ("/Users/arun/Exercism/x86-64-assembly/lasagna/README.md" . 1346)
  ("/Users/arun/Projects/abella/src/lexer.mll" . 4912)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/main.ml" . 1664)
  ("/Users/arun/Projects/abella/src/parser.mly" . 5502)
  ("/Users/arun/Projects/abella/src/abella_types.ml" . 1582)
  ("/Users/arun/Projects/abella/src/term.ml" . 1992)
@@ -218,15 +236,10 @@
   . 985)
  ("/Users/arun/.emacs.d/.gitignore" . 108)
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
- ("/Users/arun/.emacs.d/early-init.el" . 278)
  ("/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
   . 291)
  ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
  ("/Users/arun/Documents/PhD/notes/refs/" . 134)
- ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter.el"
-  . 13850)
- ("/Users/arun/.emacs.d/elpa/org-noter-20250730.30/org-noter-core.el"
-  . 29469)
  ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
  ("/Users/arun/Documents/PhD/Notes/"
   (dired-filename
@@ -242,7 +255,6 @@
    . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
  ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
  ("/Users/arun/.notes" . 776)
- ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 958)
  ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
  ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)
