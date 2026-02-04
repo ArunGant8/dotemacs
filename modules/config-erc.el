@@ -44,7 +44,9 @@
 (use-package erc-join
   ;; Join #emacs and #erc whenever I connect to Libera.Chat.
   ;; Add more to this list
-  :custom (erc-autojoin-channels-alist '((Libera.Chat "#emacs" "#erc"))))
+  :custom
+  (erc-autojoin-channels-alist '((Libera.Chat "#emacs" "#erc")))
+  (erc-autojoin-delay 0))
 
 (use-package erc-fill
   :custom
