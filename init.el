@@ -67,6 +67,7 @@
 (require 'config-utils)
 (require 'config-calc)
 (require 'config-elfeed)
+(require 'config-erc)
 
 ;; Version Control
 (require 'config-vc)
