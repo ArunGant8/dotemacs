@@ -368,6 +368,11 @@
   :config
   (require 'org-ref-helm))
 
+(use-package org-ref-prettify
+  :defer
+  :hook
+  (org-mode . org-ref-prettify-mode))
+
 ;; And finally, org-roam-bibtex itself
 (use-package org-roam-bibtex
   :after org-roam

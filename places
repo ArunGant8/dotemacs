@@ -1,12 +1,33 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 644499)
+(("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
+  . 2059)
+ ("/Users/arun/Projects/abella-experiments/notes/ground-equations-sat.thm"
+  . 2814)
  ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 8812)
- ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 717)
+  . 7230)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 841779)
+ ("/Users/arun/Projects/abella-experiments/notes/groups_sat.thm"
+  . 2864)
+ ("/Users/arun/.emacs.d/modules/config-erc.el" . 1654)
  ("/Users/arun/.emacs.d/modules/config-org.el" . 13433)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
+ ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 717)
+ ("/Users/arun/.emacs.d/init.el" . 1778)
+ ("/Users/arun/Projects/abella-experiments/notes/groups.thm" . 4716)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 2038)
+ ("/Users/arun/.emacs.d/custom.el" . 1074)
+ ("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/.git"))
+ ("/Users/arun/.elfeed/index" . 330668)
  ("/Users/arun/.emacs.d/early-init.el" . 152)
- ("/Users/arun/.emacs.d/init.el" . 205)
- ("/Users/arun/.elfeed/index" . 320813)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/terms.ml"
   . 777)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/top.sml"
@@ -24,16 +45,6 @@
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/interpreter.sml"
   . 406)
- ("/Users/arun/.emacs.d/custom.el" . 908)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/ljfeq_interp"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/Projects/rough-work/ocaml/ho-patternunif/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
  ("/Users/arun/Projects/lambdakanren/racket/lmk.rkt" . 7309)
  ("/Users/arun/Projects/lambdakanren/racket/unify.rkt" . 18916)
  ("/Users/arun/Projects/lambdakanren/racket/data.rkt" . 305)
@@ -172,8 +183,6 @@
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
- ("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/.git"))
  ("/Users/arun/.emacs.d/elpa/popper-20250323.2147/popper.el" . 9672)
  ("/Users/arun/Projects/phd-thesis/.gitignore" . 78)
  ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
@@ -281,8 +290,6 @@
  ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 8394)
  ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72)
  ("/Users/arun/Documents/PhD/CSI/first-year/master.bib" . 10414)
- ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
-  . 2111)
  ("/Users/arun/Projects/tableaux2025prez/comments-torie.txt" . 1162)
  ("/Users/arun/Projects/abella-experiments/tableau2025/macros.tex"
   . 4193)

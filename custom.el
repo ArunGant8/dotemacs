@@ -14,9 +14,9 @@
 	    geiser-chez geiser-racket helm helm-bibtex ivy-bibtex
 	    latex-preview-pane macrostep-geiser magit marginalia
 	    markdown-mode merlin mixed-pitch nasm-mode org-mode
-	    org-modern org-noter org-ref org-roam org-roam-bibtex
-	    ox-typst pdf-tools popper sly sml-mode spacious-padding
-	    utop vterm x86-lookup yasnippet))
+	    org-modern org-noter org-ref org-ref-prettify org-roam
+	    org-roam-bibtex ox-typst pdf-tools popper sly sml-mode
+	    spacious-padding utop vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))
