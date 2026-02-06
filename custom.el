@@ -7,6 +7,29 @@
    '(autojoin button completion fill imenu irccontrols list match menu
 	      move-to-prompt netsplit networks readonly ring sasl
 	      stamp track))
+ '(org-mode-hook
+   '(org-ref-prettify-mode org-roam-bibtex-mode org-ref-org-menu
+			   citar-capf-setup org-tempo-setup
+			   org-latex-preview-center-mode
+			   org-latex-preview-mode
+			   org-latex-preview--clear-preamble-cache
+			   turn-on-org-cdlatex org-modern-mode
+			   #[0 "\301\211\20\207"
+			       [imenu-create-index-function
+				org-imenu-get-tree]
+			       2]
+			   #[0 "\300\301\302\303\304$\207"
+			       [add-hook change-major-mode-hook
+					 org-fold-show-all append
+					 local]
+			       5]
+			   #[0 "\300\301\302\303\304$\207"
+			       [add-hook change-major-mode-hook
+					 org-babel-show-result-all
+					 append local]
+			       5]
+			   org-babel-result-hide-spec
+			   org-babel-hide-all-hashes))
  '(package-selected-packages
    '(auctex casual cdlatex citar citar-org-roam consult counsel dune
 	    easysession elfeed elfeed-dashboard elfeed-goodies
