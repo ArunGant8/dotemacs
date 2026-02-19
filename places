@@ -11,39 +11,40 @@
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ho-patternunif/main.ml"))
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 1964)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 11454)
- ("/Users/arun/.elfeed/index" . 479546)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 722)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 844017)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 11256)
+ ("/Users/arun/.elfeed/index" . 479521)
  ("/Users/arun/Documents/PhD/Notes/20260205152243-metatheory_of_our_interpreter.org"
   . 323)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 844017)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 722)
  ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
   . 8223)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/META.in"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/prover.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/technical-notes.txt"
-  . 143)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/technical-notes.txt"
+  . 143)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/prover.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/META.in"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
-  . 2103)
+  . 1704)
+ ("/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org" . 356)
  ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 324)
  ("/Users/arun/.emacs.d/modules/config-python.el" . 37)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/debian-files/"

@@ -5,7 +5,7 @@
 (("org-capture-last-stored"
  (filename . "~/Documents/PhD/Notes/code/bedwyr-notes.org")
  (front-context-string)
- (rear-context-string . "F2D88B5E2\n:END:\n")
- (position . 68)
- (last-modified 27031 8240 324771 0))
+ (rear-context-string . "ml  :tangle yes\n")
+ (position . 354)
+ (last-modified 27031 8721 650993 0))
 )

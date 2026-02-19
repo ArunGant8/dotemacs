@@ -294,7 +294,7 @@
      ("p" "programming" plain
       "%?"
       :target (file+head "code/${project}-notes.org"
-			 "#+title: ${title}\n#+startup latexpreview inlineimages\n#+created: %U\n#+PROPERTY: header-args:%^{Lang|ocaml|scheme}  :results output code replace\n#+PROPERTY: header-args:%\\1 :comments both\n#+PROPERTY: header-args:%\\1  :session UF\n#+PROPERTY: header-args:%\\1  :tangle yes\n")
+			 "#+title: ${title}\n#+startup: latexpreview inlineimages\n#+created: %U\n#+tags: %^g\n#+PROPERTY: header-args:%^{Lang|ocaml|scheme}  :results output code replace\n#+PROPERTY: header-args:%\\1 :comments both\n#+PROPERTY: header-args:%\\1  :session UF\n#+PROPERTY: header-args:%\\1  :tangle yes\n")
       :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
