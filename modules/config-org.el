@@ -290,6 +290,11 @@
       "%?"
       :target (file+head "refs/${citekey}.org"
                          "#+title: ${title}\n#+created: %U\n#+last_modified: %U\n#+startup: latexpreview inlineimages overview\n\n* Notes on ${citekey} :noter:\n:PROPERTIES:\n:NOTER_DOCUMENT: %(orb-process-file-field \"${citekey}\")\n:NOTER_PAGE:\n:END:\n")
+      :unnarrowed t)
+     ("p" "programming" plain
+      "%?"
+      :target (file+head "code/${project}-notes.org"
+			 "#+title: ${title}\n#+startup latexpreview inlineimages\n#+created: %U\n#+PROPERTY: header-args:%^{Lang|ocaml|scheme}  :results output code replace\n#+PROPERTY: header-args:%\\1 :comments both\n#+PROPERTY: header-args:%\\1  :session UF\n#+PROPERTY: header-args:%\\1  :tangle yes\n")
       :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
@@ -307,6 +312,16 @@
   ;; If you're using a vertical completion framework, you might want a more informative completion interface
   (setq org-roam-node-display-template (concat "${title:*} " (propertize "${tags:10}" 'face 'org-tag)))
   (org-roam-db-autosync-mode))
+
+  ;; Experimental
+  ;; I don't think it's working
+  ;; (cl-defmethod org-roam-node-lang ((node org-roam-node))
+  ;;   (let ((lang (cdr (assoc-string "LANG" (org-roam-node-properties node)))))
+  ;;     (if lang lang
+  ;; 	(when org-roam-capture--node
+  ;; 	  (setq lang (read-string "Lang: "))
+  ;; 	  (push (cons "LANG" lang) (org-roam-node-properties node)))
+  ;; 	lang))))
   ;; If using org-roam-protocol
   ;;(require 'org-roam-protocol))
 
