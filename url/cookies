@@ -5,11 +5,20 @@
  'nil
 )
 (setq url-cookie-secure-storage
- '(("github.com"
-  [url-cookie "_octo" "GH1.1.892310771.1765812374"
-	      "Tue, 15 Dec 2026 15:26:14 GMT" "/" "github.com" t]
+ '(("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "25-Feb-2026"
+	      "Sun, 29 Mar 2026 00:00:00 GMT" "/" "en.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "25-Feb-2026"
+	      "Sun, 29 Mar 2026 00:00:00 GMT" "/" ".wikipedia.org" t]
+  [url-cookie "WMF-Uniq"
+	      "5DHmktfZSNjAVRDa6SOMAwMSAAEBAFvdqHuLvW7nctoFj8y3jcBYP7SkE-iabnSA"
+	      "Thu, 25 Feb 2027 00:00:00 GMT" "/" ".wikipedia.org" t])
+ ("github.com"
   [url-cookie "logged_in" "no" "Tue, 15 Dec 2026 15:26:14 GMT" "/"
-	      "github.com" t]))
+	      "github.com" t]
+  [url-cookie "_octo" "GH1.1.892310771.1765812374"
+	      "Tue, 15 Dec 2026 15:26:14 GMT" "/" "github.com" t]))
 )
 
 ;; Local Variables:

@@ -29,6 +29,7 @@
 *** https://www.unwoundstack.com/rss.xml
 *** http://www.synthcode.com/feed.scm :toread:
 *** https://ericmigi.com/rss.xml :toread:
+*** https://trop.in/feed/blog.xml :toread:
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
