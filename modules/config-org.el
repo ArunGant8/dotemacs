@@ -14,7 +14,8 @@
  org-hide-emphasis-markers t
  org-pretty-entities t
  org-agenda-tags-column 0
- org-ellipsis "…")
+ org-ellipsis "…"
+ org-image-max-width 'window)
 
 ;; (defun my/org-prettify-symbols ()
 ;;   (setq prettify-symbols-alist
