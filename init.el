@@ -29,7 +29,7 @@
  ;;'(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
  '(default ((t (:family "Iosevka Nerd Font Mono" :height 130))))
  ;; '(variable-pitch ((t (:family "ETBookOT" :height 165))))
- '(variable-pitch ((t (:family "Aporetic Serif Mono" :height 140))))
+ '(variable-pitch ((t (:family "Aporetic Serif Mono" :height 130))))
  '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
 (add-to-list 'package-archives
