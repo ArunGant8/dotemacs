@@ -3,6 +3,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(custom-safe-themes
+   '("366f7fb70999d739ff559568b011f8cfb05c88124e4c944e5e1008312e572137"
+     default))
  '(erc-modules
    '(autojoin button completion fill imenu irccontrols list match menu
 	      move-to-prompt netsplit networks readonly ring sasl
@@ -31,15 +34,16 @@
 			   org-babel-result-hide-spec
 			   org-babel-hide-all-hashes))
  '(package-selected-packages
-   '(auctex casual cdlatex citar citar-org-roam consult counsel dune
-	    easysession elfeed elfeed-dashboard elfeed-goodies
-	    elfeed-org elpy engrave-faces exec-path-from-shell
-	    geiser-chez geiser-racket helm helm-bibtex ivy-bibtex
-	    latex-preview-pane macrostep-geiser magit marginalia
-	    markdown-mode merlin mixed-pitch nasm-mode org-mode
-	    org-modern org-noter org-ref org-ref-prettify org-roam
-	    org-roam-bibtex ox-typst pdf-tools popper sly sml-mode
-	    spacious-padding utop vterm x86-lookup yasnippet))
+   '(auctex casual cdlatex citar citar-org-roam consult counsel
+	    doric-themes dune easysession elfeed elfeed-dashboard
+	    elfeed-goodies elfeed-org elpy engrave-faces
+	    exec-path-from-shell geiser-chez geiser-racket helm
+	    helm-bibtex ivy-bibtex latex-preview-pane macrostep-geiser
+	    magit marginalia markdown-mode merlin mixed-pitch
+	    nasm-mode org-mode org-modern org-noter org-ref
+	    org-ref-prettify org-roam org-roam-bibtex ox-typst
+	    pdf-tools popper sly sml-mode spacious-padding undo-tree
+	    utop vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))

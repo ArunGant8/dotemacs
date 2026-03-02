@@ -71,5 +71,11 @@
   (popper-mode +1)
   (popper-echo-mode +1))                ; For echo area hints
 
+;; Undo-tree
+(use-package undo-tree
+  :ensure t
+  :init
+  (global-undo-tree-mode +1))
+
 
 (provide 'config-utils)

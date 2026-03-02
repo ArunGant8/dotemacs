@@ -28,12 +28,14 @@
  'user
  ;;'(default ((t (:family "FantasqueSansM Nerd Font" :height 140))))
  '(default ((t (:family "Iosevka Nerd Font Mono" :height 130))))
- '(variable-pitch ((t (:family "ETBookOT" :height 165))))
+ ;; '(variable-pitch ((t (:family "ETBookOT" :height 165))))
+ '(variable-pitch ((t (:family "Aporetic Serif Mono" :height 140))))
  '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
 
+(setq-default line-spacing 2)
 
 ;; y/n everywhere
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -83,8 +85,8 @@
 (require 'config-lprolog)
 (require 'config-markdown)
 (require 'config-assembly)
-;; TODO:
-;; 1. Undo-tree
+
+
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
 (put 'upcase-region 'disabled nil)
