@@ -1,0 +1,16 @@
+HTTP/1.1 200 OK
+Date: Tue, 03 Mar 2026 16:33:27 GMT
+Content-Type: image/svg+xml
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Age: 23649
+Cache-Control: public, max-age=43200
+Last-Modified: Tue, 03 Mar 2026 09:59:18 GMT
+Server: cloudflare
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=StEgGO7hUmv1TV9IS%2B9gGQ%2FZ5gdB%2FjoezfOqMX8%2Bw7TJqHLge%2FmOSEV6HV%2F8KjuIY%2BKeMC1oyYHwVfgvPDD%2Feej9Md6w1ZDQ9Te0Q5zd2OWD"}]}
+CF-RAY: 9d6a0b048bb2d07d-CDG
+alt-svc: h3=":443"; ma=86400
+
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" fill="#2e7c7c"/></svg>
