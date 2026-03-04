@@ -15,6 +15,27 @@
   (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-todo)
   (add-to-list 'mixed-pitch-fixed-pitch-faces 'org-done))
 
+;; Dired additions
+
+;; Toggle as sidebar
+(use-package dired-toggle
+  :defer t
+  :bind (("C-c C-t" . #'dired-toggle)
+	 :map dired-mode-map
+	 ("q" . #'dired-toggle-quit)
+	 ([remap dired-find-file] . #'dired-toggle-find-file)
+	 ([remap dired-up-directory] . #'dired-toggle-up-directory)
+	 ("C-c C-u" . #'dired-toggle-up-directory))
+  :config
+  (setq dired-toggle-window-size 32) ;; experiment with this
+  (setq dired-toggle-window-side 'left)
+
+  ;; Optional, enable =visual-line-mode= for our narrow dired buffer:
+  (add-hook 'dired-toggle-mode-hook
+	    (lambda () (interactive)
+	      (visual-line-mode 1)
+	      (setq-local visual-line-fringe-indicators '(nil right-curly-arrow))
+	      (setq-local word-wrap nil))))
 
 
 (provide 'config-editor)

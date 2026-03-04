@@ -134,7 +134,8 @@
  '((scheme . t)
    (ocaml . t)
    (python . t)
-   (perl . t)))
+   (perl . t)
+   (nix . t)))
 
 ;; Typst export
 

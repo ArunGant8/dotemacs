@@ -85,7 +85,7 @@
 (require 'config-lprolog)
 (require 'config-markdown)
 (require 'config-assembly)
-
+(require 'config-nixlang)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)

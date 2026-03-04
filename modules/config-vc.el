@@ -2,7 +2,9 @@
 
 ;; Magit
 (use-package magit
-  :ensure t)
+  :ensure t
+  :config
+  (setq magit-show-long-lines-warning nil))
 
 ;; Only this much for now. Will add more as I figure stuff out :)
 
