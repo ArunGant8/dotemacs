@@ -1,13 +1,15 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/20260205152243-metatheory_of_our_interpreter.org"
-  . 323)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 101898)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 722)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+(("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
   . 8820)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 718)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 14693)
- ("/Users/arun/.elfeed/index" . 572122)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 1009)
+ ("/Users/arun/.emacs.d/init.el" . 880)
+ ("/Users/arun/.elfeed/index" . 579671)
+ ("/Users/arun/Documents/manuals/nix-syntax.org" . 2831)
+ ("/Users/arun/.cache/org-persist/9c/534f5f-e704-48b2-9187-973bfb64473d-bbc2308f4ae7a8942e5211e4c906e4c9.fmt"
+  . 5346159)
+ ("/Users/arun/Projects/"
+  (dired-filename . "/Users/arun/Projects/fpc-experiments"))
+ ("/Users/arun/Projects/focusing-experiments/interface.scm" . 2387)
  ("/Users/arun/Projects/bedwyr-poly-src/dune-project" . 71)
  ("/Users/arun/Projects/bedwyr-poly-src/"
   (dired-filename . "/Users/arun/Projects/bedwyr-poly-src/bedwyr.ml"))
@@ -20,14 +22,11 @@
  ("/Users/arun/Projects/bedwyr-poly-src/batyping/typing.ml" . 2220)
  ("/Users/arun/Projects/bedwyr-poly-src/batyping/typing.mli" . 2841)
  ("/Users/arun/Projects/bedwyr-poly-src/input/dune" . 45)
- ("/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org" . 20181)
  ("/Users/arun/Projects/abella/src/dune" . 583)
  ("/Users/arun/Projects/bedwyr-poly-src/ndcore/dune" . 131)
  ("/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/src/ndcore/term.mli"
   . 4687)
  ("/Users/arun/Projects/bedwyr-poly-src/ndcore/term.mli" . 8087)
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 1168)
- ("/Users/arun/.emacs.d/init.el" . 869)
  ("/Users/arun/Projects/bedwyr-poly-src/input/input.ml" . 1483)
  ("/Users/arun/Projects/bedwyr-poly-src/batyping/dune" . 111)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/myocamlbuild.ml"
@@ -280,8 +279,6 @@
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
  ("/Users/arun/Projects/abella/src/state.mli" . 641)
  ("/Users/arun/Projects/teaching/CSE102-2025-26/tutorial2/" . 148)
- ("/Users/arun/Projects/"
-  (dired-filename . "/Users/arun/Projects/teaching"))
  ("/Users/arun/Projects/teaching/"
   (dired-filename . "/Users/arun/Projects/teaching/CSE102-2025-26"))
  ("/Users/arun/Projects/teaching/CSE102-2025-26/"
