@@ -35,8 +35,6 @@
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
 
-(setq-default line-spacing 2)
-
 ;; y/n everywhere
 (fset 'yes-or-no-p 'y-or-n-p)
 
