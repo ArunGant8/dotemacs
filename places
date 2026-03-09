@@ -1,17 +1,67 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 8820)
- ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 722)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 101898)
- ("/Users/arun/Documents/PhD/Notes/20260205152243-metatheory_of_our_interpreter.org"
+(("/Users/arun/Documents/PhD/Notes/20260205152243-metatheory_of_our_interpreter.org"
   . 323)
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-editor.el"))
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 101898)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/ljeq.org" . 722)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 8820)
  ("/Users/arun/.emacs.d/modules/config-editor.el" . 718)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 14693)
  ("/Users/arun/.elfeed/index" . 572122)
+ ("/Users/arun/Projects/bedwyr-poly-src/dune-project" . 71)
+ ("/Users/arun/Projects/bedwyr-poly-src/"
+  (dired-filename . "/Users/arun/Projects/bedwyr-poly-src/bedwyr.ml"))
+ ("/Users/arun/Projects/bedwyr-poly-src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/bedwyr-poly-src/batyping/typing.ml"))
+ ("/Users/arun/Projects/bedwyr-poly-src/input/"
+  (dired-filename
+   . "/Users/arun/Projects/bedwyr-poly-src/input/input.ml"))
+ ("/Users/arun/Projects/bedwyr-poly-src/batyping/typing.ml" . 2220)
+ ("/Users/arun/Projects/bedwyr-poly-src/batyping/typing.mli" . 2841)
+ ("/Users/arun/Projects/bedwyr-poly-src/input/dune" . 45)
+ ("/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org" . 20181)
+ ("/Users/arun/Projects/abella/src/dune" . 583)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/dune" . 131)
+ ("/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/src/ndcore/term.mli"
+  . 4687)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/term.mli" . 8087)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 1168)
+ ("/Users/arun/.emacs.d/init.el" . 869)
+ ("/Users/arun/Projects/bedwyr-poly-src/input/input.ml" . 1483)
+ ("/Users/arun/Projects/bedwyr-poly-src/batyping/dune" . 111)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/myocamlbuild.ml"
+  . 1485)
+ ("/Users/arun/Projects/bedwyr-poly-src/input/parser.mly" . 12160)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/config.ml.in"
+  . 1486)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/config.ml"
+  . 1526)
+ ("/Users/arun/Projects/bedwyr-poly-src/bedwyr.ml" . 4816)
+ ("/Users/arun/Projects/bedwyr-poly-src/prover/"
+  (dired-filename
+   . "/Users/arun/Projects/bedwyr-poly-src/prover/prover.ml"))
+ ("/Users/arun/Projects/bedwyr-poly-src/prover/prover.ml" . 26939)
+ ("/Users/arun/Projects/bedwyr-poly-src/prover/system.ml" . 22891)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/"
+  (dired-filename
+   . "/Users/arun/Projects/bedwyr-poly-src/ndcore/index.ml"))
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/index.ml" . 22096)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/unify.ml" . 2073)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/norm.ml" . 2641)
+ ("/Users/arun/Projects/bedwyr-poly-src/ndcore/term.ml" . 18903)
+ ("/Users/arun/Projects/bedwyr-poly-src/prover/table.ml" . 2387)
+ ("/Users/arun/Projects/bedwyr-poly-src/oUnit/"
+  (dired-filename
+   . "/Users/arun/Projects/bedwyr-poly-src/oUnit/oUnit.ml"))
+ ("/Users/arun/.emacs.d/modules/config-nixlang.el" . 313)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-vc.el"))
+ ("/Users/arun/.emacs.d/modules/config-vc.el" . 145)
+ ("/Users/arun/Documents/manuals/nixos.org" . 10514)
+ ("/Users/arun/.emacs.d/custom.el" . 2087)
  ("/Users/arun/.emacs.d/elpa/dired-toggle-20190616.303/dired-toggle.el"
   . 2616)
- ("/Users/arun/.emacs.d/custom.el" . 2071)
  ("/Users/arun/Documents/PhD/Notes/" . 2652)
  ("/Users/arun/Documents/PhD/Notes/ltximg/"
   (dired-filename
@@ -44,8 +94,6 @@
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/" . 1620)
- ("/Users/arun/.emacs.d/init.el" . 1170)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 2115)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/technical-notes.txt"
   . 143)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/unify.ml"
@@ -70,7 +118,6 @@
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/autom4te.cache/output.0"))
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/term.ml"
   . 1981)
- ("/Users/arun/Documents/manuals/nixos.org" . 10074)
  ("/Users/arun/Projects/Slimmer/tags/"
   (dired-filename . "/Users/arun/Projects/Slimmer/tags/bedwyr-1.1"))
  ("/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/"
@@ -81,8 +128,6 @@
  ("/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/src/ndcore/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/src/ndcore/term.mli"))
- ("/Users/arun/Projects/Slimmer/tags/bedwyr-1.1/src/ndcore/term.mli"
-  . 1547)
  ("/Users/arun/Projects/Slimmer/trunk/"
   (dired-filename . "/Users/arun/Projects/Slimmer/trunk/bedwyr"))
  ("/Users/arun/Projects/Slimmer/trunk/bedwyr/"
@@ -139,8 +184,6 @@
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 717)
  ("/Users/arun/.emacs.d/modules/config-erc.el" . 1327)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 404)
- ("/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org" . 19106)
  ("/Users/arun/Documents/PhD/Notes/refs/blanco17phd.org" . 295)
  ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
@@ -435,7 +478,6 @@
  ("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
  ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
   . 216)
- ("/Users/arun/.emacs.d/modules/config-vc.el" . 92)
  ("/Users/arun/.emacs.d/modules/config-scheme.el" . 705)
  ("/Users/arun/.emacs.d/modules/config-lisp.el" . 134)
  ("/Users/arun/Projects/phd-thesis/interp/bagof.mod" . 323)
