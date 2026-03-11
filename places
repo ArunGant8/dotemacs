@@ -1,10 +1,54 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+(("/Users/arun/Documents/PhD/Notes/refs/blanco17cade.org" . 463)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-vc.el"))
+ ("/Users/arun/.elfeed/index" . 585573)
+ ("/Users/arun/.emacs.d/custom.el" . 2097)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
+ ("/Users/arun/Projects/Slimmer/branches/" . 369)
+ ("/Users/arun/Projects/Slimmer/"
+  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/myocamlbuild.ml"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/maze.py"
+  . 1098)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/dice_with_types.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/dice_with_types.py"
+  . 3432)
+ ("/Users/arun/Documents/manuals/nix-syntax.org" . 1604)
+ ("/Users/arun/Documents/PhD/Notes/20260221212445-bedwyr_as_an_implementation_of_slim.org"
+  . 514)
+ ("/Users/arun/Documents/PhD/Notes/refs/nadathur05iclp.org" . 231)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/maze_more.py"
+  . 1388)
+ ("/Users/arun/.emacs.d/init.el" . 1168)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/contents_pre.md"
+  . 1599)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
   . 8820)
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 1009)
- ("/Users/arun/.emacs.d/init.el" . 880)
- ("/Users/arun/.elfeed/index" . 579671)
- ("/Users/arun/Documents/manuals/nix-syntax.org" . 2831)
  ("/Users/arun/.cache/org-persist/9c/534f5f-e704-48b2-9187-973bfb64473d-bbc2308f4ae7a8942e5211e4c906e4c9.fmt"
   . 5346159)
  ("/Users/arun/Projects/"
@@ -54,53 +98,14 @@
   (dired-filename
    . "/Users/arun/Projects/bedwyr-poly-src/oUnit/oUnit.ml"))
  ("/Users/arun/.emacs.d/modules/config-nixlang.el" . 313)
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-vc.el"))
  ("/Users/arun/.emacs.d/modules/config-vc.el" . 145)
  ("/Users/arun/Documents/manuals/nixos.org" . 10514)
- ("/Users/arun/.emacs.d/custom.el" . 2087)
  ("/Users/arun/.emacs.d/elpa/dired-toggle-20190616.303/dired-toggle.el"
   . 2616)
  ("/Users/arun/Documents/PhD/Notes/" . 2652)
  ("/Users/arun/Documents/PhD/Notes/ltximg/"
   (dired-filename
    . "/Users/arun/Documents/PhD/Notes/ltximg/org-ltximg_63c9820db0b202ac7ea2001f3a72e3005cabfe9a.png"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Documents/PhD/Notes/refs/nadathur05iclp.org" . 232)
- ("/Users/arun/Projects/rough-work/ocaml/nd_patunif/dune-project"
-  . 700)
- ("/Users/arun/Projects/Slimmer/"
-  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
- ("/Users/arun/Projects/Slimmer/branches/" . 369)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/" . 1620)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/technical-notes.txt"
-  . 143)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/unify.ml"
-  . 11515)
- ("/Users/arun/Documents/PhD/Notes/20260302173226-foundational_proof_certificates.org"
-  . 259)
- ("/Users/arun/Documents/PhD/Notes/20260221212445-bedwyr_as_an_implementation_of_slim.org"
-  . 514)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/prover/prover.mli"))

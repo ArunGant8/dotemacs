@@ -47,8 +47,8 @@
 			 nasm-mode nix-mode ob-nix org-mode org-modern
 			 org-noter org-ref org-ref-prettify org-roam
 			 org-roam-bibtex ox-typst pdf-tools popper sly
-			 sml-mode spacious-padding undo-tree utop
-			 vterm x86-lookup yasnippet))
+			 sml-mode spacious-padding transient undo-tree
+			 utop vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))
