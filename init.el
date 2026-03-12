@@ -68,6 +68,8 @@
 (require 'config-calc)
 (require 'config-elfeed)
 (require 'config-erc)
+;; From Nicolas Rougier
+(require 'nano-agenda)
 
 ;; Version Control
 (require 'config-vc)
