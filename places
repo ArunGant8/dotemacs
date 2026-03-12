@@ -5,13 +5,18 @@
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-vc.el"))
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 2220)
- ("/Users/arun/.emacs.d/init.el" . 1514)
- ("/Users/arun/.emacs.d/modules/config-completion.el" . 2025)
- ("/Users/arun/.elfeed/index" . 585590)
- ("/Users/arun/.emacs.d/custom.el" . 2148)
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
+ ("/Users/arun/.emacs.d/init.el" . 1614)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 2665)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 14953)
+ ("/Users/arun/.elfeed/index" . 588769)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 415)
+ ("/Users/arun/.emacs.d/elpa/svg-tag-mode-20241021.1341/svg-tag-mode.el"
+  . 7934)
  ("/Users/arun/Documents/PhD/Notes/refs/blanco17cade.org" . 463)
+ ("/Users/arun/.emacs.d/modules/config-completion.el" . 2132)
+ ("/Users/arun/Projects/nano-emacs/nano-theme.el" . 1450)
+ ("/Users/arun/.emacs.d/custom.el" . 2186)
  ("/Users/arun/.emacs.d/.gitignore" . 141)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
   (dired-filename

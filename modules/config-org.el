@@ -398,5 +398,79 @@
   :config
   (require 'org-ref))
 
+;; Org Capture templates for
+;; code and webpage (EWW)
+
+(use-package org
+  :config
+  (defvar my/file-extension-lang-alist
+    '(("el" . "elisp")
+      ("ml" . "ocaml")
+      ("scm" . "scheme")
+      ("nix" . "nix")
+      ("py" . "python")
+      ("pl" . "perl"))
+    "An association list that matches a file's
+     extension to a programming language")
+  (defun my/lang-from-extension (filename)
+    "If file contains source code, find
+     the language that code is written in
+     from the file extension."
+    (let* ((ext (file-name-extension filename))
+	   (res (assoc ext my/file-extension-lang-alist)))
+      (if res (cdr res) ""))))
+
+(use-package org
+  :custom
+  (org-capture-templates
+   '(("c" "Code Snippet" entry (file "/Users/arun/Documents/PhD/Notes/code/captured-snippets.org")
+      "* %^{Title:|Code from %f}\n:PROPERTIES:\n:FILE: %(string-replace \"\/Users\/arun\" \"\~\" \"%F\")\n:LINK: %a\n:END:\n#+begin_src %(my/lang-from-extension \"%f\")\n%i\n#+end_src\n %?"
+      :jump-to-captured t
+      :empty-lines-after 1)
+     ("w" "Web Fragment" entry (file "/Users/arun/Documents/PhD/Notes/web/captured-content.org")
+      "* Note from %^{Webpage desc|Web}\n:PROPERTIES:\n:URL: %l\n:END:\n#+begin_quote\n%i\n#+end_quote\n %?"
+      :jump-to-captured t
+      :empty-lines-after 1)))
+  (org-capture-templates-contexts
+   '(("w" ((in-mode . "eww-mode"))))))
+
+;; Managing refile targets
+(use-package org
+  :config
+  (defvar my/code-snippet-refile-targets
+    (directory-files "~/Documents/PhD/Notes/code" nil ".org$"))
+  :custom
+  (org-refile-targets
+   `((,my/code-snippet-refile-targets . (:level . 1)))))
+
+(use-package org
+  :bind
+  ("C-c c" . org-capture))
+
+;; Org TODO Keywords
+
+(use-package org
+  :custom
+  (org-todo-keywords
+   ;; Keep adding to these as required
+   '((sequence "TODO(t)" "INPROGRESS(i)" "|" "DONE(d)")
+     (sequence "UNRESOLVED(u)" "|" "RESOLVED(r)")
+     (sequence "THINK" "|" "SOLVED(s)")
+     (sequence "LOOKUP(l)" "|" "FOUND(f)")))
+  (org-agenda-files
+   ;; Keep adding to this as well
+   '("~/Documents/PhD/Notes"
+     "~/Documents/PhD/Notes/refs"
+     "~/Documents/PhD/Notes/code"
+     "~/Documents/PhD/Notes/web"
+     "~/Documents/PhD/Notes/daily"
+     "~/Projects/rough-work/scheme"
+     "~/Projects/rough-work/ocaml")))
+
+;; Not sure how to use this,
+;; may remove it
+
+(use-package org-super-agenda
+  :after org-agenda)
 
 (provide 'config-org)

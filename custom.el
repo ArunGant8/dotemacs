@@ -36,10 +36,10 @@
 			   org-babel-hide-all-hashes))
  '(package-selected-packages
    '(all-the-icons-dired auctex casual cdlatex citar citar-org-roam
-			 consult counsel dired-git dired-subtree
-			 dired-toggle doric-themes dune easysession
-			 elfeed elfeed-dashboard elfeed-goodies
-			 elfeed-org elpy engrave-faces
+			 consult counsel dired-git dired-posframe
+			 dired-subtree dired-toggle doric-themes dune
+			 easysession elfeed elfeed-dashboard
+			 elfeed-goodies elfeed-org elpy engrave-faces
 			 exec-path-from-shell geiser-chez
 			 geiser-racket helm helm-bibtex ivy-bibtex
 			 ivy-posframe latex-preview-pane
@@ -47,11 +47,11 @@
 			 markdown-mode merlin mixed-pitch nasm-mode
 			 nix-mode ob-nix org-mode org-modern org-noter
 			 org-ref org-ref-prettify org-roam
-			 org-roam-bibtex ox-typst pdf-tools popper
-			 posframe sly sml-mode spacious-padding
-			 svg-lib svg-tag-mode transient
-			 transient-posframe undo-tree utop vterm
-			 x86-lookup yasnippet))
+			 org-roam-bibtex org-super-agenda ox-typst
+			 pdf-tools popper posframe sly sml-mode
+			 spacious-padding svg-lib svg-tag-mode
+			 transient transient-posframe undo-tree utop
+			 vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))

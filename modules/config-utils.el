@@ -82,11 +82,20 @@
 (use-package svg-lib
   :ensure t)
 
-;; Add more configuration to this
+;; :TODO: Add more configuration to this
+;; It seems better to use `svg-lib-tag`
+;; instead of `svg-tag-make` simply because
+;; of the options provided
 (use-package svg-tag-mode
   :after svg-lib
   :init
-  (svg-tag-mode))
+  (svg-tag-mode 1)
+  :custom
+  (svg-tag-tags
+   '((":TODO:" . ((lambda (tag)
+		    (svg-lib-tag "TODO" nil :beg 1 :end -1 :font-family "Roboto Mono" :font-weight 600 :background "red" :foreground "white")))))
+     ("\\(:[A-Z]+:\\)" . ((lambda (tag)
+                               (svg-tag-make tag :beg 1 :end -1))))))
 
 
 (provide 'config-utils)

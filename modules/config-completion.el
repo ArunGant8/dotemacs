@@ -56,7 +56,10 @@
   (ivy-posframe-mode 1)
   :custom
   (ivy-posframe-display-functions-alist
-   '((t . ivy-posframe-display-at-frame-center))))
+   '((t . ivy-posframe-display-at-frame-center)))
+  (ivy-posframe-parameters
+   '((left-fringe . 8)
+     (right-fringe . 8))))
 
 ;; Does this really fit in with completion ?
 (use-package transient-posframe

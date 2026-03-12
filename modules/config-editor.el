@@ -37,5 +37,11 @@
 	      (setq-local visual-line-fringe-indicators '(nil right-curly-arrow))
 	      (setq-local word-wrap nil))))
 
+(use-package dired-posframe
+  :after (dired posframe)
+  :init
+  (dired-posframe-mode)
+  :bind (:map dired-mode-map
+              ("C-*" . dired-posframe-show)))
 
 (provide 'config-editor)
