@@ -78,4 +78,15 @@
   (global-undo-tree-mode +1))
 
 
+;; Pretty symbols
+(use-package svg-lib
+  :ensure t)
+
+;; Add more configuration to this
+(use-package svg-tag-mode
+  :after svg-lib
+  :init
+  (svg-tag-mode))
+
+
 (provide 'config-utils)

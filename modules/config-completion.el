@@ -46,4 +46,22 @@
     (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
     (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)))
 
+;; Some experiments with UI
+(use-package posframe
+  :ensure t)
+
+(use-package ivy-posframe
+  :after (ivy posframe)
+  :init
+  (ivy-posframe-mode 1)
+  :custom
+  (ivy-posframe-display-functions-alist
+   '((t . ivy-posframe-display-at-frame-center))))
+
+;; Does this really fit in with completion ?
+(use-package transient-posframe
+  :after (transient posframe)
+  :init
+  (transient-posframe-mode))
+
 (provide 'config-completion)
