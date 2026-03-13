@@ -1,50 +1,59 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+(("/Users/arun/.emacs.d/init.el" . 1689)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
  ("/Users/arun/.emacs.d/modules/"
   (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/.emacs.d/init.el" . 1614)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 2665)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 14953)
- ("/Users/arun/.elfeed/index" . 588769)
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 415)
- ("/Users/arun/.emacs.d/elpa/svg-tag-mode-20241021.1341/svg-tag-mode.el"
-  . 7934)
- ("/Users/arun/Documents/PhD/Notes/refs/blanco17cade.org" . 463)
- ("/Users/arun/.emacs.d/modules/config-completion.el" . 2132)
- ("/Users/arun/Projects/nano-emacs/nano-theme.el" . 1450)
- ("/Users/arun/.emacs.d/custom.el" . 2186)
- ("/Users/arun/.emacs.d/.gitignore" . 141)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
- ("/Users/arun/Projects/Slimmer/branches/" . 369)
- ("/Users/arun/Projects/Slimmer/"
-  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/nano-emacs/nano-colors.el" . 5147)
+ ("/Users/arun/Projects/nano-emacs/nano-theme.el" . 40384)
+ ("/Users/arun/Projects/nano-emacs/nano.el" . 2263)
+ ("/Users/arun/.emacs.d/bookmarks" . 251)
+ ("/Users/arun/Projects/nano-emacs/nano-defaults.el" . 1402)
+ ("/Users/arun/.emacs.d/custom.el" . 2286)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/Slimmer/"
+  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
+ ("/Users/arun/Projects/Slimmer/branches/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
   (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/myocamlbuild.ml"))
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
+ ("/Users/arun/Projects/fpc-experiments/lkpos.scm" . 139)
+ ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 6226)
+ ("/Users/arun/Documents/manuals/rougier-dotemacs.org" . 27160)
+ ("/Users/arun/.elfeed/index" . 588769)
+ ("/Users/arun/Projects/elegant-emacs/data/Gaussian-Integral.org"
+  . 535)
+ ("/nix/store/4zsd25jdvfqc4djbyr4ph2hg3j3kxwr3-emacs-30.2/share/emacs/30.2/lisp/replace.el.gz"
+  . 29659)
+ ("/Users/arun/.emacs.d/elpa/svg-tag-mode-20241021.1341/svg-tag-mode.el"
+  . 7934)
+ ("/Users/arun/.emacs.d/modules/config-completion.el" . 2132)
+ ("/Users/arun/.emacs.d/.gitignore" . 141)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/maze.py"
   . 1098)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/"
@@ -53,15 +62,10 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/dice_with_types.py"
   . 3432)
  ("/Users/arun/Documents/manuals/nix-syntax.org" . 1604)
- ("/Users/arun/Documents/PhD/Notes/20260221212445-bedwyr_as_an_implementation_of_slim.org"
-  . 514)
- ("/Users/arun/Documents/PhD/Notes/refs/nadathur05iclp.org" . 231)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/solutions/maze_more.py"
   . 1388)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/04/contents_pre.md"
   . 1599)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 8820)
  ("/Users/arun/.cache/org-persist/9c/534f5f-e704-48b2-9187-973bfb64473d-bbc2308f4ae7a8942e5211e4c906e4c9.fmt"
   . 5346159)
  ("/Users/arun/Projects/"
@@ -189,17 +193,12 @@
  ("/Users/arun/Projects/Slimmer/www/bedwyr/doc/refman/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/www/bedwyr/doc/refman/contents_motif.gif"))
- ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 237)
  ("/Users/arun/Documents/manuals/emacslispelem.org" . 1308)
- ("/Users/arun/Documents/PhD/Notes/refs/paulsonHigherorderImplementationRewriting1983.org"
-  . 239)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
- ("/Users/arun/Documents/PhD/Notes/refs/blanco17phd.org" . 295)
  ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
   . 9308)
  ("/Users/arun/.emacs.d/elfeed.org" . 3270)
- ("/Users/arun/Documents/PhD/Notes/refs/miller91jlc.org" . 259)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/index.ml"
   . 7361)
@@ -256,7 +255,6 @@
   . 1434)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/oUnit/oUnit.mli"
   . 2975)
- ("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 324)
  ("/Users/arun/.emacs.d/modules/config-python.el" . 37)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/install-sh"
   . 6163)
@@ -422,17 +420,7 @@
  ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
  ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
   . 143)
- ("/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
-  . 1257)
- ("/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org" . 518)
- ("/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org" . 430)
- ("/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
-  . 6113)
  ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
- ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 828)
- ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
-  . 2975)
  ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
  ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
  ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
@@ -468,33 +456,14 @@
  ("/Users/arun/org-temp/source-code-test.org" . 6034)
  ("/Users/arun/org-temp/equation-test.org" . 32)
  ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 155)
- ("/Users/arun/Documents/PhD/Notes/refs/wu24phd.org" . 442)
  ("/Users/arun/Documents/PhD/positive-syntax/"
   (dired-filename
    . "/Users/arun/Documents/PhD/positive-syntax/ppdp15computation.pdf"))
- ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 7834)
- ("/Users/arun/Documents/PhD/Notes/20251110172553-common_subexpression_problem.org"
-  . 708)
- ("/Users/arun/Projects/rough-work/ocaml/anf.org" . 140)
- ("/Users/arun/Documents/PhD/Notes/20251110174310-administrative_normal_form.org"
-  . 13903)
- ("/Users/arun/Documents/PhD/Notes/20251110174132-union_find.org"
-  . 144)
- ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
-  . 301)
  ("/Users/arun/Documents/PhD/Notes/unification.typ" . 74)
- ("/Users/arun/Documents/PhD/Notes/ps-equality.org" . 6193)
- ("/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
-  . 216)
  ("/Users/arun/.emacs.d/modules/config-scheme.el" . 705)
  ("/Users/arun/.emacs.d/modules/config-lisp.el" . 134)
  ("/Users/arun/Projects/phd-thesis/interp/bagof.mod" . 323)
- ("/Users/arun/Documents/PhD/Notes/refs/mcdowell00tcs.org" . 6700)
- ("/Users/arun/Documents/PhD/Notes/refs/comon1991disunification.org"
-  . 985)
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
- ("/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
-  . 291)
  ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
  ("/Users/arun/Documents/PhD/notes/refs/" . 134)
  ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)

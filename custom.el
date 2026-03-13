@@ -4,7 +4,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
-   '("366f7fb70999d739ff559568b011f8cfb05c88124e4c944e5e1008312e572137"
+   '("db07930617e359aef0fa646d218b45da27a64480556bd689934f23c5d7d33370"
+     "366f7fb70999d739ff559568b011f8cfb05c88124e4c944e5e1008312e572137"
      default))
  '(dired-mode-hook '(pdf-occur-dired-minor-mode))
  '(erc-modules

@@ -439,9 +439,8 @@
   :config
   (defvar my/code-snippet-refile-targets
     (directory-files "~/Documents/PhD/Notes/code" nil ".org$"))
-  :custom
-  (org-refile-targets
-   `((,my/code-snippet-refile-targets . (:level . 1)))))
+  (setq-default org-refile-targets
+		`((,my/code-snippet-refile-targets . (:level . 1)))))
 
 (use-package org
   :bind
