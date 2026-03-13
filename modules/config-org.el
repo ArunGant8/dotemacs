@@ -58,8 +58,8 @@
 (use-package org-latex-preview
   :config
   ;; Increase preview width
-  (plist-put org-latex-preview-appearance-options
-             :page-width 0.6)
+  ;; (plist-put org-latex-preview-appearance-options
+  ;;            :page-width nil)
 
   ;; ;; Use dvisvgm to generate previews
   ;; ;; You don't need this, it's the default:

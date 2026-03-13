@@ -1,51 +1,54 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/init.el" . 1689)
+(("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
+ ("/Users/arun/Projects/Slimmer/branches/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
+ ("/Users/arun/Projects/Slimmer/"
+  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
+ ("/Users/arun/Projects/fpc-experiments/lkpos.scm" . 139)
+ ("/Users/arun/Projects/fpc-experiments/lkpos.org" . 454)
+ ("/Users/arun/.elfeed/index" . 592157)
+ ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
+  . 2341)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 1931)
+ ("/Users/arun/.emacs.d/init.el" . 1689)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
  ("/Users/arun/Projects/nano-emacs/nano-colors.el" . 5147)
  ("/Users/arun/Projects/nano-emacs/nano-theme.el" . 40384)
  ("/Users/arun/Projects/nano-emacs/nano.el" . 2263)
- ("/Users/arun/.emacs.d/bookmarks" . 251)
  ("/Users/arun/Projects/nano-emacs/nano-defaults.el" . 1402)
  ("/Users/arun/.emacs.d/custom.el" . 2286)
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Projects/Slimmer/"
-  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
- ("/Users/arun/Projects/Slimmer/branches/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
- ("/Users/arun/Projects/fpc-experiments/lkpos.scm" . 139)
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 6226)
  ("/Users/arun/Documents/manuals/rougier-dotemacs.org" . 27160)
- ("/Users/arun/.elfeed/index" . 588769)
  ("/Users/arun/Projects/elegant-emacs/data/Gaussian-Integral.org"
   . 535)
  ("/nix/store/4zsd25jdvfqc4djbyr4ph2hg3j3kxwr3-emacs-30.2/share/emacs/30.2/lisp/replace.el.gz"
