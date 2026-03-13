@@ -41,8 +41,8 @@
 			 easysession elfeed elfeed-dashboard
 			 elfeed-goodies elfeed-org elpy engrave-faces
 			 exec-path-from-shell geiser-chez
-			 geiser-racket helm helm-bibtex ivy-bibtex
-			 ivy-posframe latex-preview-pane
+			 geiser-racket helm helm-bibtex imenu-list
+			 ivy-bibtex ivy-posframe latex-preview-pane
 			 macrostep-geiser magit marginalia
 			 markdown-mode merlin mixed-pitch nasm-mode
 			 nix-mode ob-nix org-mode org-modern org-noter

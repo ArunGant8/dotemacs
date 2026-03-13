@@ -473,4 +473,57 @@
 (use-package org-super-agenda
   :after org-agenda)
 
+;; Org sidebar (copied from N. Rougier)
+
+(use-package imenu-list
+  :after org)
+
+(use-package org
+  :config
+  (defun my/org-tree-to-indirect-buffer ()
+    "Create indirect buffer, narrow it to current subtree and unfold blocks"
+    
+    (org-tree-to-indirect-buffer)
+    (org-show-block-all)
+    (setq-local my/org-blocks-hidden nil))
+
+  (defun my/org-sidebar ()
+    "Open an imenu list on the left that allow navigation."
+    
+    (interactive)
+    (setq imenu-list-after-jump-hook #'my/org-tree-to-indirect-buffer
+          imenu-list-position 'left
+          imenu-list-size 36
+          imenu-list-focus-after-activation t)
+
+    (let ((heading (substring-no-properties (or (org-get-heading t t t t) ""))))
+      (when (buffer-base-buffer)
+	(switch-to-buffer (buffer-base-buffer)))
+      (imenu-list-minor-mode)
+      (imenu-list-stop-timer)
+      (hl-line-mode)
+      (face-remap-add-relative 'hl-line :inherit 'nano-subtle)
+      (setq header-line-format
+            '(:eval
+              (nano-modeline-render nil
+                                    (buffer-name imenu-list--displayed-buffer)
+                                    "(outline)"
+                                    "")))
+      (setq-local cursor-type nil)
+      (when (> (length heading) 0)
+	(goto-char (point-min))
+	(search-forward heading)
+	(imenu-list-display-dwim))))
+
+  ;; This toggles the org sidebar
+  (defun my/org-sidebar-toggle ()
+    "Toggle the org-sidebar"
+    
+    (interactive)
+    (if (get-buffer-window "*Ilist*")
+	(progn 
+          (quit-window nil (get-buffer-window "*Ilist*"))
+          (switch-to-buffer (buffer-base-buffer)))
+      (my/org-sidebar))))
+
 (provide 'config-org)
