@@ -28,7 +28,7 @@
   :config
   ;; Main keybindings
   (global-set-key (kbd "C-c sl") 'easysession-switch-to)  ; Load
-  (global-set-key (kbd "C-c ss") 'easysession-save-as)  ; Save
+  (global-set-key (kbd "C-c ss") 'easysession-save)  ; Save
 
   ;; Other keybindings
   (global-set-key (kbd "C-c sL") 'easysession-switch-to-and-restore-geometry)
