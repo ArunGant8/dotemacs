@@ -1,42 +1,48 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+(("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
+ ("/Users/arun/Projects/manimations/"
+  (dired-filename . "/Users/arun/Projects/manimations/my-project"))
+ ("/Users/arun/Projects/manimations/my-project/"
   (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
- ("/Users/arun/Projects/Slimmer/branches/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
- ("/Users/arun/Projects/Slimmer/"
-  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+   . "/Users/arun/Projects/manimations/my-project/main.py"))
+ ("/Users/arun/Projects/manimations/my-project/main.py" . 215)
+ ("/Users/arun/.elfeed/index" . 592157)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/Projects/fpc-experiments/lkpos.scm" . 139)
- ("/Users/arun/Projects/fpc-experiments/lkpos.org" . 454)
- ("/Users/arun/.elfeed/index" . 592157)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/Slimmer/"
+  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
+ ("/Users/arun/Projects/Slimmer/branches/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
+ ("/Users/arun/Projects/fpc-experiments/lkpos.org" . 484)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1337)
+ ("/Users/arun/.emacs.d/init.el" . 1084)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 1989)
  ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
   . 2341)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 1931)
- ("/Users/arun/.emacs.d/init.el" . 1689)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/Projects/rough-work/ocaml/"
@@ -224,8 +230,6 @@
   . 6745)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/test.ml"
   . 7612)
- ("/Users/arun/Projects/eecs390/scheme-parser/scheme-parser-spec.org"
-  . 457)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/03/solutions/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/03/solutions/flight.py"))
@@ -299,10 +303,6 @@
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/README"))
- ("/Users/arun/Projects/manimations/my-project/"
-  (dired-filename
-   . "/Users/arun/Projects/manimations/my-project/main.py"))
- ("/Users/arun/Projects/manimations/my-project/main.py" . 1022)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations-sat.thm"
   . 2814)
  ("/Users/arun/Projects/abella-experiments/notes/ground-equations.thm"
