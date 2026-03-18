@@ -1,19 +1,21 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/wordrects.py"
-  . 85)
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/"
+(("/Users/arun/Projects/fpc-stuff/lkf-snapshot/"
   (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/wordrects.py"))
+   . "/Users/arun/Projects/fpc-stuff/lkf-snapshot/oracle-fpc.mod"))
+ ("/Users/arun/.emacs.d/init.el" . 1074)
+ ("/Users/arun/.emacs.d/elfeed.org" . 83)
+ ("/Users/arun/.elfeed/index" . 602821)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/trees.py"
+  . 906)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/assignment.ini"))
- ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
-  . 9308)
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/trees.py"
-  . 906)
- ("/Users/arun/.emacs.d/bookmarks" . 251)
- ("/Users/arun/Projects/fpc-experiments/lkpos.org" . 1240)
- ("/Users/arun/.emacs.d/init.el" . 1074)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/wordrects.py"))
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/tests/testslib.py"
   . 4999)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/tests/testsuite.py"
@@ -67,9 +69,6 @@
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
  ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 176919)
- ("/Users/arun/Documents/PhD/Notes/20260315135044-notes_on_mobility.org"
-  . 2407)
- ("/Users/arun/.elfeed/index" . 592157)
  ("/Users/arun/Documents/manuals/nixos.org" . 10514)
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy-rpc.el" . 45475)
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy.el" . 70185)
@@ -244,7 +243,6 @@
  ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
   . 9308)
- ("/Users/arun/.emacs.d/elfeed.org" . 3270)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/index.ml"
   . 7361)

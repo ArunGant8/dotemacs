@@ -1,7 +1,13 @@
 ;; The appearance - Org Modern
 (use-package org-modern
   :ensure t
-  :hook (org-mode . org-modern-mode))
+  :hook (org-mode . org-modern-mode)
+  :custom
+  (org-modern-block-name '(("src". (" " ""))
+			   ("quote" . ("❝ " "❞"))
+			   ("example" . (" " ""))
+			   ;; Add more
+			   (t . t))))
 
 (setq
  org-auto-align-tags nil
