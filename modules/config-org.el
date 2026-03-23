@@ -7,7 +7,8 @@
 			   ("quote" . ("❝ " "❞"))
 			   ("example" . (" " ""))
 			   ;; Add more
-			   (t . t))))
+			   (t . t)))
+  (org-modern-star 'replace))
 
 (setq
  org-auto-align-tags nil
@@ -54,9 +55,7 @@
 
 ;; (add-hook 'org-modern-mode-hook #'my/org-prettify-symbols)
 
-(setq org-modern-star 'replace)
-
-(global-org-modern-mode)
+;;(global-org-modern-mode)
 
 (add-hook 'org-mode-hook #'turn-on-org-cdlatex)
 
@@ -458,10 +457,13 @@
   :custom
   (org-todo-keywords
    ;; Keep adding to these as required
-   '((sequence "TODO(t)" "INPROGRESS(i)" "|" "DONE(d)")
+   '((sequence "TODO(t)" "INPROGRESS(i)" "|" "DONE(d) CANCELLED(c)")
      (sequence "UNRESOLVED(u)" "|" "RESOLVED(r)")
      (sequence "THINK" "|" "SOLVED(s)")
      (sequence "LOOKUP(l)" "|" "FOUND(f)")))
+  (org-todo-keyword-faces
+   ;; Keep adding to this as well
+   '(("INPROGRESS" . "orange")))
   (org-agenda-files
    ;; Keep adding to this as well
    '("~/Documents/PhD/Notes"
@@ -530,5 +532,12 @@
           (quit-window nil (get-buffer-window "*Ilist*"))
           (switch-to-buffer (buffer-base-buffer)))
       (my/org-sidebar))))
+
+;; Habit Tracking
+
+(use-package org
+  :ensure t
+  :config
+  (add-to-list 'org-modules 'org-habit))
 
 (provide 'config-org)
