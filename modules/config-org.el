@@ -14,7 +14,9 @@
       (?B . "⬆")
       (?C . "⬇")))
   (org-modern-todo nil)
-  (org-modern-tag nil))
+  (org-modern-tag nil)
+  (org-modern-timestamp nil)
+  (org-modern-progress nil))
 
 (setq
  org-auto-align-tags nil

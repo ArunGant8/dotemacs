@@ -114,7 +114,74 @@
 			    (svg-tag-make "RESOLVED" :face 'custom-comment))))
      ("[^A-Z]SOLVED" . ((lambda (tag)
 			  (svg-tag-make "SOLVED" :face 'custom-comment)))) ;; hacky
+     ("\\[#A\\]" . ((lambda (tag)
+		       (svg-tag-make "A" :face 'cursor))))
+     ("\\[#B\\]" . ((lambda (tag)
+		      (svg-tag-make "B" :face 'isearch))))
+     ("\\[#C\\]" . ((lambda (tag)
+		      (svg-tag-make "C" :face 'highlight))))
      ("\\(:[A-Za-z]+:\\)" . ((lambda (tag)
                             (svg-tag-make tag :beg 1 :end -1 :font-size 12 :face 'org-warning)))))))
+
+(use-package svg-tag-mode
+  :ensure t
+  :config
+  (defconst date-re "[0-9]\\{4\\}-[0-9]\\{2\\}-[0-9]\\{2\\}")
+  (defconst time-re "[0-9]\\{2\\}:[0-9]\\{2\\}")
+  (defconst day-re "[A-Za-z]\\{3\\}")
+  (defconst day-time-re (format "\\(%s\\)? ?\\(%s\\)?" day-re time-re))
+
+  (defun svg-progress-percent (value)
+    (save-match-data
+      (svg-image (svg-lib-concat
+		  (svg-lib-progress-bar  (/ (string-to-number value) 100.0)
+					 nil :margin 0 :stroke 2 :radius 3 :padding 2 :width 11)
+		  (svg-lib-tag (concat value "%")
+                               nil :stroke 0 :margin 0)) :ascent 'center)))
+
+  (defun svg-progress-count (value)
+    (save-match-data
+      (let* ((seq (split-string value "/"))           
+             (count (if (stringp (car seq))
+			(float (string-to-number (car seq)))
+                      0))
+             (total (if (stringp (cadr seq))
+			(float (string-to-number (cadr seq)))
+                      1000)))
+	(svg-image (svg-lib-concat
+                    (svg-lib-progress-bar (/ count total) nil
+                                          :margin 0 :stroke 2 :radius 3 :padding 2 :width 11)
+                    (svg-lib-tag value nil
+				 :stroke 0 :margin 0)) :ascent 'center))))
+  (dolist (tagstring
+	   ;; Active date (with or without day name, with or without time)
+	   `((,(format "\\(<%s>\\)" date-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :beg 1 :end -1 :margin 0))))
+	     (,(format "\\(<%s \\)%s>" date-re day-time-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :beg 1 :inverse nil :crop-right t :margin 0))))
+	     (,(format "<%s \\(%s>\\)" date-re day-time-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :end -1 :inverse t :crop-left t :margin 0))))
+
+	     ;; Inactive date  (with or without day name, with or without time)
+	     (,(format "\\(\\[%s\\]\\)" date-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :beg 1 :end -1 :margin 0 :face 'org-date))))
+	     (,(format "\\(\\[%s \\)%s\\]" date-re day-time-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :beg 1 :inverse nil :crop-right t :margin 0 :face 'org-date))))
+	     (,(format "\\[%s \\(%s\\]\\)" date-re day-time-re) .
+	      ((lambda (tag)
+		 (svg-tag-make tag :end -1 :inverse t :crop-left t :margin 0 :face 'org-date))))
+
+	     ;; ;; Progress
+	     ("\\(\\[[0-9]\\{1,3\\}%\\]\\)" . ((lambda (tag)
+						 (svg-progress-percent (substring tag 1 -2)))))
+	     ("\\(\\[[0-9]+/[0-9]+\\]\\)" . ((lambda (tag)
+					       (svg-progress-count (substring tag 1 -1)))))))
+    (cl-pushnew tagstring svg-tag-tags
+		:test (lambda (a b) (string-equal (car a) (car b))))))
 
 (provide 'config-utils)
