@@ -548,4 +548,23 @@
   :config
   (add-to-list 'org-modules 'org-habit))
 
+;; A hack for allowing svg tags in Org Agenda
+
+(use-package org
+  :ensure t
+  :config
+  (defun org-agenda-show-svg ()
+    (let* ((case-fold-search nil)
+           (keywords (mapcar #'svg-tag--build-keywords svg-tag--active-tags))
+           (keyword (car keywords)))
+      (while keyword
+        (save-excursion
+          (while (re-search-forward (nth 0 keyword) nil t)
+            (overlay-put (make-overlay
+                          (match-beginning 0) (match-end 0))
+                         'display  (nth 3 (eval (nth 2 keyword)))) ))
+        (pop keywords)
+        (setq keyword (car keywords)))))
+  (add-hook 'org-agenda-finalize-hook #'org-agenda-show-svg))
+
 (provide 'config-org)

@@ -46,13 +46,13 @@
 			 ivy-bibtex ivy-posframe latex-preview-pane
 			 macrostep-geiser magit marginalia
 			 markdown-mode merlin mixed-pitch nasm-mode
-			 nix-mode ob-nix org-mode org-modern org-noter
-			 org-ref org-ref-prettify org-roam
-			 org-roam-bibtex org-super-agenda ox-typst
-			 pdf-tools popper posframe sly sml-mode
-			 spacious-padding svg-lib svg-tag-mode
-			 transient transient-posframe undo-tree utop
-			 vterm x86-lookup yasnippet))
+			 nix-mode ob-nix org-agenda org-mode
+			 org-modern org-noter org-ref org-ref-prettify
+			 org-roam org-roam-bibtex org-super-agenda
+			 ox-typst pdf-tools popper posframe sly
+			 sml-mode spacious-padding svg-lib
+			 svg-tag-mode transient transient-posframe
+			 undo-tree utop vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))
