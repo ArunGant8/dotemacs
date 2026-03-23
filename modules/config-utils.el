@@ -80,22 +80,41 @@
 
 ;; Pretty symbols
 (use-package svg-lib
-  :ensure t)
+  :ensure t
+  :custom
+  (svg-lib-style-default '(:background "#fbf7f0" :foreground "#000000" :padding 1 :margin 0 :stroke 2 :radius 3 :alignment 0.5 :width 20 :height 0.9 :scale 0.75 :ascent center :crop-left nil :crop-right nil :collection "material" :font-family "Iosevmata" :font-size 12 :font-weight regular)))
 
-;; :TODO: Add more configuration to this
+;; TODO Add more configuration to this
 ;; It seems better to use `svg-lib-tag`
 ;; instead of `svg-tag-make` simply because
 ;; of the options provided
 (use-package svg-tag-mode
   :after svg-lib
-  :init
-  (svg-tag-mode 1)
+  :hook
+  (org-mode . svg-tag-mode)
   :custom
   (svg-tag-tags
-   '((":TODO:" . ((lambda (tag)
-		    (svg-lib-tag "TODO" nil :beg 1 :end -1 :font-family "Roboto Mono" :font-weight 600 :background "red" :foreground "white")))))
-     ("\\(:[A-Z]+:\\)" . ((lambda (tag)
-                               (svg-tag-make tag :beg 1 :end -1))))))
-
+   '(("TODO" . ((lambda (tag)
+		  (svg-lib-tag "TODO" nil :font-weight 600 :background "red" :foreground "white"))))
+     ("INPROGRESS" . ((lambda (tag)
+			(svg-lib-tag "INPROGRESS" nil :background "orange" :foreground "white"))))
+     ("DONE" . ((lambda (tag)
+		  (svg-tag-make "DONE" :face 'custom-comment))))
+     ("CANCELLED" . ((lambda (tag)
+		       (svg-tag-make "CANCELLED" :face 'org-modern-done))))
+     ("LOOKUP" . ((lambda (tag)
+		    (svg-lib-icon+tag "magnify" "LOOKUP" nil :background "red" :foreground "white"))))
+     ("FOUND" . ((lambda (tag)
+		   (svg-tag-make "FOUND" :face 'custom-comment))))
+     ("THINK" . ((lambda (tag)
+		   (svg-lib-icon+tag "lightbulb-on" "THINK"  nil :background "orange" :foreground "white"))))
+     ("UNRESOLVED" . ((lambda (tag)
+			(svg-lib-icon+tag "help" "UNRESOLVED" nil :background "red" :foreground "white"))))
+     ("[^A-Z]RESOLVED" . ((lambda (tag)
+			    (svg-tag-make "RESOLVED" :face 'custom-comment))))
+     ("[^A-Z]SOLVED" . ((lambda (tag)
+			  (svg-tag-make "SOLVED" :face 'custom-comment)))) ;; hacky
+     ("\\(:[A-Za-z]+:\\)" . ((lambda (tag)
+                            (svg-tag-make tag :beg 1 :end -1 :font-size 12 :face 'org-warning)))))))
 
 (provide 'config-utils)

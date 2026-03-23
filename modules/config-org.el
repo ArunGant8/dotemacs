@@ -14,8 +14,7 @@
       (?B . "⬆")
       (?C . "⬇")))
   (org-modern-todo nil)
-  (org-modern-tag nil)
-  (org-modern-symbol :family "Iosevmata"))
+  (org-modern-tag nil))
 
 (setq
  org-auto-align-tags nil

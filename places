@@ -1,30 +1,36 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 939)
+(("/Users/arun/Projects/rough-work/ocaml/union-find.org" . 11358)
  ("/Users/arun/Documents/PhD/Notes/refs/nadathur05iclp.org" . 198)
- ("/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org" . 45)
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
-  (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"
-  . 6151)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 251)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
- ("/Users/arun/.emacs.d/bookmarks" . 251)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 449)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))
+ ("/Users/arun/.elfeed/index" . 613542)
+ ("/Users/arun/Documents/PhD/Notes/20260314120209-notes_on_manim.org"
+  . 362)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 3009)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 16691)
+ ("/Users/arun/.emacs.d/elfeed.org" . 68)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.sig"
+  . 266)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
+  (dired-filename
+   . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
+ ("/Users/arun/Projects/fpc-stuff/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.mod"
+  . 1017)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+  . 306)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 1251)
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 16747)
  ("/Users/arun/.emacs.d/elpa/org-modern-20260309.1546/org-modern.el"
   . 15274)
- ("/Users/arun/Documents/PhD/Notes/jlc91.org" . 7632)
- ("/Users/arun/Documents/PhD/Notes/20260314120209-notes_on_manim.org"
-  . 372)
- ("/Users/arun/Documents/PhD/Notes/20251110174310-administrative_normal_form.org"
-  . 12545)
- ("/Users/arun/Documents/PhD/Notes/20251110174132-union_find.org"
-  . 32627)
- ("/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-  . 6495)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 1251)
  ("/Users/arun/.emacs.d/init.el" . 1074)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/"
   (dired-filename
@@ -37,26 +43,9 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/graphs/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/graphs/course-graph.tex"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/fpcs/backchain-fpc.sig"
-  . 140)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.mod"
-  . 1017)
- ("/Users/arun/Projects/fpc-stuff/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
-  (dired-filename
-   . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.sig"
-  . 266)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
-  . 306)
- ("/Users/arun/.elfeed/index" . 610104)
  ("/Users/arun/Projects/fpc-stuff/lkf-snapshot/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/lkf-snapshot/oracle-fpc.mod"))
- ("/Users/arun/.emacs.d/elfeed.org" . 83)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/solutions/trees.py"
   . 906)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/"
@@ -122,7 +111,6 @@
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy.el" . 70185)
  ("/Users/arun/Projects/manimations/my-project/main.py" . 215)
  ("/Users/arun/Projects/manimations/manim-course/ManimCourse.py" . 433)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1337)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/Projects/rough-work/ocaml/"
