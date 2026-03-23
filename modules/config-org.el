@@ -8,7 +8,14 @@
 			   ("example" . (" " ""))
 			   ;; Add more
 			   (t . t)))
-  (org-modern-star 'replace))
+  (org-modern-star 'replace)
+  (org-modern-priority
+    '((?A . "❗")
+      (?B . "⬆")
+      (?C . "⬇")))
+  (org-modern-todo nil)
+  (org-modern-tag nil)
+  (org-modern-symbol :family "Iosevmata"))
 
 (setq
  org-auto-align-tags nil
