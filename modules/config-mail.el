@@ -76,6 +76,7 @@
                             (:mailing-list  .   10)
                             (:from          .   22)
                             (:subject       .   nil)))
+(add-hook 'mu4e-headers-mode #'mu4e-thread-folding-mode)
 
 (define-key mu4e-headers-mode-map (kbd "<tab>")     'mu4e-headers-toggle-at-point)
 (define-key mu4e-headers-mode-map (kbd "<left>")    'mu4e-headers-fold-at-point)

@@ -14,19 +14,17 @@
   . 442)
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
   . 241)
- ("/Users/arun/.emacs.d/modules/config-mail.el" . 196)
  ("/Users/arun/.elfeed/index" . 619797)
- ("/Users/arun/.emacs.d/custom.el" . 2291)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/.emacs.d/modules/mu4e-thread-folding.el" . 17075)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/.emacs.d/modules/config-mail.el" . 2891)
+ ("/Users/arun/.emacs.d/modules/mu4e-thread-folding.el" . 2206)
  ("/Users/arun/.emacs.d/modules/mu4e-dashboard.el" . 4133)
- ("/Users/arun/.emacs.d/mu4e-dashboard.org" . 124)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/mu4e-dashboard.org"))
  ("/Users/arun/.emacs.d/modules/nano-mu4e.el" . 15170)
