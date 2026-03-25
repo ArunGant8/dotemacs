@@ -55,7 +55,7 @@
 			 undo-tree utop vterm x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
-	       "dev")))
+	       "dev"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

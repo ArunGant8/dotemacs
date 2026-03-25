@@ -2,7 +2,7 @@
 ;; Influenced by Daviwil's notes
 ;; and Rougier's upgrades
 
-(add-to-list 'load-path "/nix/store/14mnch90rl8667gjcp0rrqq31qvv9igx-mu-1.12.13-mu4e/share/emacs/site-lisp/mu4e/mu4e.el")
+(add-to-list 'load-path "/nix/store/14mnch90rl8667gjcp0rrqq31qvv9igx-mu-1.12.13-mu4e/share/emacs/site-lisp/mu4e/")
 
 (use-package mu4e
   :ensure nil
@@ -65,9 +65,6 @@
 
 ;; UI
 ;; from Rougier, of course
-(require 'mu4e-dashboard)
-
-
 (require 'mu4e-thread-folding)
 (add-to-list 'mu4e-header-info-custom
              '(:empty . (:name "Empty"
