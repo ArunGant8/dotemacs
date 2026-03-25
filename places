@@ -1,21 +1,35 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
-  . 306)
- ("/Users/arun/Projects/fpc-stuff/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
+(("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/.emacs.d/init.el" . 1749)
+ ("/Users/arun/.emacs.d/modules/config-mail.el" . 324)
+ ("/Users/arun/.elfeed/index" . 619060)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.mod"
+  . 763)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/kernels/ljf-kernel.mod"
+  . 607)
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.sig"
-  . 266)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 6719)
- ("/Users/arun/.elfeed/index" . 613542)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 6843)
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 412)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
+ ("/Users/arun/Projects/fpc-stuff/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+  . 442)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
+  . 241)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 42)
+ ("/Users/arun/.emacs.d/elpa/spacious-padding-0.8.0/spacious-padding.el"
+  . 6868)
  ("/Users/arun/Documents/PhD/Notes/20260314120209-notes_on_manim.org"
   . 362)
+ ("/Users/arun/.emacs.d/custom.el" . 2297)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))
@@ -23,11 +37,9 @@
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
  ("/Users/arun/.emacs.d/elfeed.org" . 68)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 1251)
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 16747)
  ("/Users/arun/.emacs.d/elpa/org-modern-20260309.1546/org-modern.el"
   . 15274)
- ("/Users/arun/.emacs.d/init.el" . 1074)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions"))
@@ -63,8 +75,6 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/trees/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/trees/bin-search-trees.tex"))
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
  ("/Users/arun/Projects/manimations/my-project/"
   (dired-filename
    . "/Users/arun/Projects/manimations/my-project/main.py"))
@@ -107,16 +117,7 @@
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy.el" . 70185)
  ("/Users/arun/Projects/manimations/my-project/main.py" . 215)
  ("/Users/arun/Projects/manimations/manim-course/ManimCourse.py" . 433)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/Projects/nano-emacs/nano-colors.el" . 5147)
- ("/Users/arun/Projects/nano-emacs/nano-theme.el" . 40384)
- ("/Users/arun/Projects/nano-emacs/nano.el" . 2263)
  ("/Users/arun/Projects/nano-emacs/nano-defaults.el" . 1402)
- ("/Users/arun/.emacs.d/custom.el" . 2286)
  ("/Users/arun/Documents/manuals/rougier-dotemacs.org" . 27160)
  ("/Users/arun/Projects/elegant-emacs/data/Gaussian-Integral.org"
   . 535)
@@ -463,8 +464,6 @@
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/intro.tex"
   . 2355)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/fo-horn-lp.ml" . 4728)
- ("/Users/arun/Downloads/"
-  (dired-filename . "/Users/arun/Downloads/elpsml-paper.tar.gz"))
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/prop-horn-lp.ml" . 933)
  ("/Users/arun/Projects/higher-order-lp/"
   (dired-filename

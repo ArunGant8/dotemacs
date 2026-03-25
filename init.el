@@ -69,6 +69,7 @@
 (require 'config-calc)
 (require 'config-elfeed)
 (require 'config-erc)
+(require 'config-mail)
 ;; From Nicolas Rougier
 (require 'nano-agenda)
 

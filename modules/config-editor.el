@@ -1,7 +1,6 @@
 (use-package spacious-padding
   :ensure t)
 
-(setq spacious-padding-subtle-mode-line t)
 (spacious-padding-mode)
 
 ;; Mixed-pitch mode

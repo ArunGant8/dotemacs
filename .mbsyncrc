@@ -1,0 +1,25 @@
+IMAPAccount lix
+Host argos.lix.polytechnique.fr
+User gantait
+PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.emacs.d/.mbsyncpass.gpg"
+Port 993
+TLSType IMAPS
+AuthMechs LOGIN
+CertificateFile /etc/ssl/certs/ca-certificates.crt
+
+IMAPStore lix-remote
+Account lix
+
+MaildirStore lix-local
+Path ~/email/lixmail/
+Inbox ~/email/lixmail/INBOX
+SubFolders Verbatim
+
+Channel lix
+Far :lix-remote:
+Near :lix-local:
+Patterns *
+Create Near
+Sync All
+Expunge None
+SyncState *
