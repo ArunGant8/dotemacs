@@ -84,4 +84,12 @@
 (define-key mu4e-headers-mode-map (kbd "<right>")   'mu4e-headers-unfold-at-point)
 (define-key mu4e-headers-mode-map (kbd "<S-right>") 'mu4e-headers-unfold-all)
 
+;; Consult-mu
+
+(use-package consult-mu
+  :load-path "~/.emacs.d/modules/consult-mu.el"
+  :after (consult mu4e))
+
+;; Add more customization as necessary
+
 (provide 'config-mail)
