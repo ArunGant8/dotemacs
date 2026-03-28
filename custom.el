@@ -12,6 +12,7 @@
    '(autojoin button completion fill imenu irccontrols list match menu
 	      move-to-prompt netsplit networks readonly ring sasl
 	      stamp track))
+ '(message-signature "Arunava Gantait" nil nil "Customized with use-package mu4e")
  '(org-mode-hook
    '(org-ref-prettify-mode org-roam-bibtex-mode org-ref-org-menu
 			   citar-capf-setup org-tempo-setup
@@ -52,9 +53,11 @@
 			 ox-typst pdf-tools popper posframe sly
 			 sml-mode spacious-padding svg-lib
 			 svg-tag-mode transient transient-posframe
-			 undo-tree utop vterm x86-lookup yasnippet))
+			 undo-tree utop vterm wombag x86-lookup
+			 yasnippet))
  '(package-vc-selected-packages
-   '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
+   '((wombag :url "https://github.com/karthink/wombag")
+     (org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
