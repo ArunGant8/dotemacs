@@ -4,7 +4,8 @@
 ;; read.
 
 (use-package wombag
-  :vc (:url "https://github.com/karthink/wombag")
+  :vc (:url "https://github.com/karthink/wombag"
+	    :rev newest)
   :ensure t
   :custom
   (wombag-host "https://app.wallabag.it")
