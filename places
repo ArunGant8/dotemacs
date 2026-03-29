@@ -1,18 +1,5 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/.emacs.d/elpa/wombag/wombag-options.el" . 2620)
- ("/Users/arun/.elfeed/index" . 625019)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/jhc-examples.mod"
-  . 763)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/kernels/ljf-kernel.mod"
-  . 819)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+(("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
   . 442)
  ("/Users/arun/Projects/fpc-stuff/"
   (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
@@ -21,8 +8,17 @@
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
-  . 241)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
+ ("/Users/arun/.elfeed/index" . 625908)
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/.emacs.d/modules/config-wombag.el" . 710)
+ ("/Users/arun/.emacs.d/elpa/wombag/wombag-options.el" . 2503)
+ ("/Users/arun/.emacs.d/elpa/wombag/wombag-db.el" . 1556)
  ("/nix/store/qzj853q9759zsj491zfb5b2aqmr3n06s-emacs-30.2/share/emacs/30.2/src/fileio.c"
   . 11449)
  ("/Users/arun/.emacs.d/elpa/emacsql-20260201.1512/emacsql-sqlite-builtin.el"
@@ -49,8 +45,6 @@
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
  ("/Users/arun/.emacs.d/elfeed.org" . 68)
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 16747)
- ("/Users/arun/.emacs.d/elpa/org-modern-20260309.1546/org-modern.el"
-  . 15274)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions"))
