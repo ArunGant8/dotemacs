@@ -1,0 +1,2 @@
+;;; -*- lisp-data -*-
+#s(hash-table test equal data (32902168 #s(hash-table test equal data (window-position 1)) 32902203 #s(hash-table test equal data (window-position 1)) 32902346 #s(hash-table test equal data (window-position 1)) 32895218 #s(hash-table test equal data (window-position 1))))

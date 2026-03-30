@@ -53,8 +53,8 @@
 			 ox-typst pdf-tools popper posframe sly
 			 sml-mode spacious-padding svg-lib
 			 svg-tag-mode transient transient-posframe
-			 undo-tree utop vterm wombag x86-lookup
-			 yasnippet))
+			 undo-tree utop vterm wallabag wombag
+			 x86-lookup yasnippet))
  '(package-vc-selected-packages
    '((wombag :url "https://github.com/karthink/wombag")
      (org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch

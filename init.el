@@ -68,7 +68,7 @@
 (require 'config-utils)
 (require 'config-calc)
 (require 'config-elfeed)
-(require 'config-wombag)
+(require 'config-wallabag)
 (require 'config-erc)
 (require 'config-mail)
 ;; From Nicolas Rougier

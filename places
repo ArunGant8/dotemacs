@@ -1,22 +1,26 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
-  . 442)
- ("/Users/arun/Projects/fpc-stuff/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
+(("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
+ ("/Users/arun/Projects/fpc-stuff/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+  . 442)
+ ("/Users/arun/Documents/PhD/Notes/20260315135044-notes_on_mobility.org"
+  . 3172)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
+  . 27)
+ ("/Users/arun/.elfeed/index" . 625909)
+ ("/Users/arun/.emacs.d/modules/config-wombag.el" . 727)
  ("/Users/arun/.emacs.d/modules/"
   (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/.elfeed/index" . 625908)
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
- ("/Users/arun/.emacs.d/modules/config-wombag.el" . 710)
  ("/Users/arun/.emacs.d/elpa/wombag/wombag-options.el" . 2503)
  ("/Users/arun/.emacs.d/elpa/wombag/wombag-db.el" . 1556)
  ("/nix/store/qzj853q9759zsj491zfb5b2aqmr3n06s-emacs-30.2/share/emacs/30.2/src/fileio.c"

@@ -1,5 +1,7 @@
 ((casual-calc-tmenu nil)
- (magit-commit nil)
+ (magit-commit
+  ("--verbose")
+  nil)
  (magit-log
   ("-n256" "--graph" "--decorate"))
  (magit-pull nil)
