@@ -48,15 +48,23 @@
   "Customization options for `notebook-mode'."
   :group 'org)
 
-(defcustom notebook-babel-python-command
-  "/opt/anaconda3/bin/python"
-  "Python interpreter's path."
-  :group 'notebook)
+;; AG This should be more generic,
+;; not just for Python
 
-(defcustom notebook-cite-csl-styles-dir
-  "."
-  "CSL styles citations' directory."
-  :group 'notebook)
+;; (defcustom notebook-babel-python-command
+;;   "/opt/anaconda3/bin/python"
+;;   "Python interpreter's path."
+;;   :group 'notebook)
+
+;; ;; AG Probably don't need this
+
+;; (defcustom notebook-cite-csl-styles-dir
+;;   "."
+;;   "CSL styles citations' directory."
+;;   :group 'notebook)
+
+;; AG IMP This is the main thing
+;; to modify
 
 (defcustom notebook-tags
       '(
@@ -137,13 +145,13 @@
         ;; --------------------------------------------------------------------
         ("\\(\\[cite:@[A-Za-z]+:\\)" .
          ((lambda (tag) (svg-tag-make (upcase tag)
-                                      :face 'nano-default
+                                      :face 'default
                                       :inverse t
                                       :beg 7 :end -1
                                       :crop-right t))))
         ("\\[cite:@[A-Za-z]+:\\([0-9a-z]+\\]\\)" .
          ((lambda (tag) (svg-tag-make (upcase tag)
-                                      :face 'nano-default
+                                      :face 'default
                                       :end -1
                                       :crop-left t))))
 
@@ -173,7 +181,7 @@ same definition pattern as the `svg-tag-tags' alist (to which
   "Make the keywords fontification case insensitive if non-nil."
   :group 'notebook)
 
-(defcustom notebook-indent t
+(defcustom notebook-indent nil
   "Default document indentation.
 If non-nil, `org-indent' is called when the mode is turned on."
   :group 'notebook)
@@ -194,8 +202,8 @@ If non-nil, the org blocks are hidden when the mode is turned on."
 (defun notebook-setup ()
   "Notebook mode setup function."
   (interactive)
-  (setq org-cite-csl-styles-dir notebook-cite-csl-styles-dir)
-  (setq org-babel-python-command notebook-babel-python-command)
+  (setq org-cite-csl-styles-dir notebook-cite-csl-styles-dir)    ;; Comment this out, not needed
+  (setq org-babel-python-command notebook-babel-python-command)  ;; This too
   (require 'ob-python)
   (require 'oc-csl))
 

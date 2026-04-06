@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: abstract
+# key: <abs
+# --
+#+begin_abstract
+$0
+#+end_abstract

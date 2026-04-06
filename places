@@ -1,5 +1,23 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
+(("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/init.el"))
+ ("/Users/arun/Projects/rough-work/ocaml/"
+  (dired-filename
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 3247)
+ ("/Users/arun/.emacs.d/modules/notebook.el" . 9744)
+ ("/Users/arun/.emacs.d/init.el" . 2075)
+ ("/Users/arun/org-temp/source-code-test.org" . 1244)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 5625)
+ ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
+  . 8555)
+ ("/Users/arun/.elfeed/index" . 642683)
+ ("/Users/arun/Projects/nano-emacs/nano.el" . 2679)
+ ("/Users/arun/Projects/nano-emacs/nano-base-colors.el" . 3404)
+ ("/Users/arun/.emacs.d/modules/" . 3286)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
  ("/Users/arun/Projects/fpc-stuff/ProofCert/"
@@ -8,39 +26,70 @@
   (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
   . 442)
- ("/Users/arun/Documents/PhD/Notes/20260315135044-notes_on_mobility.org"
-  . 3172)
+ ("/Users/arun/Projects/nano-emacs/nano-layout.el" . 1810)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 1208)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 1144)
+ ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/ast.ml" . 248)
+ ("/Users/arun/Projects/nano-emacs/"
+  (dired-filename . "/Users/arun/Projects/nano-emacs/nano-modeline.el"))
+ ("/Users/arun/Projects/nano-emacs/nano-modeline.el" . 21187)
+ ("/Users/arun/Projects/nano-emacs/nano-colors.el" . 7368)
+ ("/Users/arun/Projects/nano-emacs/nano-faces.el" . 7333)
+ ("/Users/arun/Projects/nano-emacs/nano-mu4e.el" . 16586)
+ ("/Users/arun/.emacs.d/modules/nano-calendar.el" . 34852)
+ ("/Users/arun/org-temp/"
+  (dired-filename
+   . "/Users/arun/org-temp/.equation-test.org.~undo-tree~"))
+ ("/Users/arun/.emacs.d/elpa/nano-theme-0.3.4/nano-theme-support.el"
+  . 24806)
+ ("/Users/arun/.emacs.d/elpa/nano-theme-0.3.4/nano-theme-autoloads.el"
+  . 1063)
+ ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.org"
+  . 1270)
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/Slimmer/"
+  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
+ ("/Users/arun/Projects/Slimmer/branches/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
+ ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
+  (dired-filename
+   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
+ ("/Users/arun/org-temp/equation-test.org" . 328)
+ ("/Users/arun/org-temp/tikz-tutorial.org" . 358)
+ ("/Users/arun/.emacs.d/snippets/org-mode/abstract" . 93)
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 339)
+ ("/Users/arun/Projects/phd-thesis/.gitignore" . 147)
+ ("/Users/arun/.emacs.d/modules/config-wallabag.el" . 897)
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
   . 27)
- ("/Users/arun/.elfeed/index" . 625909)
- ("/Users/arun/.emacs.d/modules/config-wombag.el" . 727)
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-scheme.el"))
- ("/Users/arun/Projects/rough-work/ocaml/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
- ("/Users/arun/.emacs.d/elpa/wombag/wombag-options.el" . 2503)
- ("/Users/arun/.emacs.d/elpa/wombag/wombag-db.el" . 1556)
  ("/nix/store/qzj853q9759zsj491zfb5b2aqmr3n06s-emacs-30.2/share/emacs/30.2/src/fileio.c"
   . 11449)
- ("/Users/arun/.emacs.d/elpa/emacsql-20260201.1512/emacsql-sqlite-builtin.el"
-  . 719)
- ("/Users/arun/.emacs.d/elpa/emacsql-20260201.1512/emacsql.el" . 2489)
  ("/Users/arun/.emacs.d/modules/consult-mu.el" . 71768)
- ("/Users/arun/.emacs.d/modules/nano-mu4e.el" . 1677)
  ("/Users/arun/.emacs.d/modules/mu4e-thread-folding.el" . 17076)
  ("/Users/arun/.emacs.d/modules/mu4e-dashboard.el" . 4133)
- ("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/mu4e-dashboard.org"))
- ("/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-  . 392)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 42)
  ("/Users/arun/.emacs.d/elpa/spacious-padding-0.8.0/spacious-padding.el"
   . 6868)
- ("/Users/arun/Documents/PhD/Notes/20260314120209-notes_on_manim.org"
-  . 362)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))
@@ -92,35 +141,6 @@
  ("/Users/arun/Projects/manimations/manim-course/"
   (dired-filename
    . "/Users/arun/Projects/manimations/manim-course/__pycache__"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/README.ndcore"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/doc/Makefile"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/examples/3bits.def"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/man/bedwyr.1.in"))
- ("/Users/arun/Projects/Slimmer/branches/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr+constraints"))
- ("/Users/arun/Projects/Slimmer/"
-  (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping"))
- ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
-  (dired-filename
-   . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
  ("/Users/arun/Documents/manuals/nixos.org" . 10514)
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy-rpc.el" . 45475)
  ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy.el" . 70185)
@@ -277,7 +297,6 @@
  ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
   . 9308)
- ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 376)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/index.ml"
   . 7361)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/index.mli"
@@ -445,7 +464,6 @@
   (dired-filename
    . "/Users/arun/Projects/ocaml-tutorial/real-world-ocaml/parsing/test.ml"))
  ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
- ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/ast.ml" . 248)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src"))
@@ -482,7 +500,6 @@
   (dired-filename . "/Users/arun/Projects/ljeq_search/lib/util.ml"))
  ("/Users/arun/Projects/ljeq_search/lib/syntax.ml" . 2678)
  ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
- ("/Users/arun/Projects/phd-thesis/equiv/mll.thm" . 3321)
  ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
  ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
   . 143)
@@ -494,7 +511,6 @@
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
- ("/Users/arun/Projects/phd-thesis/.gitignore" . 78)
  ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
  ("/Users/arun/Projects/phd-thesis/interp/"
   (dired-filename
@@ -518,9 +534,6 @@
  ("/Users/arun/miniKanren-prez/presentation.tex" . 1169)
  ("/Users/arun/miniKanren-prez/trial-prez.org" . 404)
  ("/Users/arun/miniKanren-prez/trial-prez.tex" . 446)
- ("/Users/arun/org-temp/tikz-tutorial.org" . 534)
- ("/Users/arun/org-temp/source-code-test.org" . 6034)
- ("/Users/arun/org-temp/equation-test.org" . 32)
  ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 155)
  ("/Users/arun/Documents/PhD/positive-syntax/"
   (dired-filename

@@ -6,6 +6,7 @@
   (org-modern-block-name '(("src". (" " ""))
 			   ("quote" . ("❝ " "❞"))
 			   ("example" . (" " ""))
+			   ("abstract" . ("Abstract" ""))
 			   ;; Add more
 			   (t . t)))
   (org-modern-star 'replace)
@@ -15,6 +16,7 @@
       (?C . "⬇")))
   (org-modern-todo nil)
   (org-modern-tag nil)
+  (org-modern-block-fringe nil)
   (org-modern-timestamp nil)
   (org-modern-progress nil))
 
@@ -147,8 +149,11 @@
  '((scheme . t)
    (ocaml . t)
    (python . t)
+   (shell . t)
    (perl . t)
    (nix . t)))
+
+(setq-default org-confirm-babel-evaluate nil)
 
 ;; Typst export
 

@@ -22,6 +22,7 @@
 
 (save-place-mode 1)
 
+;; previously: modus-operandi-tinted
 (load-theme 'modus-operandi-tinted :no-confirm)
 
 (custom-theme-set-faces
@@ -73,6 +74,8 @@
 (require 'config-mail)
 ;; From Nicolas Rougier
 (require 'nano-agenda)
+(require 'nano-calendar)
+(require 'notebook)
 
 ;; Version Control
 (require 'config-vc)

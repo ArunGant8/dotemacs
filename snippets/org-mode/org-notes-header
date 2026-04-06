@@ -6,9 +6,9 @@
 #+AUTHOR: Arunava Gantait
 #+STARTUP: latexpreview inlineimages
 #+OPTIONS: toc:2
-#+PROPERTY: header-args:ocaml  :results output code replace
-#+PROPERTY: header-args:ocaml  :comments both
-#+PROPERTY: header-args:ocaml  :session $2
-#+PROPERTY: header-args:ocaml  :tangle yes
+#+PROPERTY: header-args:$2  :results output code replace
+#+PROPERTY: header-args:$2  :comments both
+#+PROPERTY: header-args:$2  :session $3
+#+PROPERTY: header-args:$2  :tangle $4
 #+LATEX_CLASS: notes
 $0
