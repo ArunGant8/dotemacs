@@ -1,31 +1,28 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/init.el"))
+(("/Users/arun/.elfeed/index" . 643361)
+ ("/Users/arun/.emacs.d/elfeed.org" . 3327)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 3247)
- ("/Users/arun/.emacs.d/modules/notebook.el" . 9744)
- ("/Users/arun/.emacs.d/init.el" . 2075)
- ("/Users/arun/org-temp/source-code-test.org" . 1244)
+ ("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/init.el"))
  ("/Users/arun/.emacs.d/modules/config-org.el" . 5625)
- ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
-  . 8555)
- ("/Users/arun/.elfeed/index" . 642683)
- ("/Users/arun/Projects/nano-emacs/nano.el" . 2679)
- ("/Users/arun/Projects/nano-emacs/nano-base-colors.el" . 3404)
- ("/Users/arun/.emacs.d/modules/" . 3286)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+  . 442)
+ ("/Users/arun/Projects/fpc-stuff/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
    . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
- ("/Users/arun/Projects/fpc-stuff/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
-  . 442)
+ ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
+  . 8555)
+ ("/Users/arun/Projects/nano-emacs/nano.el" . 2679)
+ ("/Users/arun/Projects/nano-emacs/nano-base-colors.el" . 3404)
+ ("/Users/arun/.emacs.d/modules/" . 3286)
  ("/Users/arun/Projects/nano-emacs/nano-layout.el" . 1810)
  ("/Users/arun/.emacs.d/modules/config-editor.el" . 1208)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 1144)
@@ -96,7 +93,6 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
- ("/Users/arun/.emacs.d/elfeed.org" . 68)
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 16747)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/"
   (dired-filename

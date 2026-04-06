@@ -3,6 +3,23 @@
 
 (spacious-padding-mode)
 
+;; Mode line
+(setq-default mode-line-format '((:eval (propertize " POP" 'face 'mode-line-emphasis))
+				 ("%e" mode-line-front-space (:propertize
+							      ("" mode-line-mule-info
+							       mode-line-client
+							       mode-line-modified
+							       mode-line-remote
+							       mode-line-window-dedicated)
+							      display (min-width (6.0)))
+				  mode-line-frame-identification
+				  mode-line-buffer-identification "   "
+				  mode-line-position
+				  (project-mode-line project-mode-line-format)
+				  (vc-mode vc-mode) "  "
+				  "(" mode-name ")"
+				  mode-line-misc-info mode-line-end-spaces)))
+
 ;; Mixed-pitch mode
 
 (use-package mixed-pitch
