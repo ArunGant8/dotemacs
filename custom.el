@@ -44,7 +44,8 @@
 			 consult counsel dired-git dired-posframe
 			 dired-subtree dired-toggle doric-themes dune
 			 easysession elfeed elfeed-dashboard
-			 elfeed-goodies elfeed-org elpy engrave-faces
+			 elfeed-goodies elfeed-org elpy embark
+			 embark-consult engrave-faces
 			 exec-path-from-shell geiser-chez
 			 geiser-racket helm helm-bibtex imenu-list
 			 ivy-bibtex ivy-posframe latex-preview-pane

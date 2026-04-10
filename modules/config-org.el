@@ -4,7 +4,7 @@
   :hook (org-mode . org-modern-mode)
   :custom
   (org-modern-block-name '(("src". (" " ""))
-			   ("quote" . ("❝ " "❞"))
+			   ("quote" . ("“ " "”"))
 			   ("example" . (" " ""))
 			   ("abstract" . ("Abstract" ""))
 			   ;; Add more

@@ -1,31 +1,47 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.elfeed/index" . 643361)
- ("/Users/arun/.emacs.d/elfeed.org" . 3327)
- ("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/.DS_Store"))
+(("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/examples"))
+ ("/Users/arun/Projects/phd-thesis/examples/"
+  (dired-filename
+   . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
+ ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.org"
+  . 5898)
+ ("/Users/arun/Zotero/storage/J57STJ99/Nadathur and Linnell - 2005 - Practical higher-order pattern unification with on-the-fly raising.pdf"
+  . 198761)
+ ("/Users/arun/.elfeed/index" . 687147)
+ ("/Users/arun/.emacs.d/elpa/geiser-20251220.2301/geiser-impl.el"
+  . 1949)
+ ("/Users/arun/.emacs.d/elpa/org-mode/lisp/ob-scheme.el" . 11096)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 1119)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 5442)
+ ("/Users/arun/.emacs.d/modules/config-scheme.el" . 414)
+ ("/Users/arun/.emacs.d/elfeed.org" . 3416)
+ ("/Users/arun/Projects/phd-thesis/examples/prop.mod" . 13094)
+ ("/Users/arun/Projects/phd-thesis/examples/all.thm" . 11996)
+ ("/Users/arun/Projects/okmij/matmul.ml" . 229)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 19)
+ ("/Users/arun/.emacs.d/init.el" . 2372)
+ ("/Users/arun/.emacs.d/modules/config-macos.el" . 482)
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
+  (dired-filename
+   . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
+ ("/Users/arun/Projects/fpc-stuff/"
+  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
+ ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
+  . 442)
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/init.el"))
- ("/Users/arun/.emacs.d/modules/config-org.el" . 5625)
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.sig"
-  . 442)
- ("/Users/arun/Projects/fpc-stuff/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/lkf-snapshot"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/"
-  (dired-filename . "/Users/arun/Projects/fpc-stuff/ProofCert/.git"))
- ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
-  (dired-filename
-   . "/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/control.lp"))
  ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
   . 8555)
  ("/Users/arun/Projects/nano-emacs/nano.el" . 2679)
  ("/Users/arun/Projects/nano-emacs/nano-base-colors.el" . 3404)
  ("/Users/arun/.emacs.d/modules/" . 3286)
  ("/Users/arun/Projects/nano-emacs/nano-layout.el" . 1810)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 1208)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 1144)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/ast.ml" . 248)
  ("/Users/arun/Projects/nano-emacs/"
   (dired-filename . "/Users/arun/Projects/nano-emacs/nano-modeline.el"))
@@ -41,8 +57,6 @@
   . 24806)
  ("/Users/arun/.emacs.d/elpa/nano-theme-0.3.4/nano-theme-autoloads.el"
   . 1063)
- ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.org"
-  . 1270)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/input/input.mli"))
@@ -535,7 +549,6 @@
   (dired-filename
    . "/Users/arun/Documents/PhD/positive-syntax/ppdp15computation.pdf"))
  ("/Users/arun/Documents/PhD/Notes/unification.typ" . 74)
- ("/Users/arun/.emacs.d/modules/config-scheme.el" . 705)
  ("/Users/arun/.emacs.d/modules/config-lisp.el" . 134)
  ("/Users/arun/Projects/phd-thesis/interp/bagof.mod" . 323)
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)

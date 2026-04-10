@@ -1,5 +1,10 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://ocaml.org/manual/5.4/index.html" :title
+((:url "https://github-wiki-see.page/m/teyjus/teyjus/wiki/IoPreds"
+       :title "IoPreds - teyjus/teyjus GitHub Wiki" :time
+       "Tue Apr  7 12:11:04 2026")
+ (:url "https://www.swi-prolog.org/pldoc/doc_for?object=manual" :title
+       "manual" :time "Tue Apr  7 12:00:11 2026")
+ (:url "https://ocaml.org/manual/5.4/index.html" :title
        "OCaml - The OCaml Manual" :time "Fri Feb 20 11:45:52 2026")
  (:url "https://docs.racket-lang.org/ts-guide/" :title
        "The Typed Racket Guide" :time "Wed Jan  7 16:03:13 2026")

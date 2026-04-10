@@ -34,6 +34,21 @@
  '(variable-pitch ((t (:family "Charter" :height 140))))
  '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
+;; Modeline and Header line
+(set-face-attribute 'mode-line nil :box nil :background (face-background 'default)
+		    :overline (face-foreground 'default))
+(set-face-attribute 'mode-line-active nil :box nil :background (face-background 'default)
+		    :overline (face-foreground 'default))
+(set-face-attribute 'mode-line-inactive nil :box nil :background (face-background 'default)
+		    :overline (face-foreground 'default))
+
+(setq-default mode-line-format "")
+
+;; WARN! This is kinda hardcoded, since it is inspired by the current theme I am using.
+;; For other themes this might not be a good idea
+(set-face-attribute 'font-lock-comment-face nil :foreground (face-foreground 'org-document-info-keyword))
+
+
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
 

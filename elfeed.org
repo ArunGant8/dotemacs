@@ -32,6 +32,8 @@
 *** https://trop.in/feed/blog.xml :toread:
 *** https://protesilaos.com/master.xml :toread:
 *** https://beej.us/blog/rss.xml :toread:
+*** https://jao.io/blog/rss.xml :toread:
+*** https://bernsteinbear.com/feed.xml :toread:
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
