@@ -1,26 +1,37 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/phd-thesis/"
-  (dired-filename . "/Users/arun/Projects/phd-thesis/examples"))
- ("/Users/arun/Projects/phd-thesis/examples/"
+(("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
  ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.org"
-  . 5898)
- ("/Users/arun/Zotero/storage/J57STJ99/Nadathur and Linnell - 2005 - Practical higher-order pattern unification with on-the-fly raising.pdf"
-  . 198761)
+  . 7560)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 691)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 2682)
+ ("/Users/arun/.emacs.d/init.el" . 1210)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 598)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 57)
+ ("/Users/arun/.emacs.d/early-init.el" . 152)
+ ("/Users/arun/Projects/phd-thesis/"
+  (dired-filename . "/Users/arun/Projects/phd-thesis/examples"))
+ ("/Users/arun/Documents/PhD/Notes/20260331115957-habits.org" . 207)
+ ("/Users/arun/Projects/rough-work/scheme/nd_patunif/test-check.scm"
+  . 477)
+ ("/Users/arun/Projects/rough-work/scheme/nd_patunif/tests.scm" . 629)
+ ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.scm"
+  . 5225)
  ("/Users/arun/.elfeed/index" . 687147)
+ ("/Users/arun/.emacs.d/elpa/org-mode/lisp/org-src.el" . 56163)
+ ("/Users/arun/Projects/faster-minikanren/test-numbers.scm" . 18)
+ ("/Users/arun/Projects/faster-minikanren/test-all.scm" . 409)
+ ("/Users/arun/Projects/faster-minikanren/test-check.scm" . 477)
  ("/Users/arun/.emacs.d/elpa/geiser-20251220.2301/geiser-impl.el"
   . 1949)
  ("/Users/arun/.emacs.d/elpa/org-mode/lisp/ob-scheme.el" . 11096)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 1119)
  ("/Users/arun/.emacs.d/modules/config-org.el" . 5442)
  ("/Users/arun/.emacs.d/modules/config-scheme.el" . 414)
  ("/Users/arun/.emacs.d/elfeed.org" . 3416)
  ("/Users/arun/Projects/phd-thesis/examples/prop.mod" . 13094)
  ("/Users/arun/Projects/phd-thesis/examples/all.thm" . 11996)
  ("/Users/arun/Projects/okmij/matmul.ml" . 229)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 19)
- ("/Users/arun/.emacs.d/init.el" . 2372)
  ("/Users/arun/.emacs.d/modules/config-macos.el" . 482)
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/utils/"
   (dired-filename
@@ -304,7 +315,6 @@
    . "/Users/arun/Projects/Slimmer/www/bedwyr/doc/refman/contents_motif.gif"))
  ("/Users/arun/Documents/manuals/emacslispelem.org" . 1308)
  ("/Users/arun/.emacs.d/snippets/org-mode/org-startup" . 181)
- ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.ml"
   . 9308)
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/ndcore/index.ml"

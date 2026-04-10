@@ -34,7 +34,18 @@
  '(variable-pitch ((t (:family "Charter" :height 140))))
  '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
 
-;; Modeline and Header line
+;; Mode Line and Header Line settings
+
+(setq-default header-line-format '(("%e" mode-line-front-space
+				    (:propertize ("" mode-line-mule-info mode-line-client
+						  mode-line-modified mode-line-remote
+						  mode-line-window-dedicated)
+						 display (min-width (6.0)))
+				    mode-line-frame-identification mode-line-buffer-identification "   "
+				    mode-line-position (project-mode-line project-mode-line-format)
+				    (vc-mode vc-mode) "  " "(" mode-name ")"
+				    mode-line-misc-info mode-line-end-spaces)))
+
 (set-face-attribute 'mode-line nil :box nil :background (face-background 'default)
 		    :overline (face-foreground 'default))
 (set-face-attribute 'mode-line-active nil :box nil :background (face-background 'default)
@@ -48,6 +59,7 @@
 ;; For other themes this might not be a good idea
 (set-face-attribute 'font-lock-comment-face nil :foreground (face-foreground 'org-document-info-keyword))
 
+;; Packages
 
 (add-to-list 'package-archives
 	     '("melpa" . "https://melpa.org/packages/") t)
