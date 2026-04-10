@@ -1,24 +1,21 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/phd-thesis/examples/"
+(("/Users/arun/.emacs.d/init.el" . 1546)
+ ("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
- ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.org"
-  . 7560)
- ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 691)
- ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 2682)
- ("/Users/arun/.emacs.d/init.el" . 1210)
- ("/Users/arun/.emacs.d/modules/config-editor.el" . 598)
+ ("/Users/arun/.elfeed/index" . 692770)
+ ("/Users/arun/.emacs.d/modules/config-editor.el" . 26)
+ ("/Users/arun/.emacs.d/elpa/spacious-padding-0.8.0/spacious-padding.el"
+  . 17630)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 57)
  ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/examples"))
- ("/Users/arun/Documents/PhD/Notes/20260331115957-habits.org" . 207)
  ("/Users/arun/Projects/rough-work/scheme/nd_patunif/test-check.scm"
   . 477)
  ("/Users/arun/Projects/rough-work/scheme/nd_patunif/tests.scm" . 629)
  ("/Users/arun/Projects/rough-work/scheme/nd_patunif/patunif.scm"
   . 5225)
- ("/Users/arun/.elfeed/index" . 687147)
  ("/Users/arun/.emacs.d/elpa/org-mode/lisp/org-src.el" . 56163)
  ("/Users/arun/Projects/faster-minikanren/test-numbers.scm" . 18)
  ("/Users/arun/Projects/faster-minikanren/test-all.scm" . 409)
@@ -110,8 +107,6 @@
  ("/Users/arun/.emacs.d/modules/consult-mu.el" . 71768)
  ("/Users/arun/.emacs.d/modules/mu4e-thread-folding.el" . 17076)
  ("/Users/arun/.emacs.d/modules/mu4e-dashboard.el" . 4133)
- ("/Users/arun/.emacs.d/elpa/spacious-padding-0.8.0/spacious-padding.el"
-  . 6868)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))

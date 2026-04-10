@@ -32,7 +32,13 @@
  ;; '(variable-pitch ((t (:family "ETBookOT" :height 165))))
  ;; '(variable-pitch ((t (:family "Aporetic Serif Mono" :height 130))))
  '(variable-pitch ((t (:family "Charter" :height 140))))
- '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120)))))
+ '(fixed-pitch ((t (:family "Iosevka Nerd Font Mono" :height 120))))
+ `(mode-line ((t (:box nil :background ,(face-background 'default)
+		       :overline ,(face-foreground 'default)))))
+ `(mode-line-active ((t (:box nil :background ,(face-background 'default)
+			      :overline ,(face-foreground 'default)))))
+ `(mode-line-inactive ((t (:box nil :background ,(face-background 'default)
+				:overline ,(face-foreground 'default))))))
 
 ;; Mode Line and Header Line settings
 
@@ -45,13 +51,6 @@
 				    mode-line-position (project-mode-line project-mode-line-format)
 				    (vc-mode vc-mode) "  " "(" mode-name ")"
 				    mode-line-misc-info mode-line-end-spaces)))
-
-(set-face-attribute 'mode-line nil :box nil :background (face-background 'default)
-		    :overline (face-foreground 'default))
-(set-face-attribute 'mode-line-active nil :box nil :background (face-background 'default)
-		    :overline (face-foreground 'default))
-(set-face-attribute 'mode-line-inactive nil :box nil :background (face-background 'default)
-		    :overline (face-foreground 'default))
 
 (setq-default mode-line-format "")
 
