@@ -15,6 +15,6 @@
      ((string-equal extension "sig")
       (find-file (concat filename ".mod"))))))
 
-(keymap-global-set "C-c p t" #'my/lp-toggle-between-mod-and-sig)
+(keymap-global-set "C-x p t" #'my/lp-toggle-between-mod-and-sig)
 
 (provide 'config-lprolog)
