@@ -98,6 +98,7 @@
 (require 'config-wallabag)
 (require 'config-erc)
 (require 'config-mail)
+(require 'config-ai)
 ;; From Nicolas Rougier
 (require 'nano-agenda)
 (require 'nano-calendar)
