@@ -47,20 +47,21 @@
 			 elfeed-goodies elfeed-org elpy embark
 			 embark-consult engrave-faces
 			 exec-path-from-shell geiser-chez
-			 geiser-racket helm helm-bibtex imenu-list
-			 ivy-bibtex ivy-posframe latex-preview-pane
-			 macrostep-geiser magit marginalia
-			 markdown-mode merlin mixed-pitch nano-theme
-			 nasm-mode nix-mode ob-nix org-agenda org-mode
-			 org-modern org-noter org-ref org-ref-prettify
-			 org-roam org-roam-bibtex org-super-agenda
-			 ox-typst pdf-tools popper posframe sly
-			 sml-mode spacious-padding svg-lib
-			 svg-tag-mode transient transient-posframe
-			 undo-tree utop vterm wallabag x86-lookup
-			 yasnippet))
+			 geiser-racket gptel-agent helm helm-bibtex
+			 imenu-list ivy-bibtex ivy-posframe
+			 latex-preview-pane macrostep-geiser magit
+			 marginalia markdown-mode merlin mixed-pitch
+			 nano-theme nasm-mode nix-mode ob-gptel ob-nix
+			 org-agenda org-mode org-modern org-noter
+			 org-ref org-ref-prettify org-roam
+			 org-roam-bibtex org-super-agenda ox-typst
+			 pdf-tools popper posframe sly sml-mode
+			 spacious-padding svg-lib svg-tag-mode
+			 transient transient-posframe undo-tree utop
+			 vterm wallabag x86-lookup yasnippet))
  '(package-vc-selected-packages
-   '((wombag :url "https://github.com/karthink/wombag")
+   '((ob-gptel :url "https://github.com/jwiegley/ob-gptel")
+     (wombag :url "https://github.com/karthink/wombag")
      (org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev"))))
 (custom-set-faces
