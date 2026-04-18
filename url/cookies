@@ -2,27 +2,36 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '((".springer.com"
-  [url-cookie "idp_marker" "f22f4d88-330b-4ccf-8c3f-b638533549a6"
-	      "Wed May 05 10:34:04 2027 GMT" "/" ".springer.com" nil])
- ("grader.dix.polytechnique.fr"
+ '(("grader.dix.polytechnique.fr"
   [url-cookie "csrftoken" "jPBk5AEvk8A44optMeWeZEXUTnV6yrMa"
 	      "Mon Apr 12 11:17:38 2027 GMT" "/"
-	      "grader.dix.polytechnique.fr" nil]))
+	      "grader.dix.polytechnique.fr" nil])
+ (".accuweather.com"
+  [url-cookie "ak_bmsc"
+	      "04B24367E357549CB747F7F720D2FCF2~000000000000000000000000000000~YAAQScowF/b52lmdAQAA5YBHlh9GDCEOeefvRHE2EXrGVZtZr05LBRd/jwMFFgBJR2H7OYeeRnoX1O/tUM/sEKqiQxzrCadPhdWLj6e2J8+ZqgbmN76LJDs+aBcH3L42v6r2fnUcsbklsvt1K6FOnKrUBhFWm4J8vEh9mH9uV/UXxngWwWCkyFDAO7CekAJUQIYXXWlMbDe4ceJxQATLAuDw6e2PdRl9WmPFpjVU9SWIcaThNnwxfDE1UC/irTNOrriFn7rq42IS0Qrk1c1KZoRQKXnx8P0EZtIXLrrDQtx0PLZGzs2//9R6c7aBfveF+0kTT+zchqpFrf/7xWSAmGWdUgfjslHtAq7okAJRybTR6Zo="
+	      "Thu Apr 16 14:32:41 2026 GMT" "/" ".accuweather.com"
+	      nil])
+ (".springer.com"
+  [url-cookie "idp_marker" "f22f4d88-330b-4ccf-8c3f-b638533549a6"
+	      "Wed May 05 10:34:04 2027 GMT" "/" ".springer.com" nil]))
 )
 (setq url-cookie-secure-storage
- '(("github.com"
-  [url-cookie "_octo" "GH1.1.892310771.1765812374"
-	      "Tue, 15 Dec 2026 15:26:14 GMT" "/" "github.com" t]
-  [url-cookie "logged_in" "no" "Tue, 15 Dec 2026 15:26:14 GMT" "/"
-	      "github.com" t])
+ '((".springer.com"
+  [url-cookie "user.uuid.v2" "e96979fa-9837-4935-9157-e2c71d0f61fe"
+	      "Tue, 30 Jun 2026 10:34:04 GMT" "/" ".springer.com" t])
  (".wikipedia.org"
   [url-cookie "WMF-Uniq"
 	      "5DHmktfZSNjAVRDa6SOMAwMSAAEBAFvdqHuLvW7nctoFj8y3jcBYP7SkE-iabnSA"
 	      "Thu, 25 Feb 2027 00:00:00 GMT" "/" ".wikipedia.org" t])
- (".springer.com"
-  [url-cookie "user.uuid.v2" "e96979fa-9837-4935-9157-e2c71d0f61fe"
-	      "Tue, 30 Jun 2026 10:34:04 GMT" "/" ".springer.com" t]))
+ ("www.accuweather.com"
+  [url-cookie "awx_id" "ce070fb4-487b-445d-a56c-eee79393cbb5"
+	      "Fri, 16 Apr 2027 12:32:41 GMT" "/"
+	      "www.accuweather.com" t])
+ ("github.com"
+  [url-cookie "logged_in" "no" "Tue, 15 Dec 2026 15:26:14 GMT" "/"
+	      "github.com" t]
+  [url-cookie "_octo" "GH1.1.892310771.1765812374"
+	      "Tue, 15 Dec 2026 15:26:14 GMT" "/" "github.com" t]))
 )
 
 ;; Local Variables:

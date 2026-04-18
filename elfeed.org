@@ -34,6 +34,8 @@
 *** https://beej.us/blog/rss.xml :toread:
 *** https://jao.io/blog/rss.xml :toread:
 *** https://bernsteinbear.com/feed.xml :toread:
+*** https://karpathy.bearblog.dev/feed/ :toread:
+*** https://karpathy.github.io/feed.xml :toread:
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
