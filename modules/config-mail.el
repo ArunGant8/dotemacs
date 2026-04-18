@@ -35,7 +35,7 @@
   (mu4e-bookmarks
    '((:name "Unread messages" :query "flag:unread AND NOT flag:trashed" :key ?i)
      (:name "Today's messages" :query "date:today..now" :key ?t)
-     (:name "The Bosses" :query "from:dale.miller@inria.fr AND from:kaustuv.chauduri@inria.fr" :key ?s)
+     (:name "The Bosses" :query "from:dale.miller@inria.fr OR from:kaustuv.chauduri@inria.fr" :key ?s)
      (:name "Last 7 days" :query "date:7d..now" :hide-unread t :key ?w)
      (:name "Messages with images" :query "mime:image/*" :key ?p)))
 
