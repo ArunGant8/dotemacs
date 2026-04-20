@@ -9,7 +9,7 @@
                    :stream t
                    :protocol "http"
                    :host "localhost:8001"
-		   :header (lambda () '())
+		   ;;:header (lambda () '())
                    :models '(test))
    gptel-default-mode 'org-mode))
 
