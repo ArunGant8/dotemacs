@@ -16,58 +16,6 @@
 	      move-to-prompt netsplit networks readonly ring sasl
 	      stamp track))
  '(message-signature "Arunava Gantait" nil nil "Customized with use-package mu4e")
- '(org-agenda-files
-   '("~/Documents/PhD/Notes/daily/2026-04-17.org"
-     "/Users/arun/Documents/PhD/Notes/20251101125113-thesis_notes.org"
-     "/Users/arun/Documents/PhD/Notes/20251103160945-proof_search_with_equality.org"
-     "/Users/arun/Documents/PhD/Notes/20251110172553-common_subexpression_problem.org"
-     "/Users/arun/Documents/PhD/Notes/20251110174132-union_find.org"
-     "/Users/arun/Documents/PhD/Notes/20251110174310-administrative_normal_form.org"
-     "/Users/arun/Documents/PhD/Notes/20251112164714-graphs_and_lambda_terms.org"
-     "/Users/arun/Documents/PhD/Notes/20260205152243-metatheory_of_our_interpreter.org"
-     "/Users/arun/Documents/PhD/Notes/20260221212445-bedwyr_as_an_implementation_of_slim.org"
-     "/Users/arun/Documents/PhD/Notes/20260302173226-foundational_proof_certificates.org"
-     "/Users/arun/Documents/PhD/Notes/20260303130026-notes_on_reproducibility_using_nix.org"
-     "/Users/arun/Documents/PhD/Notes/20260314120209-notes_on_manim.org"
-     "/Users/arun/Documents/PhD/Notes/20260315135044-notes_on_mobility.org"
-     "/Users/arun/Documents/PhD/Notes/20260331115957-habits.org"
-     "/Users/arun/Documents/PhD/Notes/20260331141320-scopes_in_various_settings.org"
-     "/Users/arun/Documents/PhD/Notes/20260403150510-applications_of_equality_assumptions.org"
-     "/Users/arun/Documents/PhD/Notes/20260407115030-nixos_bootloader.org"
-     "/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
-     "/Users/arun/Documents/PhD/Notes/20260416122445-saturation_and_rewrite_systems.org"
-     "/Users/arun/Documents/PhD/Notes/20260416123320-do_not_doomscroll.org"
-     "/Users/arun/Documents/PhD/Notes/CSL_2017_paper_66.org"
-     "/Users/arun/Documents/PhD/Notes/Rules_of_definitional_reflection.org"
-     "/Users/arun/Documents/PhD/Notes/jlc91.org"
-     "/Users/arun/Documents/PhD/Notes/org-latex-export.org"
-     "/Users/arun/Documents/PhD/Notes/ps-equality.org"
-     "/Users/arun/Documents/PhD/Notes/refs/blanco17cade.org"
-     "/Users/arun/Documents/PhD/Notes/refs/blanco17phd.org"
-     "/Users/arun/Documents/PhD/Notes/refs/chihani17jar.org"
-     "/Users/arun/Documents/PhD/Notes/refs/comon1991disunification.org"
-     "/Users/arun/Documents/PhD/Notes/refs/dechampeaux86jcss.org"
-     "/Users/arun/Documents/PhD/Notes/refs/mcdowell00tcs.org"
-     "/Users/arun/Documents/PhD/Notes/refs/miller91jlc.org"
-     "/Users/arun/Documents/PhD/Notes/refs/millerLOGICPROGRAMMINGLANGUAGE.org"
-     "/Users/arun/Documents/PhD/Notes/refs/nadathur05iclp.org"
-     "/Users/arun/Documents/PhD/Notes/refs/paterson78jcss.org"
-     "/Users/arun/Documents/PhD/Notes/refs/paulsonHigherorderImplementationRewriting1983.org"
-     "/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterDefinitionalReflectionCompletion1994.org"
-     "/Users/arun/Documents/PhD/Notes/refs/schroeder-heisterRulesDefinitionalReflection1993.org"
-     "/Users/arun/Documents/PhD/Notes/refs/wadsworthSemanticsPragmaticsLambdaCalculus1971.org"
-     "/Users/arun/Documents/PhD/Notes/refs/wu24phd.org"
-     "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"
-     "/Users/arun/Documents/PhD/Notes/code/captured-snippets.org"
-     "/Users/arun/Documents/PhD/Notes/code/micrograd-notes.org"
-     "/Users/arun/Documents/PhD/Notes/web/captured-content.org"
-     "/Users/arun/Documents/PhD/Notes/daily/2025-11-18.org"
-     "/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org"
-     "/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org"
-     "/Users/arun/Documents/PhD/Notes/daily/2026-04-10.org"
-     "/Users/arun/Projects/rough-work/ocaml/anf.org"
-     "/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.org"
-     "/Users/arun/Projects/rough-work/ocaml/union-find.org") nil nil "Customized with use-package org")
  '(org-mode-hook
    '(org-ref-prettify-mode org-roam-bibtex-mode org-ref-org-menu
 			   citar-capf-setup org-tempo-setup
@@ -92,30 +40,28 @@
 			   org-babel-result-hide-spec
 			   org-babel-hide-all-hashes))
  '(package-selected-packages
-   '(all-the-icons-dired auctex casual cdlatex citar citar-org-roam
-			 consult counsel dired-git dired-posframe
-			 dired-subtree dired-toggle doric-themes dune
-			 easysession elfeed elfeed-dashboard
-			 elfeed-goodies elfeed-org elpy embark
-			 embark-consult engrave-faces
+   '(all-the-icons-dired auctex casual cdlatex citar-org-roam counsel
+			 dired-git dired-posframe dired-subtree
+			 dired-toggle doric-themes dune easysession
+			 elfeed-dashboard elfeed-goodies elfeed-org
+			 elpy embark-consult engrave-faces
 			 exec-path-from-shell geiser-chez
-			 geiser-racket gptel-agent helm helm-bibtex
+			 geiser-racket gptel-agent helm-bibtex
 			 imenu-list ivy-bibtex ivy-posframe
 			 latex-preview-pane macrostep-geiser magit
 			 marginalia markdown-mode merlin mixed-pitch
 			 nano-theme nasm-mode nix-mode ob-gptel ob-nix
-			 org-agenda org-mode org-modern org-noter
-			 org-ref org-ref-prettify org-roam
-			 org-roam-bibtex org-super-agenda ox-typst
-			 pdf-tools popper posframe sly sml-mode
-			 spacious-padding svg-lib svg-tag-mode
-			 transient transient-posframe undo-tree utop
-			 vterm wallabag x86-lookup yasnippet))
+			 org-mime org-mode org-modern org-noter
+			 org-ref-prettify org-roam-bibtex
+			 org-super-agenda ox-typst pdf-tools popper
+			 sly sml-mode spacious-padding svg-tag-mode
+			 transient-posframe tuareg undo-tree utop
+			 vterm wallabag x86-lookup))
  '(package-vc-selected-packages
-   '((ob-gptel :url "https://github.com/jwiegley/ob-gptel")
-     (wombag :url "https://github.com/karthink/wombag")
-     (org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
-	       "dev"))))
+   '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
+	       "dev")
+     (ob-gptel :url "https://github.com/jwiegley/ob-gptel")
+     (wombag :url "https://github.com/karthink/wombag"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

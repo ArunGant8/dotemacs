@@ -1,14 +1,106 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/.emacs.d/init.el" . 1546)
- ("/Users/arun/Projects/phd-thesis/examples/"
+(("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
- ("/Users/arun/.elfeed/index" . 692770)
+ ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
+  . 4301)
+ ("/Users/arun/.elfeed/index" . 723999)
+ ("/Users/arun/.emacs.d/elpa/casual-20260416.126/"
+  (dired-filename
+   . "/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-agenda-settings.el"))
+ ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/fns.c"
+  . 104685)
+ ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/bytecode.c"
+  . 9581)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions/parts.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions/parts.py"
+  . 310)
+ ("/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-timezone.el"
+  . 1134)
+ ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/transient.el.gz"
+  . 168575)
+ ("/Users/arun/.emacs.d/init.el" . 3385)
+ ("/Users/arun/.emacs.d/early-init.el" . 279)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 4918)
+ ("/Users/arun/.emacs.d/"
+  (dired-filename . "/Users/arun/.emacs.d/.elfeed.org.~undo-tree~"))
+ ("/Users/arun/.emacs.d/modules/config-ai.el" . 1024)
+ ("/Users/arun/.emacs.d/modules/config-mail.el" . 2051)
+ ("/Users/arun/Projects/micrograd/micrograd/"
+  (dired-filename
+   . "/Users/arun/Projects/micrograd/micrograd/engine.py"))
+ ("/Users/arun/Projects/micrograd/micrograd/nn.py" . 1130)
+ ("/Users/arun/Projects/micrograd/"
+  (dired-filename . "/Users/arun/Projects/micrograd/micrograd"))
+ ("/Users/arun/Projects/micrograd/micrograd/engine.py" . 1259)
+ ("/Users/arun/.emacs.d/elfeed.org" . 3514)
+ ("/Users/arun/Documents/manuals/dotemacses/rougier-dotemacs.org"
+  . 58811)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename . "/Users/arun/.emacs.d/modules/config-abella.el"))
+ ("/Users/arun/.emacs.d/modules/gptel-quick.el" . 3345)
+ ("/Users/arun/Documents/PhD/Notes/20260416123320-do_not_doomscroll.org"
+  . 14)
+ ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
+  . 5013)
+ ("/Users/arun/Documents/PhD/Notes/chats/.mitmproxy.org.~undo-tree~"
+  . 9799)
+ ("/Users/arun/Documents/PhD/Notes/"
+  (dired-filename . "/Users/arun/Documents/PhD/Notes/chats"))
+ ("/Users/arun/Documents/PhD/Notes/code/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
+ ("/Users/arun/Projects/manimations/manim-course/"
+  (dired-filename
+   . "/Users/arun/Projects/manimations/manim-course/__pycache__"))
+ ("/Users/arun/Projects/manimations/"
+  (dired-filename . "/Users/arun/Projects/manimations/my-project"))
+ ("/Users/arun/Projects/manimations/my-project/"
+  (dired-filename
+   . "/Users/arun/Projects/manimations/my-project/main.py"))
+ ("/Users/arun/Downloads/TD-bovary/english.md" . 1410)
  ("/Users/arun/.emacs.d/modules/config-editor.el" . 26)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/huffman.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/bits.py"
+  . 154)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/huffman.py"
+  . 11612)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/lfsr.py"
+  . 431)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/tests/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/tests/testsuite.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/"
+  (dired-filename . "/Users/arun/Projects/teaching/cse102-teaching/td"))
+ ("/Users/arun/Projects/teaching/"
+  (dired-filename . "/Users/arun/Projects/teaching/cse102-teaching"))
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 6594)
+ ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 694)
+ ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/simple.el.gz"
+  . 118943)
+ ("/Users/arun/.emacs.d/elpa/counsel-20260214.1004/counsel.el" . 39382)
+ ("/etc/nix-darwin/flake.nix" . 586)
  ("/Users/arun/.emacs.d/elpa/spacious-padding-0.8.0/spacious-padding.el"
   . 17630)
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 57)
- ("/Users/arun/.emacs.d/early-init.el" . 152)
  ("/Users/arun/Projects/phd-thesis/"
   (dired-filename . "/Users/arun/Projects/phd-thesis/examples"))
  ("/Users/arun/Projects/rough-work/scheme/nd_patunif/test-check.scm"
@@ -23,10 +115,7 @@
  ("/Users/arun/.emacs.d/elpa/geiser-20251220.2301/geiser-impl.el"
   . 1949)
  ("/Users/arun/.emacs.d/elpa/org-mode/lisp/ob-scheme.el" . 11096)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 5442)
  ("/Users/arun/.emacs.d/modules/config-scheme.el" . 414)
- ("/Users/arun/.emacs.d/elfeed.org" . 3416)
- ("/Users/arun/Projects/phd-thesis/examples/prop.mod" . 13094)
  ("/Users/arun/Projects/phd-thesis/examples/all.thm" . 11996)
  ("/Users/arun/Projects/okmij/matmul.ml" . 229)
  ("/Users/arun/.emacs.d/modules/config-macos.el" . 482)
@@ -42,13 +131,8 @@
  ("/Users/arun/Projects/rough-work/ocaml/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing"))
- ("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/init.el"))
- ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
-  . 8555)
  ("/Users/arun/Projects/nano-emacs/nano.el" . 2679)
  ("/Users/arun/Projects/nano-emacs/nano-base-colors.el" . 3404)
- ("/Users/arun/.emacs.d/modules/" . 3286)
  ("/Users/arun/Projects/nano-emacs/nano-layout.el" . 1810)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src/ast.ml" . 248)
  ("/Users/arun/Projects/nano-emacs/"
@@ -74,9 +158,6 @@
  ("/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/"
   (dired-filename
    . "/Users/arun/Projects/Slimmer/branches/bedwyr-poly/src/batyping/typing.mli"))
- ("/Users/arun/Documents/PhD/Notes/code/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
  ("/Users/arun/Projects/Slimmer/"
   (dired-filename . "/Users/arun/Projects/Slimmer/branches"))
  ("/Users/arun/Projects/Slimmer/branches/"
@@ -107,12 +188,6 @@
  ("/Users/arun/.emacs.d/modules/consult-mu.el" . 71768)
  ("/Users/arun/.emacs.d/modules/mu4e-thread-folding.el" . 17076)
  ("/Users/arun/.emacs.d/modules/mu4e-dashboard.el" . 4133)
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
-  (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06"))
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/"
-  (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/solutions/dfsbfs.py"))
  ("/Users/arun/.emacs.d/modules/nano-agenda.el" . 16747)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/06/"
   (dired-filename
@@ -149,17 +224,7 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/trees/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/05/trees/bin-search-trees.tex"))
- ("/Users/arun/Projects/manimations/my-project/"
-  (dired-filename
-   . "/Users/arun/Projects/manimations/my-project/main.py"))
- ("/Users/arun/Projects/manimations/"
-  (dired-filename . "/Users/arun/Projects/manimations/my-project"))
- ("/Users/arun/Projects/manimations/manim-course/"
-  (dired-filename
-   . "/Users/arun/Projects/manimations/manim-course/__pycache__"))
  ("/Users/arun/Documents/manuals/nixos.org" . 10514)
- ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy-rpc.el" . 45475)
- ("/Users/arun/.emacs.d/elpa/elpy-20250404.2349/elpy.el" . 70185)
  ("/Users/arun/Projects/manimations/my-project/main.py" . 215)
  ("/Users/arun/Projects/manimations/manim-course/ManimCourse.py" . 433)
  ("/Users/arun/Projects/nano-emacs/nano-defaults.el" . 1402)
@@ -232,11 +297,9 @@
  ("/Users/arun/Projects/bedwyr-poly-src/oUnit/"
   (dired-filename
    . "/Users/arun/Projects/bedwyr-poly-src/oUnit/oUnit.ml"))
- ("/Users/arun/.emacs.d/modules/config-nixlang.el" . 313)
  ("/Users/arun/.emacs.d/modules/config-vc.el" . 145)
  ("/Users/arun/.emacs.d/elpa/dired-toggle-20190616.303/dired-toggle.el"
   . 2616)
- ("/Users/arun/Documents/PhD/Notes/" . 2652)
  ("/Users/arun/Documents/PhD/Notes/ltximg/"
   (dired-filename
    . "/Users/arun/Documents/PhD/Notes/ltximg/org-ltximg_63c9820db0b202ac7ea2001f3a72e3005cabfe9a.png"))
@@ -397,8 +460,6 @@
   . 953)
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/code/src/main.ml" . 135)
  ("/Users/arun/Projects/abella/src/state.mli" . 641)
- ("/Users/arun/Projects/teaching/"
-  (dired-filename . "/Users/arun/Projects/teaching/CSE102-2025-26"))
  ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/"
   (dired-filename
    . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/4-destructive/README"))
@@ -549,7 +610,6 @@
  ("/Users/arun/miniKanren-prez/presentation.tex" . 1169)
  ("/Users/arun/miniKanren-prez/trial-prez.org" . 404)
  ("/Users/arun/miniKanren-prez/trial-prez.tex" . 446)
- ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 155)
  ("/Users/arun/Documents/PhD/positive-syntax/"
   (dired-filename
    . "/Users/arun/Documents/PhD/positive-syntax/ppdp15computation.pdf"))
