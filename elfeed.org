@@ -36,6 +36,7 @@
 *** https://bernsteinbear.com/feed.xml :toread:
 *** https://karpathy.bearblog.dev/feed/ :toread:
 *** https://karpathy.github.io/feed.xml :toread:
+*** https://ranprieur.com/feed.php :toread:
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 

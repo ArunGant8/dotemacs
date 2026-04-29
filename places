@@ -2,9 +2,9 @@
 (("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
- ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
-  . 4301)
- ("/Users/arun/.elfeed/index" . 723999)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-04-17.org" . 2569)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 1975)
+ ("/Users/arun/.elfeed/index" . 759232)
  ("/Users/arun/.emacs.d/elpa/casual-20260416.126/"
   (dired-filename
    . "/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-agenda-settings.el"))
@@ -112,8 +112,6 @@
  ("/Users/arun/Projects/faster-minikanren/test-numbers.scm" . 18)
  ("/Users/arun/Projects/faster-minikanren/test-all.scm" . 409)
  ("/Users/arun/Projects/faster-minikanren/test-check.scm" . 477)
- ("/Users/arun/.emacs.d/elpa/geiser-20251220.2301/geiser-impl.el"
-  . 1949)
  ("/Users/arun/.emacs.d/elpa/org-mode/lisp/ob-scheme.el" . 11096)
  ("/Users/arun/.emacs.d/modules/config-scheme.el" . 414)
  ("/Users/arun/Projects/phd-thesis/examples/all.thm" . 11996)
