@@ -1,4 +1,5 @@
 ((casual-calc-tmenu nil)
+ (gptel-menu nil)
  (magit-commit
   ("--verbose")
   nil)

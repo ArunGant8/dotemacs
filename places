@@ -1,28 +1,93 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/phd-thesis/examples/prop.sig" . 1282)
- ("/Users/arun/Projects/phd-thesis/examples/prop.mod" . 745)
- ("/Users/arun/Projects/phd-thesis/examples/example.sig" . 332)
- ("/Users/arun/Projects/phd-thesis/examples/example.mod" . 199)
- ("/Users/arun/Projects/phd-thesis/examples/prover.sig" . 221)
- ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 530)
- ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
-  . 24750)
- ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 4930)
+(("/Users/arun/Projects/elpi/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests"))
+ ("/Users/arun/Projects/elpi/tests/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
+ ("/Users/arun/Projects/elpi/tests/sources/"
+  (dired-filename
+   . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
+ ("/Users/arun/Projects/phd-thesis/examples/classes.mod" . 645)
+ ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 496)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 3651)
+ ("/Users/arun/Documents/PhD/Notes/20260513112210-forward_chaining_in_elpi.org"
+  . 1643)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 2000)
+ ("/Users/arun/builtin.elpi" . 13131)
+ ("/Users/arun/.emacs.d/modules/config-utils.el" . 5933)
+ ("/Users/arun/Projects/elpi/tests/suite/"
+  (dired-filename
+   . "/Users/arun/Projects/elpi/tests/suite/builtins.ml"))
+ ("/Users/arun/Projects/elpi/ELPI.md" . 33223)
+ ("/Users/arun/Documents/PhD/Notes/chats/ethics.org" . 3728)
+ ("/Users/arun/.elfeed/index" . 805091)
+ ("/Users/arun/.emacs.d/elpa/svg-lib-0.3/"
+  (dired-filename
+   . "/Users/arun/.emacs.d/elpa/svg-lib-0.3/LICENSE.txt"))
+ ("/Users/arun/.emacs.d/elpa/svg-lib-0.3/svg-lib.el" . 21046)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 560)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename
+   . "/Users/arun/.emacs.d/modules/.config-macos.el.~undo-tree~"))
+ ("/Users/arun/Projects/elpi/src/"
+  (dired-filename . "/Users/arun/Projects/elpi/src/compiler"))
+ ("/Users/arun/Projects/elpi/src/compiler/"
+  (dired-filename
+   . "/Users/arun/Projects/elpi/src/compiler/compiler_data.ml"))
+ ("/Users/arun/Projects/elpi/src/parser/"
+  (dired-filename . "/Users/arun/Projects/elpi/src/parser/ast.ml"))
+ ("/Users/arun/Projects/elpi/src/runtime/"
+  (dired-filename . "/Users/arun/Projects/elpi/src/runtime/bl.ml"))
+ ("/Users/arun/Projects/elpi/src/utils/"
+  (dired-filename . "/Users/arun/Projects/elpi/src/utils/dune"))
+ ("/Users/arun/Projects/elpi/tests/suite/correctness_FO.ml" . 7766)
+ ("/Users/arun/Projects/elpi/CHANGES.md" . 2028)
+ ("/Users/arun/Projects/rde/files/.doom.d/"
+  (dired-filename . "/Users/arun/Projects/rde/files/.doom.d/config.el"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions/echo.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions/echo.py"
+  . 960)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/client.py"
+  . 603)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions/chat.py"
+  . 746)
+ ("/Users/arun/Projects/rde/"
+  (dired-filename . "/Users/arun/Projects/rde/src"))
+ ("/Users/arun/Projects/rde/src/modules/emacs/"
+  (dired-filename
+   . "/Users/arun/Projects/rde/src/modules/emacs/configs"))
+ ("/Users/arun/Projects/rde/src/modules/emacs/configs/"
+  (dired-filename
+   . "/Users/arun/Projects/rde/src/modules/emacs/configs/org"))
+ ("/Users/arun/Projects/rde/src/modules/emacs/configs/org/"
+  (dired-filename
+   . "/Users/arun/Projects/rde/src/modules/emacs/configs/org/config.el"))
+ ("/Users/arun/Projects/rde/src/"
+  (dired-filename . "/Users/arun/Projects/rde/src/modules"))
+ ("/Users/arun/Projects/rde/src/modules/"
+  (dired-filename . "/Users/arun/Projects/rde/src/modules/emacs"))
+ ("/Users/arun/Projects/rde/src/modules/emacs/early-init.el" . 451)
+ ("/Users/arun/Projects/rde/src/modules/emacs/default.nix" . 47)
+ ("/Users/arun/Projects/rde/src/modules/emacs/rde-configs.el" . 695)
+ ("/Users/arun/Projects/rde/files/"
+  (dired-filename . "/Users/arun/Projects/rde/files/.doom.d"))
+ ("/Users/arun/Projects/rde/files/.config/"
+  (dired-filename
+   . "/Users/arun/Projects/rde/files/.config/gromit-mpx.cfg"))
  ("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
    . "/Users/arun/Projects/phd-thesis/examples/.depend.~undo-tree~"))
  ("/Users/arun/Projects/phd-thesis/examples/readme.md" . 2780)
- ("/Users/arun/Projects/phd-thesis/examples/utils.sig" . 238)
- ("/Users/arun/Documents/PhD/Notes/chats/transformers.org" . 49524)
  ("/Users/arun/Documents/PhD/"
   (dired-filename . "/Users/arun/Documents/PhD/.DS_Store"))
  ("/Users/arun/.emacs.d/init.el" . 3385)
- ("/Users/arun/.elfeed/index" . 774720)
- ("/Users/arun/Documents/PhD/Notes/20260505205930-mlp_and_linguistics.org"
-  . 621)
- ("/Users/arun/.emacs.d/elpa/casual-20260416.126/"
-  (dired-filename
-   . "/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-agenda-settings.el"))
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/fns.c"
   . 104685)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/bytecode.c"
@@ -33,17 +98,11 @@
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions"))
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
-  (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08"))
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/08/solutions/parts.py"
   . 310)
- ("/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-timezone.el"
-  . 1134)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/transient.el.gz"
   . 168575)
  ("/Users/arun/.emacs.d/early-init.el" . 279)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 4918)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.elfeed.org.~undo-tree~"))
  ("/Users/arun/.emacs.d/modules/config-ai.el" . 1024)
@@ -58,8 +117,6 @@
  ("/Users/arun/.emacs.d/elfeed.org" . 3514)
  ("/Users/arun/Documents/manuals/dotemacses/rougier-dotemacs.org"
   . 58811)
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename . "/Users/arun/.emacs.d/modules/config-abella.el"))
  ("/Users/arun/.emacs.d/modules/gptel-quick.el" . 3345)
  ("/Users/arun/Documents/PhD/Notes/20260416123320-do_not_doomscroll.org"
   . 14)
@@ -105,7 +162,6 @@
   (dired-filename . "/Users/arun/Projects/teaching/cse102-teaching/td"))
  ("/Users/arun/Projects/teaching/"
   (dired-filename . "/Users/arun/Projects/teaching/cse102-teaching"))
- ("/Users/arun/.emacs.d/modules/config-utils.el" . 6594)
  ("/Users/arun/.emacs.d/modules/config-lprolog.el" . 694)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/simple.el.gz"
   . 118943)
@@ -665,39 +721,4 @@
   . 7461)
  ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 13660)
  ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 8394)
- ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72)
- ("/Users/arun/Documents/PhD/CSI/first-year/master.bib" . 10414)
- ("/Users/arun/Projects/tableaux2025prez/comments-torie.txt" . 1162)
- ("/Users/arun/Projects/abella-experiments/tableau2025/macros.tex"
-  . 4193)
- ("/Users/arun/Projects/abella/src/prover.ml" . 43600)
- ("/Users/arun/Projects/abella-experiments/notes/macros.tex" . 883)
- ("/Users/arun/Projects/abella-experiments/notes/ag-notes.tex" . 7112)
- ("/Users/arun/Projects/abella/src/abella.ml" . 23791)
- ("/Users/arun/Projects/abella/src/tactics.ml" . 159)
- ("/Users/arun/Projects/latex/beamer-example.org" . 108)
- ("/Users/arun/Projects/latex/karthinks-org-latex-setup.el" . 7697)
- ("/Users/arun/Projects/latex/beamer-example.tex" . 30)
- ("/Users/arun/Projects/latex/_region_.tex" . 276)
- ("/Users/arun/Projects/abella-experiments/notes/_region_.tex" . 481)
- ("/Users/arun/setup-latex.el" . 19787)
- ("/Users/arun/setup-calc.el" . 1495)
- ("/Users/arun/Projects/latex/test.tex" . 250)
- ("/Users/arun/Projects/latex/template.tex" . 1669)
- ("/Users/arun/.emacs.d/modules/config-calc.el" . 59)
- ("/Users/arun/Projects/tableaux2025prez/" . 143)
- ("/Users/arun/.emacs.d-prelude/personal/config-calc.el" . 182)
- ("/Users/arun/.emacs.d-kickstart/configuration.org" . 17221)
- ("/Users/arun/.emacs.d/modules/config-abella.el" . 978)
- ("/Users/arun/.emacs.d-prelude/modules/prelude-latex.el" . 2736)
- ("/Users/arun/.emacs.d-prelude/personal/config-latex.el" . 871)
- ("/Users/arun/.emacs.d-prelude/modules/prelude-programming.el" . 1561)
- ("/Users/arun/.emacs.d-prelude/modules/prelude-ocaml.el" . 3029)
- ("/Users/arun/.emacs.d-prelude/personal/config-literate-programming.el"
-  . 164)
- ("/Users/arun/.emacs.d-prelude/personal/config-org.el" . 2306)
- ("/Users/arun/.emacs.d-prelude/core/prelude-custom.el" . 3442)
- ("/Users/arun/.emacs.d-prelude/core/prelude-editor.el" . 14777)
- ("/Users/arun/.emacs.d-prelude/core/prelude-ui.el" . 3530)
- ("/Users/arun/.emacs.d-prelude/core/prelude-core.el" . 4508)
- ("/Users/arun/.emacs.d-prelude/core/prelude-macos.el" . 1741))
+ ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72))
