@@ -1,10 +1,25 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/phd-thesis/examples/"
+(("/Users/arun/Projects/phd-thesis/examples/prop.sig" . 1282)
+ ("/Users/arun/Projects/phd-thesis/examples/prop.mod" . 745)
+ ("/Users/arun/Projects/phd-thesis/examples/example.sig" . 332)
+ ("/Users/arun/Projects/phd-thesis/examples/example.mod" . 199)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.sig" . 221)
+ ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 530)
+ ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
+  . 24750)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 4930)
+ ("/Users/arun/Projects/phd-thesis/examples/"
   (dired-filename
-   . "/Users/arun/Projects/phd-thesis/examples/prover.mod"))
- ("/Users/arun/Documents/PhD/Notes/daily/2026-04-17.org" . 2569)
- ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 1975)
- ("/Users/arun/.elfeed/index" . 759232)
+   . "/Users/arun/Projects/phd-thesis/examples/.depend.~undo-tree~"))
+ ("/Users/arun/Projects/phd-thesis/examples/readme.md" . 2780)
+ ("/Users/arun/Projects/phd-thesis/examples/utils.sig" . 238)
+ ("/Users/arun/Documents/PhD/Notes/chats/transformers.org" . 49524)
+ ("/Users/arun/Documents/PhD/"
+  (dired-filename . "/Users/arun/Documents/PhD/.DS_Store"))
+ ("/Users/arun/.emacs.d/init.el" . 3385)
+ ("/Users/arun/.elfeed/index" . 774720)
+ ("/Users/arun/Documents/PhD/Notes/20260505205930-mlp_and_linguistics.org"
+  . 621)
  ("/Users/arun/.emacs.d/elpa/casual-20260416.126/"
   (dired-filename
    . "/Users/arun/.emacs.d/elpa/casual-20260416.126/casual-agenda-settings.el"))
@@ -27,7 +42,6 @@
   . 1134)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/transient.el.gz"
   . 168575)
- ("/Users/arun/.emacs.d/init.el" . 3385)
  ("/Users/arun/.emacs.d/early-init.el" . 279)
  ("/Users/arun/.emacs.d/modules/config-org.el" . 4918)
  ("/Users/arun/.emacs.d/"
@@ -49,8 +63,6 @@
  ("/Users/arun/.emacs.d/modules/gptel-quick.el" . 3345)
  ("/Users/arun/Documents/PhD/Notes/20260416123320-do_not_doomscroll.org"
   . 14)
- ("/Users/arun/.emacs.d/elpa/org-modern-20260325.721/org-modern.el"
-  . 5013)
  ("/Users/arun/Documents/PhD/Notes/chats/.mitmproxy.org.~undo-tree~"
   . 9799)
  ("/Users/arun/Documents/PhD/Notes/"

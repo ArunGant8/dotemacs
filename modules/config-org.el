@@ -18,7 +18,8 @@
   (org-modern-tag nil)
   (org-modern-block-fringe nil)
   (org-modern-timestamp nil)
-  (org-modern-progress nil))
+  (org-modern-progress nil)
+  (org-modern-checkbox nil))
 
 (setq
  org-auto-align-tags nil

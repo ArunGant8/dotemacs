@@ -163,7 +163,14 @@
      ("\\[#C\\]" . ((lambda (tag)
 		      (svg-tag-make "C" :face 'highlight))))
      ("\\(:[A-Za-z]+:\\)" . ((lambda (tag)
-                            (svg-tag-make tag :beg 1 :end -1 :font-size 12 :face 'org-warning)))))))
+                               (svg-tag-make tag :beg 1 :end -1 :font-size 12 :face 'org-warning))))
+     ("\\[ \\]" . ((lambda (tag)
+		     (svg-lib-icon "checkbox-blank" nil :collection "material" :stroke 0 :scale 1 :padding 0 :background "black" :foreground "white"))))
+     ("\\[X\\]" . ((lambda (tag)
+		     (svg-lib-icon "checkbox-marked" nil :collection "material" :stroke 0 :scale 1 :padding 0))))
+     ("\\[-\\]" . ((lambda (tag)
+		     (svg-lib-icon "checkbox-intermediate" :collection "material" :stroke 0 :scale 1 :padding 0))))
+     )))
 
 (use-package svg-tag-mode
   :ensure t
