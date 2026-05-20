@@ -1,25 +1,25 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/elpi/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests"))
- ("/Users/arun/Projects/elpi/tests/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
- ("/Users/arun/Projects/elpi/tests/sources/"
+(("/Users/arun/Projects/elpi/tests/sources/"
   (dired-filename
    . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
- ("/Users/arun/Projects/phd-thesis/examples/classes.mod" . 645)
- ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 496)
- ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 3651)
+ ("/Users/arun/Projects/elpi/tests/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
+ ("/Users/arun/Projects/elpi/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests"))
  ("/Users/arun/Documents/PhD/Notes/20260513112210-forward_chaining_in_elpi.org"
-  . 1643)
- ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 2000)
- ("/Users/arun/builtin.elpi" . 13131)
+  . 2594)
+ ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 33)
+ ("/Users/arun/builtin.elpi" . 17376)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 3668)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 3489)
+ ("/Users/arun/.elfeed/index" . 805671)
+ ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
+  . 26162)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 5933)
  ("/Users/arun/Projects/elpi/tests/suite/"
   (dired-filename
    . "/Users/arun/Projects/elpi/tests/suite/builtins.ml"))
  ("/Users/arun/Projects/elpi/ELPI.md" . 33223)
- ("/Users/arun/Documents/PhD/Notes/chats/ethics.org" . 3728)
- ("/Users/arun/.elfeed/index" . 805091)
  ("/Users/arun/.emacs.d/elpa/svg-lib-0.3/"
   (dired-filename
    . "/Users/arun/.emacs.d/elpa/svg-lib-0.3/LICENSE.txt"))
