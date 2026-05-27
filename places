@@ -1,18 +1,58 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/elpi/tests/sources/"
+(("/Users/arun/Projects/egraphs/ego/test/"
+  (dired-filename
+   . "/Users/arun/Projects/egraphs/ego/test/test_basic.ml"))
+ ("/Users/arun/Projects/egraphs/ego/lib/"
+  (dired-filename
+   . "/Users/arun/Projects/egraphs/ego/lib/ordered_set.ml"))
+ ("/Users/arun/Projects/egraphs/ego/"
+  (dired-filename . "/Users/arun/Projects/egraphs/ego/lib"))
+ ("/Users/arun/Projects/egraphs/ego/test/test_basic.ml" . 2840)
+ ("/Users/arun/Documents/PhD/Notes/20260518145834-notes_on_e_graphs.org"
+  . 2359)
+ ("/Users/arun/Projects/egraphs/ego/lib/equivalence.ml" . 312)
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 229324)
+ ("/Users/arun/.emacs.d/modules/config-ai.el" . 156)
+ ("/Users/arun/Documents/Notes/PhD/CADE 2025 Paper.md" . 1128)
+ ("/Users/arun/.elfeed/index" . 824085)
+ ("/Users/arun/builtin.elpi" . 17377)
+ ("/Users/arun/Projects/elpi/tests/sources/"
   (dired-filename
    . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
  ("/Users/arun/Projects/elpi/tests/"
   (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
  ("/Users/arun/Projects/elpi/"
   (dired-filename . "/Users/arun/Projects/elpi/tests"))
- ("/Users/arun/Documents/PhD/Notes/20260513112210-forward_chaining_in_elpi.org"
-  . 2594)
- ("/Users/arun/Projects/phd-thesis/examples/utils.mod" . 33)
- ("/Users/arun/builtin.elpi" . 17376)
- ("/Users/arun/Projects/phd-thesis/examples/prover.mod" . 3668)
- ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 3489)
- ("/Users/arun/.elfeed/index" . 805671)
+ ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 3692)
+ ("/Users/arun/Projects/egraphs/"
+  (dired-filename . "/Users/arun/Projects/egraphs/ego"))
+ ("/Users/arun/Projects/egraphs/ego/doc/"
+  (dired-filename . "/Users/arun/Projects/egraphs/ego/doc/index.mld"))
+ ("/Users/arun/Projects/egraphs/ego/test/test_prop.ml" . 2354)
+ ("/Users/arun/Projects/egraphs/ego/test/test_math.ml" . 4825)
+ ("/Users/arun/Projects/egraphs/ego/test/test_generic.ml" . 4041)
+ ("/Users/arun/Projects/egraphs/ego/macros/"
+  (dired-filename
+   . "/Users/arun/Projects/egraphs/ego/macros/ppx_sexp.ml"))
+ ("/Users/arun/Projects/egraphs/ego/macros/ppx_sexp.ml" . 1621)
+ ("/Users/arun/Projects/egraphs/slotted-egraphs/"
+  (dired-filename
+   . "/Users/arun/Projects/egraphs/slotted-egraphs/README.md"))
+ ("/Users/arun/Projects/rde/files/.doom.d/"
+  (dired-filename . "/Users/arun/Projects/rde/files/.doom.d/config.el"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions/"
+  (dired-filename
+   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions/trees.py"))
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions/trees.py"
+  . 448)
+ ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions/fun.py"
+  . 3165)
  ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
   . 26162)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 5933)
@@ -41,11 +81,6 @@
   (dired-filename . "/Users/arun/Projects/elpi/src/utils/dune"))
  ("/Users/arun/Projects/elpi/tests/suite/correctness_FO.ml" . 7766)
  ("/Users/arun/Projects/elpi/CHANGES.md" . 2028)
- ("/Users/arun/Projects/rde/files/.doom.d/"
-  (dired-filename . "/Users/arun/Projects/rde/files/.doom.d/config.el"))
- ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/"
-  (dired-filename
-   . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10"))
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/"
   (dired-filename
    . "/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/10/solutions"))
@@ -87,7 +122,6 @@
  ("/Users/arun/Projects/phd-thesis/examples/readme.md" . 2780)
  ("/Users/arun/Documents/PhD/"
   (dired-filename . "/Users/arun/Documents/PhD/.DS_Store"))
- ("/Users/arun/.emacs.d/init.el" . 3385)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/fns.c"
   . 104685)
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/src/bytecode.c"
@@ -105,7 +139,6 @@
  ("/Users/arun/.emacs.d/early-init.el" . 279)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.elfeed.org.~undo-tree~"))
- ("/Users/arun/.emacs.d/modules/config-ai.el" . 1024)
  ("/Users/arun/.emacs.d/modules/config-mail.el" . 2051)
  ("/Users/arun/Projects/micrograd/micrograd/"
   (dired-filename
@@ -685,40 +718,4 @@
  ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
  ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
  ("/Users/arun/Documents/PhD/notes/refs/" . 134)
- ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070)
- ("/Users/arun/Documents/PhD/equality-proof-theoretically/Rules_of_definitional_reflection.pdf"
-  . 873042)
- ("/Users/arun/Projects/abella-experiments/trash/ints-old.thm" . 1669)
- ("/Users/arun/Projects/abella-experiments/rationals.thm" . 2826)
- ("/Users/arun/Projects/abella-experiments/"
-  (dired-filename . "/Users/arun/Projects/abella-experiments/numbers"))
- ("/Users/arun/Projects/abella-experiments/numbers/"
-  (dired-filename
-   . "/Users/arun/Projects/abella-experiments/numbers/nats.thm"))
- ("/Users/arun/Projects/abella-experiments/ljfeq/ccfv1.thm" . 199)
- ("/Users/arun/.notes" . 776)
- ("/Users/arun/.emacs.d/snippets/org-mode/marginnote" . 101)
- ("/Users/arun/Projects/rough-work/ocaml/union-find.tex" . 11646)
- ("/Users/arun/Projects/latex/tufte-latex/sample-handout.tex" . 3594)
- ("/Users/arun/Projects/rough-work/ocaml/temp/common-subexpression-problem.tex"
-  . 6459)
- ("/Users/arun/Projects/rough-work/ocaml/common-subexpression-problem.tex"
-  . 3289)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 1026)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.tex" . 10249)
- ("/Users/arun/.emacs.d/elpa/mixed-pitch-20210304.1900/mixed-pitch.el"
-  . 6011)
- ("/Users/arun/Projects/martelli-montanari/martelli-montanari.org"
-  . 358)
- ("/Users/arun/Projects/abella-experiments/tableau2025/_region_.tex"
-  . 65505)
- ("/Users/arun/Projects/abella-experiments/tableau2025/paper.tex"
-  . 13285)
- ("/Users/arun/.emacs.d-prelude/init.el" . 5095)
- ("/Users/arun/Projects/Unify/"
-  (dired-filename . "/Users/arun/Projects/Unify/_build"))
- ("/Users/arun/Projects/abella-experiments/tableau2025/extract.bib"
-  . 7461)
- ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 13660)
- ("/Users/arun/Projects/tableaux2025prez/bibfile.bib" . 8394)
- ("/Users/arun/Projects/tableaux2025prez/example.dot" . 72))
+ ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070))

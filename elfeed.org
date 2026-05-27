@@ -22,21 +22,22 @@
 *** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+all%3Aocaml&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :PL: :ocaml:
 *** http://export.arxiv.org/api/query?search_query=cat%3Acs.PL+AND+all%3Aparsing&sortBy=lastUpdatedDate&sortOrder=descending&start=0&max_results=10 :PL: :parsing:
 
-** Blogs  :blog:
-*** https://geohot.github.io/blog/feed.xml :toread:
-*** https://www.philipzucker.com/feed.xml :toread:
-*** https://okmij.org/ftp/rss.xml :toread:
+** Blogs  :blog: :toread:
+*** https://geohot.github.io/blog/feed.xml
+*** https://www.philipzucker.com/feed.xml
+*** https://okmij.org/ftp/rss.xml
 *** https://www.unwoundstack.com/rss.xml
-*** http://www.synthcode.com/feed.scm :toread:
-*** https://ericmigi.com/rss.xml :toread:
-*** https://trop.in/feed/blog.xml :toread:
-*** https://protesilaos.com/master.xml :toread:
-*** https://beej.us/blog/rss.xml :toread:
-*** https://jao.io/blog/rss.xml :toread:
-*** https://bernsteinbear.com/feed.xml :toread:
-*** https://karpathy.bearblog.dev/feed/ :toread:
-*** https://karpathy.github.io/feed.xml :toread:
-*** https://ranprieur.com/feed.php :toread:
+*** http://www.synthcode.com/feed.scm
+*** https://ericmigi.com/rss.xml
+*** https://trop.in/feed/blog.xml
+*** https://protesilaos.com/master.xml
+*** https://beej.us/blog/rss.xml
+*** https://jao.io/blog/rss.xml
+*** https://bernsteinbear.com/feed.xml
+*** https://karpathy.bearblog.dev/feed/
+*** https://karpathy.github.io/feed.xml
+*** https://ranprieur.com/feed.php
+*** https://leodemoura.github.io/feed.xml
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
