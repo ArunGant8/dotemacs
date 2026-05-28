@@ -1,5 +1,14 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/egraphs/ego/test/"
+(("/Users/arun/Projects/elpi/tests/sources/"
+  (dired-filename
+   . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
+ ("/Users/arun/Projects/elpi/tests/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
+ ("/Users/arun/Projects/elpi/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests"))
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-05-26.org" . 142)
+ ("/Users/arun/.elfeed/index" . 554438)
+ ("/Users/arun/Projects/egraphs/ego/test/"
   (dired-filename
    . "/Users/arun/Projects/egraphs/ego/test/test_basic.ml"))
  ("/Users/arun/Projects/egraphs/ego/lib/"
@@ -8,22 +17,9 @@
  ("/Users/arun/Projects/egraphs/ego/"
   (dired-filename . "/Users/arun/Projects/egraphs/ego/lib"))
  ("/Users/arun/Projects/egraphs/ego/test/test_basic.ml" . 2840)
- ("/Users/arun/Documents/PhD/Notes/20260518145834-notes_on_e_graphs.org"
-  . 2359)
  ("/Users/arun/Projects/egraphs/ego/lib/equivalence.ml" . 312)
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 229324)
  ("/Users/arun/.emacs.d/modules/config-ai.el" . 156)
  ("/Users/arun/Documents/Notes/PhD/CADE 2025 Paper.md" . 1128)
- ("/Users/arun/.elfeed/index" . 824085)
- ("/Users/arun/builtin.elpi" . 17377)
- ("/Users/arun/Projects/elpi/tests/sources/"
-  (dired-filename
-   . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
- ("/Users/arun/Projects/elpi/tests/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
- ("/Users/arun/Projects/elpi/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests"))
- ("/Users/arun/Projects/phd-thesis/examples/prover.elpi" . 3692)
  ("/Users/arun/Projects/egraphs/"
   (dired-filename . "/Users/arun/Projects/egraphs/ego"))
  ("/Users/arun/Projects/egraphs/ego/doc/"
