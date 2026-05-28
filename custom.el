@@ -48,11 +48,11 @@
 			 exec-path-from-shell geiser-chez
 			 geiser-racket gptel-agent helm-bibtex
 			 imenu-list ivy-bibtex ivy-posframe
-			 latex-preview-pane macrostep-geiser magit
-			 marginalia markdown-mode merlin mixed-pitch
-			 nano-theme nasm-mode nix-mode ob-gptel ob-nix
-			 org-mime org-mode org-modern org-noter
-			 org-ref-prettify org-roam-bibtex
+			 latex-preview-pane lsp-mode macrostep-geiser
+			 magit marginalia markdown-mode merlin
+			 mixed-pitch nano-theme nasm-mode nix-mode
+			 ob-gptel ob-nix org-mime org-mode org-modern
+			 org-noter org-ref-prettify org-roam-bibtex
 			 org-super-agenda ox-typst pdf-tools popper
 			 rustic sly sml-mode spacious-padding
 			 svg-tag-mode transient-posframe tuareg
