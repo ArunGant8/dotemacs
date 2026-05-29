@@ -316,6 +316,11 @@
       "%?"
       :target (file+head "code/${project}-notes.org"
 			 "#+title: ${title}\n#+startup: latexpreview inlineimages\n#+created: %U\n#+PROPERTY: header-args:%^{Lang|ocaml|scheme}  :results output code replace\n#+PROPERTY: header-args:%\\1 :comments both\n#+PROPERTY: header-args:%\\1  :session %^{session-name|none}\n#+PROPERTY: header-args:%\\1  :tangle yes\n")
+      :unnarrowed t)
+     ("i" "ideas" plain
+      "%?"
+      :target (file+head "%<%Y%m%d%H%M%S>-${slug}.org"
+			 "#+title: ${title}  :idea:\n#+author:Arunava Gantait\n#+startup: latexpreview inlineimages\n#+created: %U\n\n#+begin_abstract\n${abstract}\n#+end_abstract\n\n* Observation\n\n* Conjecture\n")
       :unnarrowed t)))
      ;; Easier way (possibly):
      ;; ("c" "citar literature note" plain "%?"
