@@ -1,13 +1,81 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/elpi/tests/sources/"
-  (dired-filename
-   . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
+(("/Users/arun/Projects/elpi/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests"))
  ("/Users/arun/Projects/elpi/tests/"
   (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
- ("/Users/arun/Projects/elpi/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests"))
- ("/Users/arun/Documents/PhD/Notes/daily/2026-05-26.org" . 142)
- ("/Users/arun/.elfeed/index" . 554438)
+ ("/Users/arun/Projects/elpi/tests/sources/"
+  (dired-filename
+   . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
+ ("/Users/arun/Projects/ijcar2026prez/"
+  (dired-filename
+   . "/Users/arun/Projects/ijcar2026prez/ijcarprez-notes.org"))
+ ("/Users/arun/Projects/tableaux2025prez/"
+  (dired-filename
+   . "/Users/arun/Projects/tableaux2025prez/first-draft.org"))
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez-first-draft.org" . 322)
+ ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 3736)
+ ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 23467)
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez-notes.org" . 3466)
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez-second-draft.org"
+  . 7276)
+ ("/Users/arun/.emacs.d/modules/config-mail.el" . 212)
+ ("/Users/arun/Projects/latex/setup.org" . 1160)
+ ("/Users/arun/Projects/abella-experiments/journal/paper.org" . 3580)
+ ("/Users/arun/Projects/Typst/"
+  (dired-filename . "/Users/arun/Projects/Typst/ag-template.pdf"))
+ ("/Users/arun/Projects/Typst/prez.typ" . 13236)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-05-26.org" . 1539)
+ ("/Users/arun/.elfeed/index" . 552442)
+ ("/Users/arun/Documents/PhD/Notes/20260602141734-automating_control_flow_behaviour.org"
+  . 990)
+ ("/Users/arun/Documents/PhD/Notes/20260602135135-notes_on_fixpoint_programming.org"
+  . 1003)
+ ("/Users/arun/Documents/PhD/Notes/20260602150238-hygienic_macros_and_left_equality.org"
+  . 617)
+ ("/Users/arun/Downloads/"
+  (dired-filename . "/Users/arun/Downloads/dparse.rkt"))
+ ("/Users/arun/Projects/parsing-with-zippers/"
+  (dired-filename . "/Users/arun/Projects/parsing-with-zippers/.git"))
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/"
+  (dired-filename
+   . "/Users/arun/Projects/relational-parsing-with-derivatives/matts-original-non-relational-scheme-version"))
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/matts-original-non-relational-scheme-version/"
+  (dired-filename
+   . "/Users/arun/Projects/relational-parsing-with-derivatives/matts-original-non-relational-scheme-version/regex-derivative.scm"))
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/racket-version/"
+  (dired-filename
+   . "/Users/arun/Projects/relational-parsing-with-derivatives/racket-version/mk-rd.rkt"))
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/racket-version/mk-rd.rkt"
+  . 2867)
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/racket-version/mk.rkt"
+  . 2036)
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/wills-non-relational-scheme-version/match.scm"
+  . 7298)
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/wills-non-relational-scheme-version/"
+  (dired-filename
+   . "/Users/arun/Projects/relational-parsing-with-derivatives/wills-non-relational-scheme-version/scheme-rd.scm"))
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/wills-non-relational-scheme-version/scheme-rd.scm"
+  . 1522)
+ ("/Users/arun/Projects/relational-parsing-with-derivatives/README.md"
+  . 3000)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 4450)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 315)
+ ("/Users/arun/Documents/PhD/Notes/daily/2026-04-17.org" . 1913)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 12263)
+ ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 1221)
+ ("/Users/arun/Projects/curriculum-vitae/cv-template/main.tex" . 4628)
+ ("/Users/arun/Projects/curriculum-vitae/.gitignore" . 15)
+ ("/Users/arun/Projects/curriculum-vitae/cv.org" . 1355)
+ ("/Users/arun/Projects/egraphs/slotted-egraphs/src/egraph/union.rs"
+  . 1364)
+ ("/Users/arun/Projects/egraphs/slotted-egraphs/src/egraph/"
+  (dired-filename
+   . "/Users/arun/Projects/egraphs/slotted-egraphs/src/egraph/add.rs"))
+ ("/Users/arun/Projects/egraphs/slotted-egraphs/src/egraph/analysis.rs"
+  . 341)
+ ("/Users/arun/.emacs.d/modules/config-lisp.el" . 105)
+ ("/Users/arun/.emacs.d/modules/config-rust.el" . 392)
+ ("/Users/arun/.emacs.d/init.el" . 3636)
  ("/Users/arun/Projects/egraphs/ego/test/"
   (dired-filename
    . "/Users/arun/Projects/egraphs/ego/test/test_basic.ml"))
@@ -49,8 +117,6 @@
   . 448)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/11/solutions/fun.py"
   . 3165)
- ("/Users/arun/Documents/PhD/Notes/20260410122106-forward_chaining_fpc.org"
-  . 26162)
  ("/Users/arun/.emacs.d/modules/config-utils.el" . 5933)
  ("/Users/arun/Projects/elpi/tests/suite/"
   (dired-filename
@@ -60,7 +126,6 @@
   (dired-filename
    . "/Users/arun/.emacs.d/elpa/svg-lib-0.3/LICENSE.txt"))
  ("/Users/arun/.emacs.d/elpa/svg-lib-0.3/svg-lib.el" . 21046)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 560)
  ("/Users/arun/.emacs.d/modules/"
   (dired-filename
    . "/Users/arun/.emacs.d/modules/.config-macos.el.~undo-tree~"))
@@ -135,7 +200,6 @@
  ("/Users/arun/.emacs.d/early-init.el" . 279)
  ("/Users/arun/.emacs.d/"
   (dired-filename . "/Users/arun/.emacs.d/.elfeed.org.~undo-tree~"))
- ("/Users/arun/.emacs.d/modules/config-mail.el" . 2051)
  ("/Users/arun/Projects/micrograd/micrograd/"
   (dired-filename
    . "/Users/arun/Projects/micrograd/micrograd/engine.py"))
@@ -147,8 +211,6 @@
  ("/Users/arun/Documents/manuals/dotemacses/rougier-dotemacs.org"
   . 58811)
  ("/Users/arun/.emacs.d/modules/gptel-quick.el" . 3345)
- ("/Users/arun/Documents/PhD/Notes/20260416123320-do_not_doomscroll.org"
-  . 14)
  ("/Users/arun/Documents/PhD/Notes/chats/.mitmproxy.org.~undo-tree~"
   . 9799)
  ("/Users/arun/Documents/PhD/Notes/"
@@ -682,36 +744,4 @@
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
- ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317)
- ("/Users/arun/Projects/phd-thesis/interp/"
-  (dired-filename
-   . "/Users/arun/Projects/phd-thesis/interp/theorems.mod"))
- ("/Users/arun/Projects/phd-thesis/unif/"
-  (dired-filename
-   . "/Users/arun/Projects/phd-thesis/unif/unification.html"))
- ("/Users/arun/Projects/rewriteKanren/src/term-rewriting.scm" . 767)
- ("/Users/arun/miniKanren-prez/pandoc/templates/"
-  (dired-filename
-   . "/Users/arun/miniKanren-prez/pandoc/templates/default_mod.latex"))
- ("/Users/arun/Projects/latex/setup.org" . 520)
- ("/Users/arun/miniKanren-prez/pandoc/"
-  (dired-filename . "/Users/arun/miniKanren-prez/pandoc/templates"))
- ("/Users/arun/miniKanren-prez/"
-  (dired-filename . "/Users/arun/miniKanren-prez/pandoc"))
- ("/Users/arun/miniKanren-prez/pandoc/templates/default_mod.latex"
-  . 2928)
- ("/Users/arun/miniKanren-prez/presentation.md" . 293)
- ("/Users/arun/miniKanren-prez/pres-gen.sh" . 590)
- ("/Users/arun/miniKanren-prez/presentation.tex" . 1169)
- ("/Users/arun/miniKanren-prez/trial-prez.org" . 404)
- ("/Users/arun/miniKanren-prez/trial-prez.tex" . 446)
- ("/Users/arun/Documents/PhD/positive-syntax/"
-  (dired-filename
-   . "/Users/arun/Documents/PhD/positive-syntax/ppdp15computation.pdf"))
- ("/Users/arun/Documents/PhD/Notes/unification.typ" . 74)
- ("/Users/arun/.emacs.d/modules/config-lisp.el" . 134)
- ("/Users/arun/Projects/phd-thesis/interp/bagof.mod" . 323)
- ("/Users/arun/Projects/abella-experiments/integers.thm" . 32)
- ("/Users/arun/Documents/PhD/Notes/refs/" . 134)
- ("/Users/arun/Documents/PhD/notes/refs/" . 134)
- ("/Users/arun/.emacs.d/modules/config-latex.el" . 1070))
+ ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317))

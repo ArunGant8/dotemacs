@@ -2,7 +2,7 @@
 ;; Influenced by Daviwil's notes
 ;; and Rougier's upgrades
 
-(add-to-list 'load-path "/nix/store/14mnch90rl8667gjcp0rrqq31qvv9igx-mu-1.12.13-mu4e/share/emacs/site-lisp/mu4e/")
+(add-to-list 'load-path "/nix/store/0n97shr8dnr8f0v43gb3020y1r74mlv2-emacs-mu4e-1.14.2/share/emacs/site-lisp/elpa/mu4e-1.14.2/")
 
 (use-package mu4e
   :ensure nil

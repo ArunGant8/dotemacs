@@ -3,9 +3,9 @@
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
 (("org-capture-last-stored"
- (filename . "~/Projects/egraphs/ego/-notes.org")
+ (filename . "~/Documents/PhD/Notes/20260602150238-hygienic_macros_and_left_equality.org")
  (front-context-string)
- (rear-context-string . "ml  :tangle yes\n")
- (position . 354)
- (last-modified 27148 31434 628048 0))
+ (rear-context-string . "\n\n* Observation\n")
+ (position . 371)
+ (last-modified 27166 54410 24963 0))
 )

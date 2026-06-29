@@ -1,5 +1,7 @@
 ;; Auto-generated file; don't edit -*- mode: lisp-data -*-
-((:url "https://github-wiki-see.page/m/teyjus/teyjus/wiki/IoPreds"
+((:url "https://docs.racket-lang.org/reference/doc-index.html" :title
+       "Index" :time "Wed Jun  3 16:35:01 2026")
+ (:url "https://github-wiki-see.page/m/teyjus/teyjus/wiki/IoPreds"
        :title "IoPreds - teyjus/teyjus GitHub Wiki" :time
        "Tue Apr  7 12:11:04 2026")
  (:url "https://www.swi-prolog.org/pldoc/doc_for?object=manual" :title
