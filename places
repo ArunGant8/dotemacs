@@ -6,28 +6,45 @@
  ("/Users/arun/Projects/elpi/tests/sources/"
   (dired-filename
    . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
- ("/Users/arun/Projects/ijcar2026prez/"
-  (dired-filename
-   . "/Users/arun/Projects/ijcar2026prez/ijcarprez-notes.org"))
  ("/Users/arun/Projects/tableaux2025prez/"
   (dired-filename
    . "/Users/arun/Projects/tableaux2025prez/first-draft.org"))
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez-first-draft.org" . 322)
- ("/Users/arun/Projects/tableaux2025prez/first-draft.org" . 3736)
- ("/Users/arun/Projects/tableaux2025prez/second-draft.org" . 23467)
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez-notes.org" . 3466)
+ ("/Users/arun/Projects/ijcar2026prez/"
+  (dired-filename
+   . "/Users/arun/Projects/ijcar2026prez/ijcarprez-second-draft.org"))
+ ("/Users/arun/Documents/PhD/csi/first-year/first-year-report.tex"
+  . 3871)
+ ("/Users/arun/Projects/ijcar2026prez/test.tex" . 1008)
  ("/Users/arun/Projects/ijcar2026prez/ijcarprez-second-draft.org"
-  . 7276)
+  . 10286)
+ ("/Users/arun/Documents/PhD/csi/second-year/second-year-report.tex"
+  . 23145)
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez-third-draft.org"
+  . 8221)
+ ("/Users/arun/Documents/PhD/csi/second-year/eqLJomega.tex" . 35)
+ ("/Users/arun/Documents/PhD/csi/second-year/prez.org" . 9995)
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez-third-draft.tex"
+  . 19362)
+ ("/Users/arun/Documents/PhD/csi/second-year/prez.tex" . 10218)
+ ("/Users/arun/Projects/phd-thesis/ijcar2026/listing-macros.tex"
+  . 1015)
+ ("/Users/arun/Downloads/gemini-draft-6-v2.tex" . 9441)
+ ("/Users/arun/Documents/PhD/bibfiles/"
+  (dired-filename . "/Users/arun/Documents/PhD/bibfiles/master.bib"))
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 343208)
+ ("/Users/arun/Documents/PhD/csi/second-year/references.bib" . 5160)
+ ("/Users/arun/Projects/latex/setup.org" . 1609)
+ ("/Users/arun/Projects/ijcar2026prez/ijcarprez.md" . 123)
+ ("/Users/arun/Documents/PhD/csi/first-year/listing.tex" . 1808)
+ ("/Users/arun/Documents/PhD/csi/"
+  (dired-filename . "/Users/arun/Documents/PhD/csi/second-year"))
+ ("/Users/arun/.elfeed/index" . 588544)
  ("/Users/arun/.emacs.d/modules/config-mail.el" . 212)
- ("/Users/arun/Projects/latex/setup.org" . 1160)
  ("/Users/arun/Projects/abella-experiments/journal/paper.org" . 3580)
  ("/Users/arun/Projects/Typst/"
   (dired-filename . "/Users/arun/Projects/Typst/ag-template.pdf"))
  ("/Users/arun/Projects/Typst/prez.typ" . 13236)
  ("/Users/arun/Documents/PhD/Notes/daily/2026-05-26.org" . 1539)
- ("/Users/arun/.elfeed/index" . 552442)
- ("/Users/arun/Documents/PhD/Notes/20260602141734-automating_control_flow_behaviour.org"
-  . 990)
  ("/Users/arun/Documents/PhD/Notes/20260602135135-notes_on_fixpoint_programming.org"
   . 1003)
  ("/Users/arun/Documents/PhD/Notes/20260602150238-hygienic_macros_and_left_equality.org"
@@ -743,5 +760,4 @@
  ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 4463)
  ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
  ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
- ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678)
- ("/Users/arun/Projects/lambdaprolog/interp.mod" . 317))
+ ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678))
