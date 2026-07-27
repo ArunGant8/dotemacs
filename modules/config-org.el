@@ -152,7 +152,8 @@
    (python . t)
    (shell . t)
    (perl . t)
-   (nix . t)))
+   (nix . t)
+   (haskell . t)))
 
 (setq-default org-confirm-babel-evaluate nil)
 

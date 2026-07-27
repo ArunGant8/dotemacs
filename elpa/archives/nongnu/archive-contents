@@ -24,7 +24,7 @@
 		("Bas Alberts" . "bas@anti.computer"))
       (:commit . "e99165ef5274bc4512b8d77ba2ac208c59b5d456"))])
  (aidermacs
-  . [(1 8)
+  . [(1 10)
      ((emacs (26 1)) (transient (0 3 0)) (compat (30 0 2 0))
       (markdown-mode (2 7)))
      "AI pair programming with Aider" tar
@@ -33,7 +33,7 @@
 		 "tools")
       (:maintainer "Mingde Zeng" . "matthewzmd@posteo.net")
       (:authors ("Mingde Zeng" . "matthewzmd@posteo.net"))
-      (:commit . "7496878820661a950ef1b28ce8814177b3010825"))])
+      (:commit . "7d25f9b2eab3d4b7267fb378084f53383d834b47"))])
  (alect-themes
   . [(0 11) ((emacs (24 0)))
      "Configurable light, dark and black themes for Emacs 24 or later"
@@ -192,13 +192,13 @@
 		("Damien Doligez" . "damien.doligez@inria.fr"))
       (:commit . "2905a436e956c5bba16c4633a6e4c4fceefa6535"))])
  (casual
-  . [(2 16 2) ((emacs (30 1)) (transient (0 9 0)) (csv-mode (1 27)))
+  . [(2 17 1) ((emacs (30 1)) (transient (0 9 0)) (csv-mode (1 27)))
      "Transient user interfaces for various modes" tar
      ((:url . "https://github.com/kickingvegas/casual")
       (:keywords "tools" "wp")
       (:maintainer "Charles Choi" . "kickingvegas@gmail.com")
       (:authors ("Charles Choi" . "kickingvegas@gmail.com"))
-      (:commit . "f2977bc97e0e80f5b6ea817f016e739e4f64b6e1"))])
+      (:commit . "cadbeab2ec45804e63a328202c9a82fbed2413c5"))])
  (cdlatex
   . [(4 18 5) nil "Fast input methods for LaTeX environments and math"
      tar
@@ -208,7 +208,7 @@
       (:url . "https://elpa.nongnu.org/nongnu/cdlatex.html")
       (:commit . "fac070f0164ac9f5859cb4cccba7d29a65c337f3"))])
  (cider
-  . [(1 22 2)
+  . [(2 0 1)
      ((emacs (28)) (clojure-mode (5 19)) (compat (30))
       (parseedn (1 2 1)) (queue (0 2)) (spinner (1 7)) (seq (2 22))
       (sesman (0 3 2)) (transient (0 4 1)))
@@ -222,7 +222,7 @@
 		("Artur Malabarba" . "bruce.connor.am@gmail.com")
 		("Hugo Duncan" . "hugo@hugoduncan.org")
 		("Steve Purcell" . "steve@sanityinc.com"))
-      (:commit . "7bba70a194fa6687274a85d17b6201201f732223"))])
+      (:commit . "c17d11494b35502079caeac2fe7c39173349ce10"))])
  (clojure-mode
   . [(5 23 0) ((emacs (27 1))) "Major mode for Clojure code" tar
      ((:url . "https://github.com/clojure-emacs/clojure-mode")
@@ -535,6 +535,14 @@
       (:maintainer "Connor Smith" . "wconnorsmith@gmail.com")
       (:authors ("Connor Smith" . "wconnorsmith@gmail.com"))
       (:commit . "2671071a4a57eaee7cc8c27b9e4b6fc60fd2ccd3"))])
+ (evil-collection
+  . [(3 0 0) ((emacs (29 1)) (evil (1 2 13)))
+     "A set of keybindings for Evil mode" tar
+     ((:url . "https://github.com/emacs-evil/evil-collection")
+      (:keywords "evil" "tools")
+      (:maintainer "James Nguyen" . "james@jojojames.com")
+      (:authors ("James Nguyen" . "james@jojojames.com"))
+      (:commit . "29acaa81d2992d9c89a4b15ead917abb3af05228"))])
  (evil-emacs-cursor-model-mode
   . [(0 1 3) ((emacs (29 1)) (evil (1 15 0)))
      "Emacs' cursor model in evil-mode" tar
@@ -691,7 +699,7 @@
      ((:url . "https://github.com/lewang/flx")
       (:commit . "29e3664b75618847eaaf821713a74eb3c897a124"))])
  (flycheck
-  . [(36 0) ((emacs (27 1)) (seq (2 24))) "On-the-fly syntax checking"
+  . [(37 0) ((emacs (28 1)) (seq (2 24))) "On-the-fly syntax checking"
      tar
      ((:url . "https://github.com/flycheck/flycheck")
       (:keywords "convenience" "languages" "tools")
@@ -700,7 +708,7 @@
        ("fmdkdd" . "fmdkdd@gmail.com")
        ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
       (:authors ("Sebastian Wiesner" . "swiesner@lunaryorn.com"))
-      (:commit . "ebddfd89b1eea91b8590f542908672569942fb82"))])
+      (:commit . "af6b60fd544c29f68c731d709a066317b8ed0628"))])
  (flymake-guile
   . [(0 5) ((emacs (26 1)) (flymake (1 2 1))) "Guile flymake backend"
      tar
@@ -1100,13 +1108,13 @@
       (:keywords "j" "languages")
       (:commit . "1365e5a3fe772609685b3787bbd2960331c1a02f"))])
  (jabber
-  . [(0 12 0) ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
+  . [(0 12 4) ((emacs (29 1)) (fsm (0 2 0)) (keymap-popup (0 2)))
      "XMPP/Jabber client" tar
-     ((:url . "https://codeberg.org/emacs-jabber/emacs-jabber")
+     ((:url . "https://git.thanosapollo.org/emacs-jabber/about/")
       (:keywords "comm")
       (:maintainer "Thanos Apollo" . "public@thanosapollo.org")
       (:authors ("Magnus Henoch" . "mange@freemail.hu"))
-      (:commit . "c998cb056212d3e68564e85c6488fc1eca584e3a"))])
+      (:commit . "c96f7cf2729dffdb1cdc3ab00a67273319ac55a1"))])
  (jade-mode
   . [(1 0 1) nil "Major mode for editing .jade files" tar
      ((:url . "https://github.com/brianc/jade-mode")
@@ -1521,14 +1529,14 @@
       (:authors ("Andreas Politz" . "mail@andreas-politz.de"))
       (:commit . "5245f092e35712df6559a7782a93bb61896175dd"))])
  (pg
-  . [(0 67) ((emacs (28 1)) (peg (1 0 1)))
+  . [(0 68) ((emacs (28 1)) (peg (1 0 1)))
      "Socket-level interface to the PostgreSQL database" tar
      ((:url . "https://github.com/emarsden/pg-el")
       (:keywords "data" "comm" "database" "postgresql")
       (:maintainer "Eric Marsden"
 		   . "eric.marsden@risk-engineering.org")
       (:authors ("Eric Marsden" . "eric.marsden@risk-engineering.org"))
-      (:commit . "7426269673da42ed6706db44d2b7d1696ede95f6"))])
+      (:commit . "6d4b528cfd1e7f776eb0e4c14d84668fa69a041b"))])
  (php-mode
   . [(1 26 1) ((emacs (26 1))) "Major mode for editing PHP code" tar
      ((:url . "https://github.com/emacs-php/php-mode")
@@ -1558,13 +1566,13 @@
       (:authors ("Frédéric Perrin" . "fredericperrinreselfr"))
       (:commit . "176f9fb0c29ac60898e1e938458f26205511cc23"))])
  (projectile
-  . [(3 1 0) ((emacs (28 1)) (compat (30)))
+  . [(3 3 0) ((emacs (28 1)) (compat (30)))
      "Manage and navigate projects in Emacs easily" tar
      ((:url . "https://github.com/bbatsov/projectile")
       (:keywords "project" "convenience")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.dev")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.dev"))
-      (:commit . "614e035d1c8a617c53499b865a82779c957d6426"))])
+      (:commit . "d1cc09ba9beced496b6aca70e6a8a1da07917c16"))])
  (proof-general
   . [(4 5) ((emacs (25 2)))
      "A generic Emacs interface for proof assistants" tar
@@ -2072,12 +2080,12 @@
       (:authors ("Le Wang" . "l26wang@gmail.com"))
       (:commit . "9ee5a7657a22e836618813c2e2b64a548d27d2ff"))])
  (xah-fly-keys
-  . [(28 11 20260416140940) ((emacs (28 3)))
+  . [(28 11 20260712150256) ((emacs (28 3)))
      "ergonomic modal keybinding minor mode." tar
      ((:url . "http://xahlee.info/emacs/misc/xah-fly-keys.html")
       (:keywords "convenience" "vi" "vim" "ergoemacs" "keybinding")
       (:maintainer "Xah Lee" . "xah@xahlee.org")
-      (:commit . "30f1d28314424210f20bc09747cdcbed76b22d44"))])
+      (:commit . "158a4b12fce8e5f63694a68b75df89b064e73e14"))])
  (xkcd
   . [(1 1) ((json (1 3))) "View xkcd from Emacs" tar
      ((:url . "https://github.com/vibhavp/emacs-xkcd")
@@ -2109,11 +2117,11 @@
       (:authors ("Andrea Crotti" . "andrea.crotti.0@gmail.com"))
       (:commit . "39e640c037f51602f821721c200ab43b71febc90"))])
  (zenburn-theme
-  . [(2 10 0) nil "A low contrast color theme for Emacs." tar
+  . [(2 11 0) nil "A low contrast color theme for Emacs." tar
      ((:url . "https://github.com/bbatsov/zenburn-emacs")
       (:maintainer "Bozhidar Batsov" . "bozhidar@batsov.com")
       (:authors ("Bozhidar Batsov" . "bozhidar@batsov.com"))
-      (:commit . "8697934a57151de119744ea79fde83120e05b88d"))])
+      (:commit . "ae3c4d2db271c1a486f0dcb4f24a2bb80f24b67d"))])
  (zig-mode
   . [(0 0 8) ((emacs (26 1)) (reformatter (0 6)))
      "A major mode for the Zig programming language" tar

@@ -1,44 +1,113 @@
 ;;; -*- coding: utf-8; mode: lisp-data -*-
-(("/Users/arun/Projects/elpi/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests"))
- ("/Users/arun/Projects/elpi/tests/"
-  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
- ("/Users/arun/Projects/elpi/tests/sources/"
+(("/Users/arun/Projects/elpi/tests/sources/"
   (dired-filename
    . "/Users/arun/Projects/elpi/tests/sources/lambda.elpi"))
+ ("/Users/arun/Projects/elpi/tests/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests/sources"))
+ ("/Users/arun/Projects/elpi/"
+  (dired-filename . "/Users/arun/Projects/elpi/tests"))
  ("/Users/arun/Projects/tableaux2025prez/"
   (dired-filename
    . "/Users/arun/Projects/tableaux2025prez/first-draft.org"))
  ("/Users/arun/Projects/ijcar2026prez/"
   (dired-filename
    . "/Users/arun/Projects/ijcar2026prez/ijcarprez-second-draft.org"))
- ("/Users/arun/Documents/PhD/csi/first-year/first-year-report.tex"
-  . 3871)
- ("/Users/arun/Projects/ijcar2026prez/test.tex" . 1008)
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez-second-draft.org"
-  . 10286)
- ("/Users/arun/Documents/PhD/csi/second-year/second-year-report.tex"
-  . 23145)
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez-third-draft.org"
-  . 8221)
- ("/Users/arun/Documents/PhD/csi/second-year/eqLJomega.tex" . 35)
- ("/Users/arun/Documents/PhD/csi/second-year/prez.org" . 9995)
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez-third-draft.tex"
-  . 19362)
+ ("/Users/arun/.emacs.d/modules/"
+  (dired-filename
+   . "/Users/arun/.emacs.d/modules/.config-macos.el.~undo-tree~"))
+ ("/Users/arun/Documents/PhD/CSI/second-year/prez.org" . 9995)
+ ("/Users/arun/Documents/PhD/CSI/second-year/prez.tex" . 9308)
+ ("/Users/arun/Documents/PhD/Notes/20260602150238-hygienic_macros_and_left_equality.org"
+  . 214)
+ ("/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR/clausal-theorem-proving/"
+  . 175)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/effect-handlers/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/effect-handlers/handlers.ml"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/effect-handlers"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/refinement-types"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/refinement-types/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/refinement-types/FLoC-2026"))
+ ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 245132)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/llm-verifier-interface/notes.org"
+  . 1019)
+ ("/Users/arun/Documents/PhD/summer-schools/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR"))
+ ("/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR/smt-solving"))
+ ("/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR/smt-solving/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/proof-theoretic-compilation/notes.org"
+  . 3506)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/llm-verifier-interface/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/llm-verifier-interface/notes.org"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/notes.org"
+  . 2056)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/refinement-types/notes.org"
+  . 254)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/proof-theoretic-compilation/"
+  . 178)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/effects-and-handlers/effect-handlers/handlers.ml"
+  . 455)
+ ("/Users/arun/Documents/PhD/summer-schools/SAT-SMT-AR/clausal-theorem-proving/notes.org"
+  . 655)
+ ("/Users/arun/.elfeed/index" . 614255)
+ ("/Users/arun/.emacs.d/init.el" . 2974)
+ ("/Users/arun/.emacs.d/modules/config-org.el" . 5623)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/session-types/notes.org"
+  . 208)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/session-types/gemma-notes.org"
+  . 26973)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/realistic-realizability/notes.org"
+  . 209)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/separation-logic/"
+  . 363)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/separation-logic/iris-tutorial/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/separation-logic/iris-tutorial/_CoqProject"))
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/separation-logic/notes.org"
+  . 1330)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/separation-logic/gemma-notes.org"
+  . 30224)
+ ("/Users/arun/Documents/PhD/summer-schools/FoPSS/realistic-realizability/"
+  (dired-filename
+   . "/Users/arun/Documents/PhD/summer-schools/FoPSS/realistic-realizability/notes.org"))
+ ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 339)
+ ("/Users/arun/Projects/micrograd/micrograd/engine.py" . 1259)
+ ("/Users/arun/Projects/micrograd/micrograd/"
+  (dired-filename
+   . "/Users/arun/Projects/micrograd/micrograd/engine.py"))
+ ("/Users/arun/Projects/micrograd/"
+  (dired-filename . "/Users/arun/Projects/micrograd/micrograd"))
+ ("/Users/arun/Projects/manimations/my-project/"
+  (dired-filename
+   . "/Users/arun/Projects/manimations/my-project/main.py"))
+ ("/Users/arun/Projects/manimations/"
+  (dired-filename . "/Users/arun/Projects/manimations/my-project"))
+ ("/Users/arun/Projects/manimations/manim-course/"
+  (dired-filename
+   . "/Users/arun/Projects/manimations/manim-course/__pycache__"))
+ ("/Users/arun/.emacs.d/" . 2337)
  ("/Users/arun/Documents/PhD/csi/second-year/prez.tex" . 10218)
  ("/Users/arun/Projects/phd-thesis/ijcar2026/listing-macros.tex"
   . 1015)
  ("/Users/arun/Downloads/gemini-draft-6-v2.tex" . 9441)
  ("/Users/arun/Documents/PhD/bibfiles/"
   (dired-filename . "/Users/arun/Documents/PhD/bibfiles/master.bib"))
- ("/Users/arun/Documents/PhD/bibfiles/masterlib.bib" . 343208)
  ("/Users/arun/Documents/PhD/csi/second-year/references.bib" . 5160)
  ("/Users/arun/Projects/latex/setup.org" . 1609)
- ("/Users/arun/Projects/ijcar2026prez/ijcarprez.md" . 123)
  ("/Users/arun/Documents/PhD/csi/first-year/listing.tex" . 1808)
  ("/Users/arun/Documents/PhD/csi/"
   (dired-filename . "/Users/arun/Documents/PhD/csi/second-year"))
- ("/Users/arun/.elfeed/index" . 588544)
  ("/Users/arun/.emacs.d/modules/config-mail.el" . 212)
  ("/Users/arun/Projects/abella-experiments/journal/paper.org" . 3580)
  ("/Users/arun/Projects/Typst/"
@@ -47,8 +116,6 @@
  ("/Users/arun/Documents/PhD/Notes/daily/2026-05-26.org" . 1539)
  ("/Users/arun/Documents/PhD/Notes/20260602135135-notes_on_fixpoint_programming.org"
   . 1003)
- ("/Users/arun/Documents/PhD/Notes/20260602150238-hygienic_macros_and_left_equality.org"
-  . 617)
  ("/Users/arun/Downloads/"
   (dired-filename . "/Users/arun/Downloads/dparse.rkt"))
  ("/Users/arun/Projects/parsing-with-zippers/"
@@ -78,7 +145,6 @@
  ("/Users/arun/Documents/PhD/Notes/daily/2026-03-23.org" . 4450)
  ("/Users/arun/Documents/PhD/Notes/daily/2026-03-03.org" . 315)
  ("/Users/arun/Documents/PhD/Notes/daily/2026-04-17.org" . 1913)
- ("/Users/arun/.emacs.d/modules/config-org.el" . 12263)
  ("/Users/arun/.emacs.d/modules/config-ocaml.el" . 1221)
  ("/Users/arun/Projects/curriculum-vitae/cv-template/main.tex" . 4628)
  ("/Users/arun/Projects/curriculum-vitae/.gitignore" . 15)
@@ -92,7 +158,6 @@
   . 341)
  ("/Users/arun/.emacs.d/modules/config-lisp.el" . 105)
  ("/Users/arun/.emacs.d/modules/config-rust.el" . 392)
- ("/Users/arun/.emacs.d/init.el" . 3636)
  ("/Users/arun/Projects/egraphs/ego/test/"
   (dired-filename
    . "/Users/arun/Projects/egraphs/ego/test/test_basic.ml"))
@@ -143,9 +208,6 @@
   (dired-filename
    . "/Users/arun/.emacs.d/elpa/svg-lib-0.3/LICENSE.txt"))
  ("/Users/arun/.emacs.d/elpa/svg-lib-0.3/svg-lib.el" . 21046)
- ("/Users/arun/.emacs.d/modules/"
-  (dired-filename
-   . "/Users/arun/.emacs.d/modules/.config-macos.el.~undo-tree~"))
  ("/Users/arun/Projects/elpi/src/"
   (dired-filename . "/Users/arun/Projects/elpi/src/compiler"))
  ("/Users/arun/Projects/elpi/src/compiler/"
@@ -215,15 +277,7 @@
  ("/nix/store/wlv2lzkzbvzq9cw3qkv0f62lh57p4drr-emacs-30.2/share/emacs/30.2/lisp/transient.el.gz"
   . 168575)
  ("/Users/arun/.emacs.d/early-init.el" . 279)
- ("/Users/arun/.emacs.d/"
-  (dired-filename . "/Users/arun/.emacs.d/.elfeed.org.~undo-tree~"))
- ("/Users/arun/Projects/micrograd/micrograd/"
-  (dired-filename
-   . "/Users/arun/Projects/micrograd/micrograd/engine.py"))
  ("/Users/arun/Projects/micrograd/micrograd/nn.py" . 1130)
- ("/Users/arun/Projects/micrograd/"
-  (dired-filename . "/Users/arun/Projects/micrograd/micrograd"))
- ("/Users/arun/Projects/micrograd/micrograd/engine.py" . 1259)
  ("/Users/arun/.emacs.d/elfeed.org" . 3514)
  ("/Users/arun/Documents/manuals/dotemacses/rougier-dotemacs.org"
   . 58811)
@@ -235,14 +289,6 @@
  ("/Users/arun/Documents/PhD/Notes/code/"
   (dired-filename
    . "/Users/arun/Documents/PhD/Notes/code/bedwyr-notes.org"))
- ("/Users/arun/Projects/manimations/manim-course/"
-  (dired-filename
-   . "/Users/arun/Projects/manimations/manim-course/__pycache__"))
- ("/Users/arun/Projects/manimations/"
-  (dired-filename . "/Users/arun/Projects/manimations/my-project"))
- ("/Users/arun/Projects/manimations/my-project/"
-  (dired-filename
-   . "/Users/arun/Projects/manimations/my-project/main.py"))
  ("/Users/arun/Downloads/TD-bovary/english.md" . 1410)
  ("/Users/arun/.emacs.d/modules/config-editor.el" . 26)
  ("/Users/arun/Projects/teaching/cse102-teaching/td/2025-26/07/solutions/"
@@ -352,7 +398,6 @@
  ("/Users/arun/org-temp/equation-test.org" . 328)
  ("/Users/arun/org-temp/tikz-tutorial.org" . 358)
  ("/Users/arun/.emacs.d/snippets/org-mode/abstract" . 93)
- ("/Users/arun/.emacs.d/snippets/org-mode/org-notes-header" . 339)
  ("/Users/arun/Projects/phd-thesis/.gitignore" . 147)
  ("/Users/arun/.emacs.d/modules/config-wallabag.el" . 897)
  ("/Users/arun/Projects/fpc-stuff/ProofCert/vanilla/tests/backchain-examples.mod"
@@ -716,48 +761,4 @@
  ("/Users/arun/Projects/rough-work/ocaml/unionFind/dune" . 43)
  ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/"
   (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src"))
- ("/Users/arun/Projects/rough-work/ocaml/ceb-parsing/dune-project"
-  . 37)
- ("/Users/arun/Exercism/"
-  (dired-filename . "/Users/arun/Exercism/x86-64-assembly"))
- ("/Users/arun/Exercism/x86-64-assembly/"
-  (dired-filename . "/Users/arun/Exercism/x86-64-assembly/lasagna"))
- ("/Users/arun/Exercism/x86-64-assembly/lasagna/"
-  (dired-filename
-   . "/Users/arun/Exercism/x86-64-assembly/lasagna/README.md"))
- ("/Users/arun/Exercism/x86-64-assembly/lasagna/lasagna_test.c" . 528)
- ("/Users/arun/.emacs.d/modules/config-assembly.el" . 139)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/folparser/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/folparser/parse.sml"))
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/base.sml"
-  . 22748)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/cut/"
-  (dired-filename
-   . "/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/cut/cut.tex"))
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/elpsml/intro.tex"
-  . 2355)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/fo-horn-lp.ml" . 4728)
- ("/Users/arun/Projects/rough-work/ocaml/ho-lp/prop-horn-lp.ml" . 933)
- ("/Users/arun/Projects/higher-order-lp/"
-  (dired-filename
-   . "/Users/arun/Projects/higher-order-lp/prop-horn-lp.ml"))
- ("/Users/arun/Projects/higher-order-unif/ho-unif.ml" . 3336)
- ("/Users/arun/Projects/ljeq_search/"
-  (dired-filename . "/Users/arun/Projects/ljeq_search/lib"))
- ("/Users/arun/Projects/ljeq_search/lib/"
-  (dired-filename . "/Users/arun/Projects/ljeq_search/lib/util.ml"))
- ("/Users/arun/Projects/ljeq_search/lib/syntax.ml" . 2678)
- ("/Users/arun/Projects/phd-thesis/ag-interp/dm-comments1.org" . 484)
- ("/Users/arun/Projects/phd-thesis/unif/unification.thm" . 5278)
- ("/Users/arun/Projects/phd-thesis/proof-search-with-equality.org"
-  . 143)
- ("/Users/arun/Projects/phd-thesis/thesis-project.org" . 18667)
- ("/Users/arun/Projects/lambdaprolog/substitution.mod" . 177)
- ("/Users/arun/Projects/lambdaprolog/substitution.sig" . 18)
- ("/Users/arun/Projects/lambdaprolog/interp.sig" . 643)
- ("/Users/arun/Projects/phd-thesis/ag-interp/interp.thm" . 4463)
- ("/Users/arun/.emacs.d/modules/config-markdown.el" . 267)
- ("/Users/arun/.emacs.d/modules/config-elfeed.el" . 111)
- ("/Users/arun/Projects/phd-thesis/ag-interp/interp2.thm" . 678))
+   . "/Users/arun/Projects/rough-work/ocaml/ceb-parsing/src")))
