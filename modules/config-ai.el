@@ -8,7 +8,7 @@
    gptel-backend (gptel-make-openai "llama-cpp"
                    :stream t
                    :protocol "http"
-                   :host "localhost:8001"
+                   :host "localhost:8002"
 		   ;;:header (lambda () '())
                    :models '(test))
    gptel-default-mode 'org-mode))
