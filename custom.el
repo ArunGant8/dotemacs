@@ -48,8 +48,8 @@
 			 engrave-faces exec-path-from-shell
 			 geiser-chez geiser-racket gptel-agent
 			 helm-bibtex imenu-list ivy-bibtex
-			 ivy-posframe latex-preview-pane lsp-mode
-			 macrostep-geiser magit marginalia
+			 ivy-posframe latex-preview-pane lean4-mode
+			 lsp-mode macrostep-geiser magit marginalia
 			 markdown-mode merlin mixed-pitch nano-theme
 			 nasm-mode nix-mode ob-gptel ob-nix org-mime
 			 org-mode org-modern org-noter
@@ -59,7 +59,9 @@
 			 svg-tag-mode transient-posframe tuareg
 			 undo-tree utop vterm wallabag x86-lookup))
  '(package-vc-selected-packages
-   '((org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
+   '((lean4-mode :url
+		 "https://github.com/leanprover-community/lean4-mode.git")
+     (org-mode :url "https://code.tecosaur.net/tec/org-mode" :branch
 	       "dev")
      (ob-gptel :url "https://github.com/jwiegley/ob-gptel")
      (wombag :url "https://github.com/karthink/wombag"))))

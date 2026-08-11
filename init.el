@@ -125,6 +125,7 @@
 (require 'config-assembly)
 (require 'config-nixlang)
 (require 'config-rust)
+(require 'config-lean)
 
 (put 'narrow-to-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
