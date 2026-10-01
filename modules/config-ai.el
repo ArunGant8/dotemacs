@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; AI from within Emacs using GPTel
 
 (use-package gptel

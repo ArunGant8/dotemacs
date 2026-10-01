@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 (use-package latex
   :ensure auctex
   :hook ((LaTeX-mode . prettify-symbols-mode))

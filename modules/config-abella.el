@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
   (defconst proof-site-file
     (expand-file-name "/Users/arun/PG/generic/proof-site.el"))
   (defconst lprolog-file

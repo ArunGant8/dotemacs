@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Chez-Scheme
 (use-package geiser-chez
   :ensure t)

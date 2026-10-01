@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; The appearance - Org Modern
 (use-package org-modern
   :ensure t

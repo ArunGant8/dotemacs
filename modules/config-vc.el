@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Settings for version control from within Emacs
 
 ;; Magit

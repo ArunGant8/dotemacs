@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; ERC configuration
 
 ;; I'm copying the sample configuration and modifying it as required

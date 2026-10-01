@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Wallabag configuration
 
 (use-package wallabag

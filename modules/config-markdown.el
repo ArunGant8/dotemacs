@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; A single package should suffice (for now):
 
 (use-package markdown-mode

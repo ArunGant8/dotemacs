@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Embark
 ;; Think of `embark-act` as a right-click menu
 ;; add more stuff as needed

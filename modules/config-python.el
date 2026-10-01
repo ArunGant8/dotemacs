@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Seems like a one-stop solution :)
 (use-package elpy
   :ensure t

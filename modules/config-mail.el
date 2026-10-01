@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Email configuration
 ;; Influenced by Daviwil's notes
 ;; and Rougier's upgrades

@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 ;; Counsel and Marginalia
 
 (use-package counsel

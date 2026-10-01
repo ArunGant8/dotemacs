@@ -1,3 +1,4 @@
+;;; -*- lexical-binding: t; -*-
 (load "~/Projects/teyjus/emacs/teyjus.el")
 
 ;; Don't know why Emacs is unable to find this
