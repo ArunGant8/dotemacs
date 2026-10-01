@@ -878,7 +878,7 @@ handling set accordingly for `consult-mu'."
   "Jump to message with MSGID.
 
 This is done in `consult-mu-headers-buffer-name' buffer."
-  (when-let ((buffer consult-mu-headers-buffer-name))
+  (when-let* ((buffer consult-mu-headers-buffer-name))
     (with-current-buffer buffer
       (setq mu4e-view-buffer-name consult-mu-view-buffer-name)
       (mu4e-headers-goto-message-id msgid))))
@@ -886,7 +886,7 @@ This is done in `consult-mu-headers-buffer-name' buffer."
 (defun consult-mu--get-message-by-id (msgid)
   "Find the message with MSGID and return the mu4e MSG plist for it."
   (cl-letf* (((symbol-function #'mu4e-view) #'consult-mu--view-msg))
-    (when-let ((buffer consult-mu-headers-buffer-name))
+    (when-let* ((buffer consult-mu-headers-buffer-name))
       (with-current-buffer buffer
         (setq mu4e-view-buffer-name consult-mu-view-buffer-name)
         (mu4e-headers-goto-message-id msgid)
@@ -1081,7 +1081,7 @@ See `consult-mu-group-by' for details of grouping options."
 
 CAND is passed to `consult-mu--group-name' to get the group for CAND.
 When TRANSFORM is non-nil, the name of CAND is used for group."
-  (when-let ((name (consult-mu--group-name cand)))
+  (when-let* ((name (consult-mu--group-name cand)))
     (if transform (substring cand) name)))
 
 (defun consult-mu--view (msg noselect mark-as-read match-str)
@@ -1091,7 +1091,7 @@ If NOSELECT is non-nil, does not select the view buffer/window.
 If MARK-AS-READ is non-nil, marks the MSG as read.
 If MATCH-STR is non-nil, highlights the MATCH-STR in the view buffer."
   (let ((msgid (plist-get msg :message-id)))
-    (when-let ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
+    (when-let* ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
       (with-current-buffer buf
         ;;(mu4e-headers-mode)
         (goto-char (point-min))
@@ -1163,7 +1163,7 @@ in the minibuffer."
 If WIDE-REPLY is non-nil use wide-reply \(a.k.a. reply all\) with
 `mu4e-compose-wide-reply'."
   (let ((msgid (plist-get msg :message-id)))
-    (when-let ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
+    (when-let* ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
       (with-current-buffer buf
         (goto-char (point-min))
         (setq mu4e-view-buffer-name consult-mu-view-buffer-name)))
@@ -1196,7 +1196,7 @@ To use this as the default action for `consult-mu', set
 (defun consult-mu--forward (msg)
   "Forward the MSG using `mu4e-compose-forward'."
   (let ((msgid (plist-get msg :message-id)))
-    (when-let ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
+    (when-let* ((buf (mu4e-get-headers-buffer consult-mu-headers-buffer-name t)))
       (with-current-buffer buf
         (goto-char (point-min))
         (setq mu4e-view-buffer-name consult-mu-view-buffer-name)))

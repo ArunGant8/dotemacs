@@ -255,7 +255,7 @@ start and end date of the timestamp of it is active."
            (dates (let ((dates (list start-date)))
                     (while (time-less-p start-date end-date)
                       (setq start-date (time-add start-date (days-to-time 1)))
-                      (setq dates (add-to-list 'dates start-date t)))
+                       (setq dates (append dates (list start-date))))
                     dates)))
       (dolist (date dates)
         (let* ((date (decode-time date))
@@ -614,7 +614,7 @@ to \"the next month\") will produce the correct normalized date."
 (defun nano-calendar-is-date-visible (date)
   "Return whether DATE is currently visible."
 
-  (when-let ((buffer (get-buffer nano-calendar-buffer)))
+  (when-let* ((buffer (get-buffer nano-calendar-buffer)))
     (with-current-buffer buffer
       (save-excursion
         (goto-char (point-min))
@@ -628,7 +628,7 @@ and REDISPLAY is t, the calendar is re-generated such as to make the date
 
   (cond ((nano-calendar-is-date-visible date)
          (goto-char (point-min))
-         (when-let ((match (text-property-search-forward 'date date t)))
+         (when-let* ((match (text-property-search-forward 'date date t)))
            (goto-char (prop-match-beginning match))
            (force-mode-line-update)
            (when nano-calendar-workload-compact

@@ -1,10 +1,6 @@
+;;; init.el --- Emacs configuration  -*- lexical-binding: t; -*-
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
-
-(unless (fboundp 'static-when)
-  (defmacro static-when (condition &rest body)
-    "Compatibility shim for Emacs < 31. Behaves like `when'."
-    `(when ,condition ,@body)))
 
 ;; init screen
 (setq inhibit-startup-screen t)
