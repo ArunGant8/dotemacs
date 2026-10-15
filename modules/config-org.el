@@ -215,7 +215,7 @@
                              ("\\paragraph{%s}"     . "\\paragraph*{%s}")
                              ("\\subparagraph{%s}"  . "\\subparagraph*{%s}"))))
     (pcase-dolist (`(,name ,class-string)
-		   `(("article" "\\documentclass[11pt]{article}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n\\usepackage{palatino}\n\\usepackage[a4paper, margin=0.5in]{geometry}\n[EXTRA]")
+		   `(("article" "\\documentclass[11pt]{article}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n\\usepackage{palatino}\n\\usepackage[a4paper, margin=0.5in]{geometry}\n\\usepackage{hyperref}\n[EXTRA]")
 		     ("notes" "\\documentclass{tufte-handout}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\n[EXTRA]")))
 		     ;;("beamer" "\\documentclass{beamer}\n[NO-DEFAULT-PACKAGES]\n[PACKAGES]\\usepackage{fira}\n[EXTRA]")))
       (setf (alist-get name org-latex-classes nil nil #'equal)

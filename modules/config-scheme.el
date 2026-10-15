@@ -26,5 +26,9 @@
   (when (eq system-type 'darwin)
     (setq geiser-racket-binary "/Applications/Racket v8.18/bin/racket")))
 
+(use-package geiser
+  :ensure t
+  :custom
+  (geiser-default-implementation 'chez))
 
 (provide 'config-scheme)
