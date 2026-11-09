@@ -41,3 +41,6 @@
 
 ** Comics :comics:
 *** https://xkcd.com/rss.xml 
+
+** Jobs :jobs:
+*** https://jobs.typetheoryforall.com/feed.xml

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: xsub
+# key: xsub
+# --
+x_{[\![$0]\!]}

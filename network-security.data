@@ -1,4 +1,5 @@
 ;;;; -*- mode: lisp-data -*-
 (
- (:id "sha1:e56b180b4301835d7c137c9383705c6bf343898e" :fingerprints ("sha1:5f:5f:16:96:fe:64:14:41:2a:ff:b6:41:52:2e:4f:6b:a5:e2:22:e5") :conditions nil)
+ (:id "sha1:e56b180b4301835d7c137c9383705c6bf343898e" :fingerprints ("sha1:5f:5f:16:96:fe:64:14:41:2a:ff:b6:41:52:2e:4f:6b:a5:e2:22:e5" "sha1:0c:f6:b8:60:ac:9f:04:d5:15:b1:5d:65:9b:0c:05:91:31:fb:d7:3f") :host "argos.lix.polytechnique.fr:587" :conditions (:same-cert))
+ (:id "sha1:7e9f744a10d647aa5592c8231c1e3b6804a36ae7" :fingerprints ("sha1:8a:9c:76:36:41:47:ad:ec:2e:41:41:8c:a2:6b:51:86:c1:67:61:91") :host "static.wallabag.it:443" :conditions (:no-host-match :verify-cert))
 )
